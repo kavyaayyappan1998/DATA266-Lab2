@@ -1,0 +1,13 @@
+# Replace these with outputs/requirements_frozen.txt from your final Kaggle run (the notebook writes it),
+# so the pinned versions are the ones that actually produced your results.
+pymupdf==1.24.10
+sentence-transformers==3.0.1
+rank_bm25==0.2.2
+chromadb==0.5.5
+transformers==4.49.0
+accelerate==1.2.1
+torch==2.5.1
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.9.2
+pillow==10.4.0
