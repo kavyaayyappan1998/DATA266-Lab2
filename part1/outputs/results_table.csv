@@ -1,6 +1,6 @@
-,Baseline (dense only),Hybrid (dense + BM25 + exact figure),Hybrid + reranker
-Answer correctness,14/25,13/25,13/25
-Recall@5 (any gold source),0.87,0.739,0.739
-All-evidence Recall@5 (diagnostic),0.522,0.435,0.348
-Citation accuracy,0.725,0.655,0.628
-Median s/question,2.45,2.51,2.65
+,Baseline (dense only),Hybrid (dense + BM25 + exact figure),"Hybrid, dense-heavy (0.75 / 0.25)",Hybrid + reranker
+Answer correctness,19/25,19/25,19/25,18/25
+Recall@5 (any gold source),0.87,0.87,0.826,0.87
+All-evidence Recall@5 (diagnostic),0.652,0.696,0.609,0.696
+Citation accuracy,0.804,0.677,0.672,0.769
+Median s/question,2.67,2.76,2.69,2.82

@@ -1,0 +1,4 @@
+nohup: ignoring input
+[NbConvertApp] Converting notebook p1_rag.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 1750541 bytes to p1_rag.ipynb
