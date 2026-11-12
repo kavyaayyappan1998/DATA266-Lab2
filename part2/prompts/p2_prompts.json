@@ -1,0 +1,17 @@
+{
+  "_note": "Fixed before training. The 10 in-domain prompts are drawn from test-set captions by the notebook (seed 266) and written to p2_prompts_final.json.",
+  "out_of_domain": [
+    "a photo of a red sports car on a mountain road",
+    "an astronaut riding a horse on the moon",
+    "a bowl of ramen on a wooden table",
+    "a medieval castle at sunset",
+    "a portrait of an old fisherman"
+  ],
+  "compositional": [
+    "two characters, one in red and one in blue",
+    "a small green creature sitting on top of a large purple creature",
+    "three yellow creatures standing in a row",
+    "a blue creature holding a red umbrella",
+    "a creature with wings on the left and a creature with horns on the right"
+  ]
+}

@@ -1,0 +1,15 @@
+# Replace with outputs/requirements_frozen.txt from your final run (the notebook writes it).
+diffusers
+transformers
+accelerate
+peft
+datasets
+torchmetrics
+torch-fidelity
+lpips
+huggingface_hub
+torch
+torchvision
+pandas
+matplotlib
+pillow
