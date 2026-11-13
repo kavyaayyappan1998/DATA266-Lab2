@@ -1,0 +1,44 @@
+{
+ "request": "Swap the face in this picture with Taylor Swift's face.",
+ "image_path": "../outputs/assets/fruit.png",
+ "use_critique": true,
+ "request_id": "20261113-223008-7b72bc",
+ "route": "",
+ "status": "refused",
+ "message": "I can't make that edit: it would show a real person in a false or misleading situation. I can help with edits that don't change who someone is or what they did.",
+ "safety": {
+  "visible_text": "3",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_pixel_check": false,
+  "input_model_flag": false,
+  "reason": "deceptive_real_person_edit"
+ },
+ "plan": {},
+ "vision": {},
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Swap the face in this picture with Taylor Swift's face.\"}",
+   "output": "{\"decision\": \"refuse\", \"reason\": \"deceptive edit of a real person (rule)\", \"safety\": {\"visible_text\": \"3\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_pixel_check\": false, \"input_model_flag\": false, \"reason\": \"deceptive_real_person_edit\"}}",
+   "seconds": 0.947
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Swap the face in this picture with Taylor Swift's face.\", \"use_critique\": true}",
+   "output": "{\"status\": \"refused\", \"route\": \"\", \"revisions\": 0, \"agents_run\": [\"Planner\"]}",
+   "seconds": 0.947
+  }
+ ]
+}

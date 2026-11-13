@@ -1,0 +1,97 @@
+{
+ "request": "Describe this image.",
+ "image_path": "../outputs/assets/house.png",
+ "use_critique": true,
+ "request_id": "20261113-222711-0daa57",
+ "route": "caption_question",
+ "status": "done",
+ "message": "The image shows a simple house with a brown roof and red walls, next to a tree and under a yellow sun.\n\nCaption: <one sentence>\nMain objects: house, tree, sun\n\nText visible in the image: \"house tree sun\"",
+ "safety": {
+  "visible_text": "house tree sun",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "caption_question",
+  "operation": "describe",
+  "target": "",
+  "new_value": "",
+  "scope": "no image is generated"
+ },
+ "vision": {
+  "caption": "<one sentence>",
+  "objects": [
+   "house",
+   "tree",
+   "sun"
+  ],
+  "boxes": [
+   {
+    "label": "house",
+    "box": [
+     130.0,
+     126.0,
+     374.0,
+     408.0
+    ]
+   },
+   {
+    "label": "tree",
+    "box": [
+     45.0,
+     204.0,
+     119.0,
+     405.0
+    ]
+   },
+   {
+    "label": "sun",
+    "box": [
+     390.0,
+     38.0,
+     499.0,
+     115.0
+    ]
+   }
+  ],
+  "visible_text": "house tree sun",
+  "answers": {
+   "Where is this and what are the dominant colours?": "outside, red, brown, green, blue, yellow",
+   "How many main subjects are there, and what are they?": "3",
+   "Describe this image.": "The image shows a simple house with a brown roof and red walls, next to a tree and under a yellow sun."
+  }
+ },
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"caption_question\", \"plan\": {\"route\": \"caption_question\", \"operation\": \"describe\", \"target\": \"\", \"new_value\": \"\", \"scope\": \"no image is generated\"}, \"reason\": \"matched the caption_question rule.\", \"safety\": {\"visible_text\": \"house tree sun\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_pixel_check\": false, \"input_model_fla...",
+   "seconds": 0.941
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"caption_question\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"caption\": \"<one sentence>\", \"objects\": [\"house\", \"tree\", \"sun\"], \"boxes\": [{\"label\": \"house\", \"box\": [130.0, 126.0, 374.0, 408.0]}, {\"label\": \"tree\", \"box\": [45.0, 204.0, 119.0, 405.0]}, {\"label\": \"sun\", \"box\": [390.0, 38.0, 499.0, 115.0]}], \"visible_text\": \"house tree sun\", \"answers\": {\"Where is this and what are the dominant colours?\": \"outside, red, brown, green, blue, yellow\", \"How many main...",
+   "seconds": 5.72
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Describe this image.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"caption_question\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\"]}",
+   "seconds": 6.661
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "request": "How many apples are on the table?",
+ "image_path": "../outputs/assets/fruit.png",
+ "use_critique": true,
+ "request_id": "20261113-222724-1dae7c",
+ "route": "caption_question",
+ "status": "done",
+ "message": "There are three apples on the table.\n\nCaption: Three red apples with green stems are placed on a brown surface.\nMain objects: apples\n\nText visible in the image: \"3\"",
+ "safety": {
+  "visible_text": "3",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "caption_question",
+  "operation": "answer",
+  "target": "",
+  "new_value": "",
+  "scope": "no image is generated"
+ },
+ "vision": {
+  "caption": "Three red apples with green stems are placed on a brown surface.",
+  "objects": [
+   "apples"
+  ],
+  "boxes": [
+   {
+    "label": "apples",
+    "box": [
+     116.0,
+     209.0,
+     435.0,
+     328.0
+    ]
+   }
+  ],
+  "visible_text": "3",
+  "answers": {
+   "Where is this and what are the dominant colours?": "The setting is a simple background with a brown surface, and the dominant colors are red for the apples and brown for the surface.",
+   "How many main subjects are there, and what are they?": "There are three main subjects: three apples.",
+   "How many apples are on the table?": "There are three apples on the table."
+  }
+ },
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"How many apples are on the table?\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"caption_question\", \"plan\": {\"route\": \"caption_question\", \"operation\": \"answer\", \"target\": \"\", \"new_value\": \"\", \"scope\": \"no image is generated\"}, \"reason\": \"matched the caption_question rule.\", \"safety\": {\"visible_text\": \"3\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_pixel_check\": false, \"input_model_flag\": false}}",
+   "seconds": 0.873
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"caption_question\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"How many apples are on the table?\"}",
+   "output": "{\"caption\": \"Three red apples with green stems are placed on a brown surface.\", \"objects\": [\"apples\"], \"boxes\": [{\"label\": \"apples\", \"box\": [116.0, 209.0, 435.0, 328.0]}], \"visible_text\": \"3\", \"answers\": {\"Where is this and what are the dominant colours?\": \"The setting is a simple background with a brown surface, and the dominant colors are red for the apples and brown for the surface.\", \"How many...",
+   "seconds": 4.165
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"How many apples are on the table?\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"caption_question\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\"]}",
+   "seconds": 5.038
+  }
+ ]
+}

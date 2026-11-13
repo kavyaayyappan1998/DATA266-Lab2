@@ -1,0 +1,165 @@
+{
+ "request": "Change the sky to a sunset orange.",
+ "image_path": "../outputs/assets/house.png",
+ "use_critique": false,
+ "request_id": "20261113-222600-87a8f7",
+ "route": "edit",
+ "status": "done",
+ "message": "Done (edit). The critic accepted the result after 1 attempt(s). Prompt used: \"change the sky to a sunset orange\".",
+ "safety": {
+  "visible_text": "house tree sun",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "edit",
+  "operation": "modify",
+  "target": "sky",
+  "new_value": "sunset orange",
+  "scope": "only: sky"
+ },
+ "vision": {
+  "caption": "A simple house with a brown roof and red walls, next to a green tree under a yellow sun.",
+  "objects": [
+   "house",
+   "tree",
+   "sun"
+  ],
+  "boxes": [
+   {
+    "label": "house",
+    "box": [
+     130.0,
+     98.0,
+     374.0,
+     406.0
+    ]
+   },
+   {
+    "label": "tree",
+    "box": [
+     45.0,
+     204.0,
+     118.0,
+     405.0
+    ]
+   },
+   {
+    "label": "sun",
+    "box": [
+     390.0,
+     37.0,
+     498.0,
+     115.0
+    ]
+   }
+  ],
+  "visible_text": "house tree sun",
+  "answers": {
+   "Where is this and what are the dominant colours?": "The setting is outdoors with a clear blue sky, green grass, and a bright yellow sun. The dominant colors are red, brown, green, and yellow.",
+   "How many main subjects are there, and what are they?": "There are three main subjects: a house, a tree, and a sun."
+  }
+ },
+ "prompt": "change the sky to a sunset orange",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "a simple house with a brown roof and red walls, next to a green tree under a vibrant sunset orange sky",
+ "params": {
+  "mode": "edit",
+  "guidance": 7.5,
+  "image_guidance": 1.5,
+  "mask_pad": 0.1
+ },
+ "generation": {
+  "mode": "edit",
+  "model": "timbrooks/instruct-pix2pix",
+  "prompt": "change the sky to a sunset orange",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "safety_retries": 0,
+  "local_edit": {
+   "skipped": "the vision agent did not locate 'sky'"
+  },
+  "steps": 30,
+  "params": {
+   "guidance": 7.5,
+   "image_guidance": 1.5,
+   "mask_pad": 0.1
+  },
+  "output": "../outputs/images/20261113-222600-87a8f7_v0.png"
+ },
+ "output_path": "../outputs/images/20261113-222600-87a8f7_v0.png",
+ "critique": {
+  "safe": true,
+  "clip_prompt_match": 0.3537,
+  "clip_subject_kept": 0.884,
+  "clip_change_gain": 0.061,
+  "local_edit": false,
+  "score": 0.5747,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {}
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261113-222600-87a8f7_v0.png",
+   "score": 0.5747,
+   "decision": "accept",
+   "prompt": "change the sky to a sunset orange",
+   "params": {
+    "mode": "edit",
+    "guidance": 7.5,
+    "image_guidance": 1.5,
+    "mask_pad": 0.1
+   }
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"edit\", \"plan\": {\"route\": \"edit\", \"operation\": \"modify\", \"target\": \"sky\", \"new_value\": \"sunset orange\", \"scope\": \"only: sky\"}, \"reason\": \"matched the edit rule.\", \"safety\": {\"visible_text\": \"house tree sun\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_pixel_check\": false, \"input_model_flag\": false}}",
+   "seconds": 0.863
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"caption\": \"A simple house with a brown roof and red walls, next to a green tree under a yellow sun.\", \"objects\": [\"house\", \"tree\", \"sun\"], \"boxes\": [{\"label\": \"house\", \"box\": [130.0, 98.0, 374.0, 406.0]}, {\"label\": \"tree\", \"box\": [45.0, 204.0, 118.0, 405.0]}, {\"label\": \"sun\", \"box\": [390.0, 37.0, 498.0, 115.0]}], \"visible_text\": \"house tree sun\", \"answers\": {\"Where is this and what are the domin...",
+   "seconds": 6.31
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"prompt\": \"change the sky to a sunset orange\", \"target\": \"a simple house with a brown roof and red walls, next to a green tree under a vibrant sunset orange sky\", \"params\": {\"mode\": \"edit\", \"guidance\": 7.5, \"image_guidance\": 1.5, \"mask_pad\": 0.1}}",
+   "seconds": 1.381
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the sky to a sunset orange\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"mode\": \"edit\", \"model\": \"timbrooks/instruct-pix2pix\", \"prompt\": \"change the sky to a sunset orange\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"safety_retries\": 0, \"local_edit\": {\"skipped\": \"the vision agent did not locate 'sky'\"}, \"steps\": 30, \"params\": {\"guidance\": 7.5, \"image_guidance\": 1.5, \"mask_pad\": 0.1}, \"outp...",
+   "seconds": 9.493
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the sky to a sunset orange\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"safe\": true, \"clip_prompt_match\": 0.3537, \"clip_subject_kept\": 0.884, \"clip_change_gain\": 0.061, \"local_edit\": false, \"score\": 0.5747, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"accept\", \"revision\": {}}",
+   "seconds": 1.148
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Change the sky to a sunset orange.\", \"use_critique\": false}",
+   "output": "{\"status\": \"done\", \"route\": \"edit\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 19.195
+  }
+ ]
+}

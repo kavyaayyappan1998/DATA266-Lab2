@@ -1,0 +1,36 @@
+{
+ "request": "Describe this image.",
+ "image_path": "../outputs/assets/blank.png",
+ "use_critique": false,
+ "request_id": "20261113-222711-df41f4",
+ "route": "",
+ "status": "error",
+ "message": "The image looks blank (a single flat colour), so there is nothing to describe or edit. Please upload a different image.",
+ "safety": {},
+ "plan": {},
+ "vision": {},
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"decision\": \"stop\", \"reason\": \"The image looks blank (a single flat colour), so there is nothing to describe or edit. Please upload a different image.\"}",
+   "seconds": 0.003
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Describe this image.\", \"use_critique\": false}",
+   "output": "{\"status\": \"error\", \"route\": \"\", \"revisions\": 0, \"agents_run\": [\"Planner\"]}",
+   "seconds": 0.003
+  }
+ ]
+}

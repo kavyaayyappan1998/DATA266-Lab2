@@ -1,0 +1,43 @@
+{
+ "request": "Make it better.",
+ "image_path": "../outputs/assets/house.png",
+ "use_critique": true,
+ "request_id": "20261113-222902-cb6eb3",
+ "route": "",
+ "status": "needs_clarification",
+ "message": "I'm not sure what you'd like me to do with this image. Could you say which of these you want: a description or an answer to a question, a style change (for example 'as a watercolor'), an edit ('make the sky orange'), an enhancement ('sharpen it'), or a Pokemon-style version?",
+ "safety": {
+  "visible_text": "house tree sun",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {},
+ "vision": {},
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Make it better.\"}",
+   "output": "{\"decision\": \"ask\", \"reason\": \"the request names no clear action or target\"}",
+   "seconds": 0.876
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Make it better.\", \"use_critique\": true}",
+   "output": "{\"status\": \"needs_clarification\", \"route\": \"\", \"revisions\": 0, \"agents_run\": [\"Planner\"]}",
+   "seconds": 0.876
+  }
+ ]
+}

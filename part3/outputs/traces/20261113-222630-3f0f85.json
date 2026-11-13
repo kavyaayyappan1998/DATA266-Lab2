@@ -1,0 +1,161 @@
+{
+ "request": "Enhance this image: sharpen it and improve the contrast.",
+ "image_path": "../outputs/assets/house_dull.png",
+ "use_critique": false,
+ "request_id": "20261113-222630-3f0f85",
+ "route": "enhancement",
+ "status": "done",
+ "message": "Done (enhancement). The critic accepted the result after 1 attempt(s). Prompt used: \"enhance: autocontrast, sharpen, mild denoise\".",
+ "safety": {
+  "visible_text": "house tree sun",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "enhancement",
+  "operation": "enhance",
+  "target": "",
+  "new_value": "",
+  "scope": "whole image"
+ },
+ "vision": {
+  "caption": "A simple drawing of a house with a tree and a sun.",
+  "objects": [
+   "house",
+   "tree",
+   "sun"
+  ],
+  "boxes": [
+   {
+    "label": "house",
+    "box": [
+     135.0,
+     97.0,
+     368.0,
+     374.0
+    ]
+   },
+   {
+    "label": "tree",
+    "box": [
+     40.0,
+     204.0,
+     128.0,
+     376.0
+    ]
+   },
+   {
+    "label": "sun",
+    "box": [
+     388.0,
+     36.0,
+     499.0,
+     130.0
+    ]
+   }
+  ],
+  "visible_text": "house tree sun",
+  "answers": {
+   "Where is this and what are the dominant colours?": "A simple outdoor scene with a house, a tree, and a sun, dominated by pastel colors like pink, green, and yellow.",
+   "How many main subjects are there, and what are they?": "Three main subjects: a house, a tree, and a sun."
+  }
+ },
+ "prompt": "enhance: autocontrast, sharpen, mild denoise",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "A simple drawing of a house with a tree and a sun. (sharper, better contrast)",
+ "params": {
+  "mode": "enhancement",
+  "sharpness": 1.8,
+  "contrast": 1.25
+ },
+ "generation": {
+  "mode": "enhancement",
+  "model": "deterministic enhancement (PIL: autocontrast, median filter, contrast, sharpness)",
+  "prompt": "enhance: autocontrast, sharpen, mild denoise",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "safety_retries": 0,
+  "local_edit": null,
+  "steps": 0,
+  "params": {
+   "sharpness": 1.8,
+   "contrast": 1.25
+  },
+  "output": "../outputs/images/20261113-222630-3f0f85_v0.png"
+ },
+ "output_path": "../outputs/images/20261113-222630-3f0f85_v0.png",
+ "critique": {
+  "safe": true,
+  "clip_prompt_match": 0.3319,
+  "clip_subject_kept": 0.9156,
+  "clip_change_gain": 1.3881,
+  "local_edit": false,
+  "score": 0.5608,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {},
+  "sharpness_gain": 1.39
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261113-222630-3f0f85_v0.png",
+   "score": 0.5608,
+   "decision": "accept",
+   "prompt": "enhance: autocontrast, sharpen, mild denoise",
+   "params": {
+    "mode": "enhancement",
+    "sharpness": 1.8,
+    "contrast": 1.25
+   }
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"enhancement\", \"plan\": {\"route\": \"enhancement\", \"operation\": \"enhance\", \"target\": \"\", \"new_value\": \"\", \"scope\": \"whole image\"}, \"reason\": \"matched the enhancement rule.\", \"safety\": {\"visible_text\": \"house tree sun\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_pixel_check\": false, \"input_model_flag\": false}}",
+   "seconds": 1.003
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"caption\": \"A simple drawing of a house with a tree and a sun.\", \"objects\": [\"house\", \"tree\", \"sun\"], \"boxes\": [{\"label\": \"house\", \"box\": [135.0, 97.0, 368.0, 374.0]}, {\"label\": \"tree\", \"box\": [40.0, 204.0, 128.0, 376.0]}, {\"label\": \"sun\", \"box\": [388.0, 36.0, 499.0, 130.0]}], \"visible_text\": \"house tree sun\", \"answers\": {\"Where is this and what are the dominant colours?\": \"A simple outdoor scene...",
+   "seconds": 6.007
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"target\": \"A simple drawing of a house with a tree and a sun. (sharper, better contrast)\", \"params\": {\"mode\": \"enhancement\", \"sharpness\": 1.8, \"contrast\": 1.25}}",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"mode\": \"enhancement\", \"model\": \"deterministic enhancement (PIL: autocontrast, median filter, contrast, sharpness)\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"safety_retries\": 0, \"local_edit\": null, \"steps\": 0, \"params\": {\"sharpness\": 1.8, \"contrast\": 1.25}, \"o...",
+   "seconds": 0.029
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"safe\": true, \"clip_prompt_match\": 0.3319, \"clip_subject_kept\": 0.9156, \"clip_change_gain\": 1.3881, \"local_edit\": false, \"score\": 0.5608, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"accept\", \"revision\": {}, \"sharpness_gain\": 1.39}",
+   "seconds": 1.064
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Enhance this image: sharpen it and improve the contrast.\", \"use_critique\": false}",
+   "output": "{\"status\": \"done\", \"route\": \"enhancement\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 8.102
+  }
+ ]
+}

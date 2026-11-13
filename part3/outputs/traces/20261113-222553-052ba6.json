@@ -1,0 +1,147 @@
+{
+ "request": "Render this scene in a cyberpunk neon style.",
+ "image_path": "../outputs/assets/sign.png",
+ "use_critique": false,
+ "request_id": "20261113-222553-052ba6",
+ "route": "style_change",
+ "status": "done",
+ "message": "Done (style change). Critique loop off: single attempt after 1 attempt(s). Prompt used: \"A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements\".",
+ "safety": {
+  "visible_text": "CAFE OPEN 9-5",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "style_change",
+  "operation": "restyle",
+  "target": "",
+  "new_value": "cyberpunk neon style",
+  "scope": "whole image"
+ },
+ "vision": {
+  "caption": "A sign indicating a cafe's operating hours.",
+  "objects": [
+   "cafe sign"
+  ],
+  "boxes": [
+   {
+    "label": "cafe sign",
+    "box": [
+     40.0,
+     153.0,
+     467.0,
+     428.0
+    ]
+   }
+  ],
+  "visible_text": "CAFE OPEN 9-5",
+  "answers": {
+   "Where is this and what are the dominant colours?": "The setting appears to be an outdoor area with a light blue background and a beige structure, possibly a cafe signpost.",
+   "How many main subjects are there, and what are they?": "There is one main subject: the cafe sign."
+  }
+ },
+ "prompt": "A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "A cyberpunk neon-style cafe sign showing operating hours with a futuristic and vibrant aesthetic",
+ "params": {
+  "mode": "style_change",
+  "strength": 0.65,
+  "guidance": 7.5
+ },
+ "generation": {
+  "mode": "style_change",
+  "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "prompt": "A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "safety_retries": 0,
+  "local_edit": null,
+  "steps": 30,
+  "params": {
+   "strength": 0.65,
+   "guidance": 7.5
+  },
+  "output": "../outputs/images/20261113-222553-052ba6_v0.png"
+ },
+ "output_path": "../outputs/images/20261113-222553-052ba6_v0.png",
+ "critique": {
+  "safe": true,
+  "clip_prompt_match": 0.2542,
+  "clip_subject_kept": 0.9302,
+  "clip_change_gain": -0.003,
+  "local_edit": false,
+  "score": 0.4868,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "revise",
+  "revision": {
+   "instruction": "The requested style is too weak (prompt match 0.25, gain over the original -0.003; judge: None): raise strength by 0.15, guidance by 1.5, and put 'scene in a cyberpunk neon style' first in the prompt.",
+   "adjust": {
+    "strength": 0.15,
+    "guidance": 1.5
+   },
+   "emphasise": "scene in a cyberpunk neon style"
+  }
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261113-222553-052ba6_v0.png",
+   "score": 0.4868,
+   "decision": "revise",
+   "prompt": "A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements",
+   "params": {
+    "mode": "style_change",
+    "strength": 0.65,
+    "guidance": 7.5
+   }
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Render this scene in a cyberpunk neon style.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"style_change\", \"plan\": {\"route\": \"style_change\", \"operation\": \"restyle\", \"target\": \"\", \"new_value\": \"cyberpunk neon style\", \"scope\": \"whole image\"}, \"reason\": \"matched the style_change rule.\", \"safety\": {\"visible_text\": \"CAFE OPEN 9-5\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_pixel_check\": false, \"input_model_flag\": ...",
+   "seconds": 0.973
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Render this scene in a cyberpunk neon style.\"}",
+   "output": "{\"caption\": \"A sign indicating a cafe's operating hours.\", \"objects\": [\"cafe sign\"], \"boxes\": [{\"label\": \"cafe sign\", \"box\": [40.0, 153.0, 467.0, 428.0]}], \"visible_text\": \"CAFE OPEN 9-5\", \"answers\": {\"Where is this and what are the dominant colours?\": \"The setting appears to be an outdoor area with a light blue background and a beige structure, possibly a cafe signpost.\", \"How many main subjects ...",
+   "seconds": 3.404
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Render this scene in a cyberpunk neon style.\"}",
+   "output": "{\"prompt\": \"A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements\", \"target\": \"A cyberpunk neon-style cafe sign showing operating hours with a futuristic and vibrant aesthetic\", \"params\": {\"mode\": \"style_change\", \"strength\": 0.65, \"guidance\": 7.5}}",
+   "seconds": 1.369
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements\", \"revisions\": 0, \"request\": \"Render this scene in a cyberpunk neon style.\"}",
+   "output": "{\"mode\": \"style_change\", \"model\": \"stable-diffusion-v1-5/stable-diffusion-v1-5\", \"prompt\": \"A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"safety_retries\": 0, \"local_edit\": null, \"steps\": 30, \"params\": {\"streng...",
+   "seconds": 0.596
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"A neon-lit cafe sign displaying operating hours in a cyberpunk style with vibrant colors and futuristic elements\", \"revisions\": 0, \"request\": \"Render this scene in a cyberpunk neon style.\"}",
+   "output": "{\"safe\": true, \"clip_prompt_match\": 0.2542, \"clip_subject_kept\": 0.9302, \"clip_change_gain\": -0.003, \"local_edit\": false, \"score\": 0.4868, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"revise\", \"revision\": {\"instruction\": \"The requested style is too weak (prompt match 0.25, gain over the original -0.003; judge: None): rais...",
+   "seconds": 0.945
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Render this scene in a cyberpunk neon style.\", \"use_critique\": false}",
+   "output": "{\"status\": \"done\", \"route\": \"style_change\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 7.286
+  }
+ ]
+}

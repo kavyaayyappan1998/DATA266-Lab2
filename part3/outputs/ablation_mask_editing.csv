@@ -1,0 +1,5 @@
+id,mask_based_editing,mask_used,status,attempts,clip_prompt_match,clip_subject_kept,clip_change_gain
+E1,off,False,done,1,0.3537,0.884,0.061
+E2,off,False,refused,1,,,
+E1,on,False,done,1,0.3537,0.884,0.061
+E2,on,False,refused,0,,,
