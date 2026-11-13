@@ -1,0 +1,112 @@
+[
+ {
+  "id": "ID01",
+  "category": "in_domain",
+  "prompt": "a cartoon pikachu with a pink dress and a pink bow",
+  "test_idx": 184
+ },
+ {
+  "id": "ID02",
+  "category": "in_domain",
+  "prompt": "a cartoon bird with a hat on its head",
+  "test_idx": 69
+ },
+ {
+  "id": "ID03",
+  "category": "in_domain",
+  "prompt": "a purple butterfly with orange and pink stripes",
+  "test_idx": 713
+ },
+ {
+  "id": "ID04",
+  "category": "in_domain",
+  "prompt": "a cartoon blue bird with its mouth open",
+  "test_idx": 330
+ },
+ {
+  "id": "ID05",
+  "category": "in_domain",
+  "prompt": "a yellow and blue toy flying through the air",
+  "test_idx": 128
+ },
+ {
+  "id": "ID06",
+  "category": "in_domain",
+  "prompt": "a cartoon character is holding a large object",
+  "test_idx": 809
+ },
+ {
+  "id": "ID07",
+  "category": "in_domain",
+  "prompt": "a blue bird with a big smile on it's face",
+  "test_idx": 453
+ },
+ {
+  "id": "ID08",
+  "category": "in_domain",
+  "prompt": "a drawing of a bird flying through the air",
+  "test_idx": 237
+ },
+ {
+  "id": "ID09",
+  "category": "in_domain",
+  "prompt": "an image of a cartoon character in a blue outfit",
+  "test_idx": 656
+ },
+ {
+  "id": "ID10",
+  "category": "in_domain",
+  "prompt": "a drawing of a pink pokemon pokemon character",
+  "test_idx": 310
+ },
+ {
+  "id": "OOD01",
+  "category": "out_of_domain",
+  "prompt": "a photo of a red sports car on a mountain road"
+ },
+ {
+  "id": "OOD02",
+  "category": "out_of_domain",
+  "prompt": "an astronaut riding a horse on the moon"
+ },
+ {
+  "id": "OOD03",
+  "category": "out_of_domain",
+  "prompt": "a bowl of ramen on a wooden table"
+ },
+ {
+  "id": "OOD04",
+  "category": "out_of_domain",
+  "prompt": "a medieval castle at sunset"
+ },
+ {
+  "id": "OOD05",
+  "category": "out_of_domain",
+  "prompt": "a portrait of an old fisherman"
+ },
+ {
+  "id": "CMP01",
+  "category": "compositional",
+  "prompt": "two characters, one in red and one in blue"
+ },
+ {
+  "id": "CMP02",
+  "category": "compositional",
+  "prompt": "a small green creature sitting on top of a large purple creature"
+ },
+ {
+  "id": "CMP03",
+  "category": "compositional",
+  "prompt": "three yellow creatures standing in a row"
+ },
+ {
+  "id": "CMP04",
+  "category": "compositional",
+  "prompt": "a blue creature holding a red umbrella"
+ },
+ {
+  "id": "CMP05",
+  "category": "compositional",
+  "prompt": "a creature with wings on the left and a creature with horns on the right"
+ }
+]

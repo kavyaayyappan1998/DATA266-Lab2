@@ -1,0 +1,26 @@
+pair,prompt_id,prompt,seed,a_side
+1,CMP02,a small green creature sitting on top of a large purple creature,1,L
+2,ID02,a cartoon bird with a hat on its head,1,L
+3,CMP03,three yellow creatures standing in a row,0,R
+4,ID09,an image of a cartoon character in a blue outfit,1,R
+5,CMP01,"two characters, one in red and one in blue",0,L
+6,CMP02,a small green creature sitting on top of a large purple creature,0,R
+7,CMP01,"two characters, one in red and one in blue",1,L
+8,OOD04,a medieval castle at sunset,1,R
+9,ID01,a cartoon pikachu with a pink dress and a pink bow,1,R
+10,ID03,a purple butterfly with orange and pink stripes,1,L
+11,ID07,a blue bird with a big smile on it's face,1,R
+12,ID03,a purple butterfly with orange and pink stripes,0,R
+13,ID10,a drawing of a pink pokemon pokemon character,0,R
+14,ID09,an image of a cartoon character in a blue outfit,0,R
+15,ID08,a drawing of a bird flying through the air,1,L
+16,OOD04,a medieval castle at sunset,0,R
+17,ID04,a cartoon blue bird with its mouth open,0,R
+18,CMP03,three yellow creatures standing in a row,1,R
+19,ID07,a blue bird with a big smile on it's face,0,R
+20,CMP04,a blue creature holding a red umbrella,1,L
+21,CMP04,a blue creature holding a red umbrella,0,L
+22,ID01,a cartoon pikachu with a pink dress and a pink bow,0,L
+23,ID02,a cartoon bird with a hat on its head,0,R
+24,ID06,a cartoon character is holding a large object,0,L
+25,OOD03,a bowl of ramen on a wooden table,0,L

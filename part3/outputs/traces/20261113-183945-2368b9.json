@@ -1,0 +1,58 @@
+{
+ "request": "Describe this image.",
+ "image_path": "../outputs/assets/house.png",
+ "use_critique": true,
+ "request_id": "20261113-183945-2368b9",
+ "route": "caption_question",
+ "status": "done",
+ "message": "The image depicts a simple house with a brown roof and red walls, situated next to a green tree under a bright yellow sun in a clear blue sky.\n\nCaption: A simple house with a brown roof and red walls, next to a green tree and a yellow sun in a blue sky.\nMain objects: {'name': 'house', 'bbox_2d': [130, 125, 374, 408]}, {'name': 'tree', 'bbox_2d': [46, 204, 119, 405]}, {'name': 'sun', 'bbox_2d': [390, 38, 498, 115]}\n\nText visible in the image: \"house tree sun\"",
+ "safety": {
+  "visible_text": "house tree sun",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false
+ },
+ "vision": {
+  "caption": "A simple house with a brown roof and red walls, next to a green tree and a yellow sun in a blue sky.",
+  "objects": [
+   "{'name': 'house', 'bbox_2d': [130, 125, 374, 408]}",
+   "{'name': 'tree', 'bbox_2d': [46, 204, 119, 405]}",
+   "{'name': 'sun', 'bbox_2d': [390, 38, 498, 115]}"
+  ],
+  "visible_text": "house tree sun",
+  "answers": {
+   "Where is this and what are the dominant colours?": "The setting is outdoors with a clear blue sky, green grass, and a bright yellow sun. The dominant colors are blue, green, red, and brown.",
+   "How many main subjects are there, and what are they?": "There are three main subjects: a house, a tree, and a sun.",
+   "Describe this image.": "The image depicts a simple house with a brown roof and red walls, situated next to a green tree under a bright yellow sun in a clear blue sky."
+  }
+ },
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"caption_question\", \"reason\": \"matched the caption_question rule.\", \"safety\": {\"visible_text\": \"house tree sun\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false}}",
+   "seconds": 1.066
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"caption_question\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"caption\": \"A simple house with a brown roof and red walls, next to a green tree and a yellow sun in a blue sky.\", \"objects\": [\"{'name': 'house', 'bbox_2d': [130, 125, 374, 408]}\", \"{'name': 'tree', 'bbox_2d': [46, 204, 119, 405]}\", \"{'name': 'sun', 'bbox_2d': [390, 38, 498, 115]}\"], \"visible_text\": \"house tree sun\", \"answers\": {\"Where is this and what are the dominant colours?\": \"The setting is ...",
+   "seconds": 8.711
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Describe this image.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"caption_question\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\"]}",
+   "seconds": 9.777
+  }
+ ]
+}

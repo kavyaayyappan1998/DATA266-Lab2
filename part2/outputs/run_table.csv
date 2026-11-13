@@ -1,0 +1,3 @@
+run,method,trainable_params,trainable_%,learning_rate,steps,batch_size,peak_gpu_gb,train_minutes,gpu_hours,final_train_loss,heldout_loss_start,heldout_loss_end
+run1_lora_r4,LoRA r=4,797184,0.093,0.0001,1500,2 x 2 accum,3.82,7.3,0.122,0.0559,0.0587,0.0562
+run2_lora_r16,LoRA r=16,3188736,0.37,0.0001,1500,2 x 2 accum,3.87,7.3,0.122,0.0558,0.0587,0.0561

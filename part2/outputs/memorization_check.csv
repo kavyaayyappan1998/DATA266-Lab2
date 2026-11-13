@@ -1,0 +1,11 @@
+prompt_id,prompt,nearest_train,nearest_caption,clip_similarity
+ID01,a cartoon pikachu with a pink dress and a pink bow,../outputs/data/5065ef75cdc2/train/00723.png,a colorful butterfly that is on a white background,0.7175
+ID02,a cartoon bird with a hat on its head,../outputs/data/5065ef75cdc2/train/00218.png,a blue bird with a red and white beak,0.8636
+ID03,a purple butterfly with orange and pink stripes,../outputs/data/5065ef75cdc2/train/00729.png,a yellow and red butterfly on a white background,0.7712
+ID04,a cartoon blue bird with its mouth open,../outputs/data/5065ef75cdc2/train/00600.png,a blue bird with yellow feet and a yellow beak,0.8875
+ID05,a yellow and blue toy flying through the air,../outputs/data/5065ef75cdc2/train/00728.png,a blue and yellow butterfly with yellow stripes,0.6332
+ID06,a cartoon character is holding a large object,../outputs/data/5065ef75cdc2/train/00142.png,a brown teddy bear holding a white object,0.9061
+ID07,a blue bird with a big smile on it's face,../outputs/data/5065ef75cdc2/train/00706.png,a bird with an arrow in its beak,0.8518
+ID08,a drawing of a bird flying through the air,../outputs/data/5065ef75cdc2/train/00706.png,a bird with an arrow in its beak,0.7787
+ID09,an image of a cartoon character in a blue outfit,../outputs/data/5065ef75cdc2/train/00701.png,a blue and white cartoon character running,0.8453
+ID10,a drawing of a pink pokemon pokemon character,../outputs/data/5065ef75cdc2/train/00065.png,a drawing of a pink cat flying through the air,0.8932

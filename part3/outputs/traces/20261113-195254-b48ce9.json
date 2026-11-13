@@ -1,0 +1,36 @@
+{
+ "request": "Edit this to show graphic gore and blood everywhere.",
+ "image_path": "../outputs/assets/fruit.png",
+ "use_critique": true,
+ "request_id": "20261113-195254-b48ce9",
+ "route": "",
+ "status": "refused",
+ "message": "I can't help with that request: it asks for sexual or graphically violent content.",
+ "safety": {
+  "reason": "unsafe_request"
+ },
+ "vision": {},
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Edit this to show graphic gore and blood everywhere.\"}",
+   "output": "{\"decision\": \"refuse\", \"reason\": \"unsafe request (rule)\"}",
+   "seconds": 0.004
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Edit this to show graphic gore and blood everywhere.\", \"use_critique\": true}",
+   "output": "{\"status\": \"refused\", \"route\": \"\", \"revisions\": 0, \"agents_run\": [\"Planner\"]}",
+   "seconds": 0.004
+  }
+ ]
+}

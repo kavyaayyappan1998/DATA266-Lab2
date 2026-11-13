@@ -1,0 +1,91 @@
+{
+ "request": "Enhance this image: sharpen it and improve the contrast.",
+ "image_path": "../outputs/assets/house_dull.png",
+ "use_critique": true,
+ "request_id": "20261113-193829-a4f6fd",
+ "route": "enhancement",
+ "status": "error",
+ "message": "Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.",
+ "safety": {
+  "visible_text": "<all text written in the image, copied exactly, or empty>",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false
+ },
+ "vision": {
+  "caption": "A simple drawing of a house with a tree and a sun.",
+  "objects": [
+   "house",
+   "tree",
+   "sun"
+  ],
+  "visible_text": "<all text written in the image, copied exactly, or empty>",
+  "answers": {
+   "Where is this and what are the dominant colours?": "A simple outdoor setting with green grass, a brown house, a green tree, and a yellow sun against a light blue sky.",
+   "How many main subjects are there, and what are they?": "Three main subjects: a house, a tree, and a sun."
+  }
+ },
+ "prompt": "enhance: autocontrast, sharpen, mild denoise",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "A simple drawing of a house with a tree and a sun. (sharper, better contrast)",
+ "params": {
+  "mode": "enhancement",
+  "sharpness": 1.8,
+  "contrast": 1.25
+ },
+ "generation": {
+  "mode": "enhancement",
+  "model": "deterministic enhancement (PIL: autocontrast, median filter, contrast, sharpness)",
+  "prompt": "enhance: autocontrast, sharpen, mild denoise",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "steps": 0,
+  "params": {
+   "sharpness": 1.8,
+   "contrast": 1.25
+  },
+  "output": "../outputs/images/20261113-193829-a4f6fd_v0.png"
+ },
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"enhancement\", \"reason\": \"matched the enhancement rule.\", \"safety\": {\"visible_text\": \"<all text written in the image, copied exactly, or empty>\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false}}",
+   "seconds": 25.646
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"caption\": \"A simple drawing of a house with a tree and a sun.\", \"objects\": [\"house\", \"tree\", \"sun\"], \"visible_text\": \"<all text written in the image, copied exactly, or empty>\", \"answers\": {\"Where is this and what are the dominant colours?\": \"A simple outdoor setting with green grass, a brown house, a green tree, and a yellow sun against a light blue sky.\", \"How many main subjects are there, and...",
+   "seconds": 64.776
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"target\": \"A simple drawing of a house with a tree and a sun. (sharper, better contrast)\", \"params\": {\"mode\": \"enhancement\", \"sharpness\": 1.8, \"contrast\": 1.25}}",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"mode\": \"enhancement\", \"model\": \"deterministic enhancement (PIL: autocontrast, median filter, contrast, sharpness)\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"steps\": 0, \"params\": {\"sharpness\": 1.8, \"contrast\": 1.25}, \"output\": \"../outputs/images/20261113-19382...",
+   "seconds": 0.036
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"error\": \"\\\"/tmp/ipykernel_6761/53802046.py\\\", line 25, in clip_text_image\\n    t = torch.nn.functional.normalize(clip_model.get_text_features(input_ids=x.input_ids, attention_mask=x.attention_mask), dim=-1)\\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"/usr/local/lib/python3.12/dist-packages/torch/nn...",
+   "seconds": 0.027
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Enhance this image: sharpen it and improve the contrast.\", \"use_critique\": true}",
+   "output": "{\"status\": \"error\", \"route\": \"enhancement\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 90.485
+  }
+ ]
+}

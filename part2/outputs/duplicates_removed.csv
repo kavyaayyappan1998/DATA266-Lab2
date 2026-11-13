@@ -1,0 +1,8 @@
+removed_idx,kept_idx,type,hamming,pixel_mae
+606,605,near,0,0.0065
+607,605,near,1,0.0124
+608,605,near,1,0.0062
+714,712,near,3,0.0351
+715,711,near,0,0.0245
+718,711,near,0,0.0373
+726,716,near,2,0.0147

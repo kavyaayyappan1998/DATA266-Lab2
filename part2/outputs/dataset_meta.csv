@@ -1,0 +1,827 @@
+idx,caption,width,height,split,path
+0,a drawing of a green pokemon with red eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00000.png
+1,a green and yellow toy with a red nose,431,431,train,../outputs/data/5065ef75cdc2/train/00001.png
+2,a red and white ball with an angry look on its face,789,789,train,../outputs/data/5065ef75cdc2/train/00002.png
+3,a cartoon ball with a smile on it's face,769,769,train,../outputs/data/5065ef75cdc2/train/00003.png
+4,a bunch of balls with faces drawn on them,431,431,train,../outputs/data/5065ef75cdc2/train/00004.png
+5,a cartoon character with a potted plant on his head,431,431,train,../outputs/data/5065ef75cdc2/train/00005.png
+6,a drawing of a pokemon stuffed animal,431,431,train,../outputs/data/5065ef75cdc2/train/00006.png
+7,a picture of a cartoon character with a sword,431,431,train,../outputs/data/5065ef75cdc2/train/00007.png
+8,a drawing of a cartoon character doing a kick,431,431,train,../outputs/data/5065ef75cdc2/train/00008.png
+9,a drawing of a girl with a boxing glove,431,431,train,../outputs/data/5065ef75cdc2/train/00009.png
+10,a picture of a pink and yellow pokemon figure,431,431,train,../outputs/data/5065ef75cdc2/train/00010.png
+11,a purple ball with a skull and cross bones on it,431,431,train,../outputs/data/5065ef75cdc2/train/00011.png
+12,a cartoon picture of a green vegetable with eyes,998,998,train,../outputs/data/5065ef75cdc2/train/00012.png
+13,an image of a cartoon character flying through the air,931,931,train,../outputs/data/5065ef75cdc2/train/00013.png
+14,a drawing of a gray and black dragon,910,910,train,../outputs/data/5065ef75cdc2/train/00014.png
+15,a drawing of a gray and yellow pokemon,901,901,train,../outputs/data/5065ef75cdc2/train/00015.png
+16,a pink bird sitting on top of a white surface,431,431,train,../outputs/data/5065ef75cdc2/train/00016.png
+17,a blue and black object with two eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00017.png
+18,a couple of pokemon standing next to each other,1032,1032,train,../outputs/data/5065ef75cdc2/train/00018.png
+19,a cartoon picture of a bear holding a baseball bat,431,431,train,../outputs/data/5065ef75cdc2/train/00019.png
+20,a drawing of a blue dragon with red eyes,889,889,test,../outputs/data/5065ef75cdc2/test/00020.png
+21,a drawing of a blue and yellow dragon,869,869,test,../outputs/data/5065ef75cdc2/test/00021.png
+22,a drawing of a fish with a horn on it's head,864,864,train,../outputs/data/5065ef75cdc2/train/00022.png
+23,a fish with a horn on it's head,886,886,train,../outputs/data/5065ef75cdc2/train/00023.png
+24,a cartoon butterfly with a sad look on its face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00024.png
+25,a drawing of a star with a red eye,431,431,train,../outputs/data/5065ef75cdc2/train/00025.png
+26,a drawing of a star with a jewel in the center,845,845,train,../outputs/data/5065ef75cdc2/train/00026.png
+27,a cartoon character with a big smile on his face,431,431,train,../outputs/data/5065ef75cdc2/train/00027.png
+28,a green and white cartoon character with a sword,431,431,train,../outputs/data/5065ef75cdc2/train/00028.png
+29,a drawing of a woman in a red cape,431,431,train,../outputs/data/5065ef75cdc2/train/00029.png
+30,a yellow and black cartoon character with a big smile,1280,1280,train,../outputs/data/5065ef75cdc2/train/00030.png
+31,a very cute looking pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00031.png
+32,a drawing of a cartoon character with wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00032.png
+33,an image of a cartoon character flying through the air,1280,1280,test,../outputs/data/5065ef75cdc2/test/00033.png
+34,a drawing of a bison with horns and horns,431,431,train,../outputs/data/5065ef75cdc2/train/00034.png
+35,a red fish with a gold crown on its head,984,984,train,../outputs/data/5065ef75cdc2/train/00035.png
+36,a drawing of a very cute looking caterpillar,1022,1022,train,../outputs/data/5065ef75cdc2/train/00036.png
+37,a blue and yellow dragon flying through the air,860,860,train,../outputs/data/5065ef75cdc2/train/00037.png
+38,a blue and white dragon with its mouth open,1125,1125,train,../outputs/data/5065ef75cdc2/train/00038.png
+39,a drawing of a blue sea turtle holding a rock,1280,1280,train,../outputs/data/5065ef75cdc2/train/00039.png
+40,a cartoon character with a smile on his face,431,431,train,../outputs/data/5065ef75cdc2/train/00040.png
+41,a very cute looking pokemon with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00041.png
+42,a drawing of a blue and yellow dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00042.png
+43,a drawing of a yellow and white pikachu,1280,1280,train,../outputs/data/5065ef75cdc2/train/00043.png
+44,a very cute looking pokemon with big eyes,1280,1280,test,../outputs/data/5065ef75cdc2/test/00044.png
+45,an origami dog with a pink and blue body,431,431,train,../outputs/data/5065ef75cdc2/train/00045.png
+46,an image of an animal with big eyes,431,431,test,../outputs/data/5065ef75cdc2/test/00046.png
+47,an image of a cartoon character with a big smile,431,431,test,../outputs/data/5065ef75cdc2/test/00047.png
+48,a drawing of a yellow creature with a black nose,766,766,train,../outputs/data/5065ef75cdc2/train/00048.png
+49,a picture of a mushroom with pink eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00049.png
+50,a drawing of a cartoon character holding a knife,431,431,train,../outputs/data/5065ef75cdc2/train/00050.png
+51,a drawing of a dragon with its mouth open,848,848,train,../outputs/data/5065ef75cdc2/train/00051.png
+52,a drawing of a dragon with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00052.png
+53,a blue and white stuffed animal sitting on top of a white surface,431,431,train,../outputs/data/5065ef75cdc2/train/00053.png
+54,a blue and white bird with its wings spread,1280,1280,train,../outputs/data/5065ef75cdc2/train/00054.png
+55,a yellow and black pokemon pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00055.png
+56,a yellow bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00056.png
+57,a blue and white bird with a long tail,431,431,train,../outputs/data/5065ef75cdc2/train/00057.png
+58,a blue and white snake with horns on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00058.png
+59,a drawing of a dragon sitting on its hind legs,431,431,train,../outputs/data/5065ef75cdc2/train/00059.png
+60,a yellow and black insect with large wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00060.png
+61,a yellow and black bee with a white background,1280,1280,train,../outputs/data/5065ef75cdc2/train/00061.png
+62,a cartoon character with a pink and white outfit,1280,1280,train,../outputs/data/5065ef75cdc2/train/00062.png
+63,a drawing of a cat with a pink tail,1279,1279,train,../outputs/data/5065ef75cdc2/train/00063.png
+64,a cartoon character with a cat like body,1280,1280,train,../outputs/data/5065ef75cdc2/train/00064.png
+65,a drawing of a pink cat flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00065.png
+66,a drawing of a pikachu with a green leaf on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00066.png
+67,a drawing of a yellow and green pokemon,1280,1280,test,../outputs/data/5065ef75cdc2/test/00067.png
+68,a drawing of a dinosaur in a dress,1280,1280,train,../outputs/data/5065ef75cdc2/train/00068.png
+69,a cartoon bird with a hat on its head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00069.png
+70,a very cute looking pokemon sitting on top of a rock,1280,1280,train,../outputs/data/5065ef75cdc2/train/00070.png
+71,a cartoon character with a fire on his back,1280,1280,train,../outputs/data/5065ef75cdc2/train/00071.png
+72,a drawing of a cartoon dinosaur with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00072.png
+73,a drawing of a blue and yellow pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00073.png
+74,a drawing of a bird with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00074.png
+75,a drawing of a blue and yellow pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00075.png
+76,a brown and black animal with a white background,1280,1280,train,../outputs/data/5065ef75cdc2/train/00076.png
+77,a very cute looking animal with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00077.png
+78,a cartoon character with big eyes and a big nose,431,431,train,../outputs/data/5065ef75cdc2/train/00078.png
+79,a drawing of an owl with a crown on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00079.png
+80,a very cute looking cartoon character with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00080.png
+81,a red and yellow insect flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00081.png
+82,a green and yellow spider with its tongue out,1280,1280,train,../outputs/data/5065ef75cdc2/train/00082.png
+83,a drawing of a red and yellow insect,1280,1280,train,../outputs/data/5065ef75cdc2/train/00083.png
+84,a purple and blue dragon flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00084.png
+85,a cartoon bird with a bandanna on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00085.png
+86,a drawing of a blue fish with yellow eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00086.png
+87,a cartoon blue fish with a yellow fin,1280,1280,train,../outputs/data/5065ef75cdc2/train/00087.png
+88,a cartoon pikachu with big eyes and big ears,680,680,train,../outputs/data/5065ef75cdc2/train/00088.png
+89,a pink cat with brown ears sitting down,431,431,train,../outputs/data/5065ef75cdc2/train/00089.png
+90,a pink cartoon character with big eyes,1127,1127,train,../outputs/data/5065ef75cdc2/train/00090.png
+91,a drawing of a pokemon pikachu in a bowl,431,431,train,../outputs/data/5065ef75cdc2/train/00091.png
+92,a white pokemon with a red and blue tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00092.png
+93,a green bird with a red tail and a black nose,1280,1280,train,../outputs/data/5065ef75cdc2/train/00093.png
+94,a cartoon bird with a scarf around its neck,1280,1280,test,../outputs/data/5065ef75cdc2/test/00094.png
+95,a drawing of a sheep with a bell on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00095.png
+96,a colorful bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00096.png
+97,a bird with a long beak flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00097.png
+98,a cartoon sheep is kicking a soccer ball,1280,1280,train,../outputs/data/5065ef75cdc2/train/00098.png
+99,a yellow and white pokemon pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00099.png
+100,a yellow and white cartoon character with a red eye,1280,1280,train,../outputs/data/5065ef75cdc2/train/00100.png
+101,a drawing of a little girl with a flower in her hair,431,431,train,../outputs/data/5065ef75cdc2/train/00101.png
+102,a blue cartoon character with a red nose and ears,1280,1280,train,../outputs/data/5065ef75cdc2/train/00102.png
+103,a blue and white cartoon character running,1280,1280,test,../outputs/data/5065ef75cdc2/test/00103.png
+104,a drawing of a cartoon character holding two green balls,1280,1280,train,../outputs/data/5065ef75cdc2/train/00104.png
+105,a green and yellow cartoon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00105.png
+106,a pink pokemon ball with a green leaf on top of it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00106.png
+107,a green turtle with a yellow flower on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00107.png
+108,a cartoon character sitting on top of a blue ball,1280,1280,train,../outputs/data/5065ef75cdc2/train/00108.png
+109,a drawing of a purple cat with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00109.png
+110,a cartoon monkey flying with a bone in its mouth,1280,1280,train,../outputs/data/5065ef75cdc2/train/00110.png
+111,a drawing of a plant with leaves on it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00111.png
+112,a cartoon sunflower with a happy face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00112.png
+113,a green and orange insect with large eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00113.png
+114,a very cute looking cartoon character with big eyes,1280,1280,test,../outputs/data/5065ef75cdc2/test/00114.png
+115,a blue cartoon character sitting on the ground,1280,1280,train,../outputs/data/5065ef75cdc2/train/00115.png
+116,a drawing of a pink cat with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00116.png
+117,a black and yellow pokemon type animal,1280,1280,train,../outputs/data/5065ef75cdc2/train/00117.png
+118,a cartoon bird with a hat on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00118.png
+119,a cartoon character with a crown on his head,431,431,train,../outputs/data/5065ef75cdc2/train/00119.png
+120,a drawing of a blue and green dinosaur with a pink flower on its back,950,950,train,../outputs/data/5065ef75cdc2/train/00120.png
+121,a cartoon rat with its mouth open and it's mouth wide open,431,431,train,../outputs/data/5065ef75cdc2/train/00121.png
+122,a drawing of a blue dragon with yellow eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00122.png
+123,a cartoon character with a magnifying glass,431,431,train,../outputs/data/5065ef75cdc2/train/00123.png
+124,a blue cartoon character with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00124.png
+125,a cartoon giraffe with a ball in its mouth,1080,1080,train,../outputs/data/5065ef75cdc2/train/00125.png
+126,a very cute looking cartoon character with big eyes,1080,1080,train,../outputs/data/5065ef75cdc2/train/00126.png
+127,a white ball with red glasses on top of it,1080,1080,train,../outputs/data/5065ef75cdc2/train/00127.png
+128,a yellow and blue toy flying through the air,1080,1080,test,../outputs/data/5065ef75cdc2/test/00128.png
+129,a pink cartoon character with a blue tail,1080,1080,train,../outputs/data/5065ef75cdc2/train/00129.png
+130,a drawing of a robot like creature with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00130.png
+131,a drawing of a gray and white dragon,1080,1080,train,../outputs/data/5065ef75cdc2/train/00131.png
+132,a pink and black cartoon character flying through the air,1080,1080,train,../outputs/data/5065ef75cdc2/train/00132.png
+133,a very cute looking bird with big wings,431,431,train,../outputs/data/5065ef75cdc2/train/00133.png
+134,a pink dog with its mouth open and tongue out,1080,1080,train,../outputs/data/5065ef75cdc2/train/00134.png
+135,a very cute looking cartoon character with big eyes,1080,1080,train,../outputs/data/5065ef75cdc2/train/00135.png
+136,a drawing of a red and black robot with wings,854,854,train,../outputs/data/5065ef75cdc2/train/00136.png
+137,a red cartoon character is flying through the air,1080,1080,train,../outputs/data/5065ef75cdc2/train/00137.png
+138,a cartoon turtle sitting on top of a red ball,1080,1080,train,../outputs/data/5065ef75cdc2/train/00138.png
+139,a cartoon elephant with a backpack on it's back,1280,1280,train,../outputs/data/5065ef75cdc2/train/00139.png
+140,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00140.png
+141,a drawing of a blue and red pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00141.png
+142,a brown teddy bear holding a white object,1080,1080,train,../outputs/data/5065ef75cdc2/train/00142.png
+143,a cartoon bear with a ring around its neck,1080,1080,train,../outputs/data/5065ef75cdc2/train/00143.png
+144,a drawing of a red creature with yellow eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00144.png
+145,a cartoon of a red monster with a flame coming out of it's mouth,1280,1280,train,../outputs/data/5065ef75cdc2/train/00145.png
+146,a bird with a long beak flying through the air,431,431,train,../outputs/data/5065ef75cdc2/train/00146.png
+147,a drawing of a small animal with a pink nose,955,955,train,../outputs/data/5065ef75cdc2/train/00147.png
+148,a brown and white animal with a pink nose,1080,1080,train,../outputs/data/5065ef75cdc2/train/00148.png
+149,a drawing of a pink pokemon ball floating in the air,1080,1080,train,../outputs/data/5065ef75cdc2/train/00149.png
+150,a drawing of a blue and white fish,1080,1080,test,../outputs/data/5065ef75cdc2/test/00150.png
+151,a red cartoon character laying on the ground,1280,1280,train,../outputs/data/5065ef75cdc2/train/00151.png
+152,a red and white bird with a yellow beak,1080,1080,train,../outputs/data/5065ef75cdc2/train/00152.png
+153,a drawing of a shark with a fish in it's mouth,1080,1080,train,../outputs/data/5065ef75cdc2/train/00153.png
+154,a drawing of a white and red dragon,1080,1080,train,../outputs/data/5065ef75cdc2/train/00154.png
+155,a cartoon dog is standing in a pose,431,431,train,../outputs/data/5065ef75cdc2/train/00155.png
+156,a drawing of a black and white animal with horns,836,836,train,../outputs/data/5065ef75cdc2/train/00156.png
+157,a cartoon picture of a devil with horns and legs,431,431,train,../outputs/data/5065ef75cdc2/train/00157.png
+158,a purple snake sitting on top of a white background,431,431,train,../outputs/data/5065ef75cdc2/train/00158.png
+159,a blue sea horse with a yellow tail,1080,1080,train,../outputs/data/5065ef75cdc2/train/00159.png
+160,a cartoon elephant with a red nose and orange ears,1043,1043,train,../outputs/data/5065ef75cdc2/train/00160.png
+161,a picture of a cartoon character with a hat on,937,937,train,../outputs/data/5065ef75cdc2/train/00161.png
+162,a pink and blue bird with big eyes,1080,1080,train,../outputs/data/5065ef75cdc2/train/00162.png
+163,a drawing of a reindeer with antlers on it's head,1080,1080,train,../outputs/data/5065ef75cdc2/train/00163.png
+164,a drawing of a dog holding a stick,1080,1080,train,../outputs/data/5065ef75cdc2/train/00164.png
+165,a drawing of a pink cartoon character,1080,1080,train,../outputs/data/5065ef75cdc2/train/00165.png
+166,a drawing of a cartoon character with a sword,1080,1080,train,../outputs/data/5065ef75cdc2/train/00166.png
+167,a drawing of a cartoon character with blonde hair,1080,1080,train,../outputs/data/5065ef75cdc2/train/00167.png
+168,a yellow and black cartoon character is flying,431,431,train,../outputs/data/5065ef75cdc2/train/00168.png
+169,a cartoon character with an evil look on his face,431,431,train,../outputs/data/5065ef75cdc2/train/00169.png
+170,a red and yellow pokemon pokemon character,1080,1080,train,../outputs/data/5065ef75cdc2/train/00170.png
+171,a pink and black cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00171.png
+172,a pink and white cartoon character with wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00172.png
+173,a drawing of a yellow and black cat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00173.png
+174,a very cute looking bird with big wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00174.png
+175,a drawing of a blue and purple animal,1280,1280,train,../outputs/data/5065ef75cdc2/train/00175.png
+176,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00176.png
+177,a drawing of a cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00177.png
+178,a drawing of a green pokemon with red eyes,862,862,train,../outputs/data/5065ef75cdc2/train/00178.png
+179,a drawing of a green creature with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00179.png
+180,a white and blue pokemon character with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00180.png
+181,a pikachu holding a cell phone and wearing a bow tie,1280,1280,train,../outputs/data/5065ef75cdc2/train/00181.png
+182,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00182.png
+183,a cartoon character with a hat and glasses,1280,1280,test,../outputs/data/5065ef75cdc2/test/00183.png
+184,a cartoon pikachu with a pink dress and a pink bow,1280,1280,test,../outputs/data/5065ef75cdc2/test/00184.png
+185,a cartoon character with a backpack on his back,1280,1280,train,../outputs/data/5065ef75cdc2/train/00185.png
+186,a cartoon pikachu with a big smile on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00186.png
+187,a colorful bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00187.png
+188,a drawing of a bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00188.png
+189,a green and orange cartoon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00189.png
+190,a cartoon green lizard with a pink belly,1280,1280,train,../outputs/data/5065ef75cdc2/train/00190.png
+191,a green and orange dragon with a long tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00191.png
+192,a green pokemon sitting on top of a leaf,1280,1280,train,../outputs/data/5065ef75cdc2/train/00192.png
+193,a cartoon bird with a big smile on its face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00193.png
+194,a drawing of a pikachu in the air,1246,1246,train,../outputs/data/5065ef75cdc2/train/00194.png
+195,a drawing of a red and black pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00195.png
+196,a drawing of a red and yellow pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00196.png
+197,a blue and orange cartoon character holding a stuffed animal,1280,1280,train,../outputs/data/5065ef75cdc2/train/00197.png
+198,a blue and orange cartoon fish with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00198.png
+199,a pikachu flying with an arrow in its hand,915,915,train,../outputs/data/5065ef75cdc2/train/00199.png
+200,a cartoon of a blue and red dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00200.png
+201,a drawing of a blue and white pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00201.png
+202,a gray and black cat with yellow eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00202.png
+203,a black and white dog with red eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00203.png
+204,a cartoon porcupine running with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00204.png
+205,a drawing of a bird with blue eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00205.png
+206,a red and white pokemon with yellow spikes,431,431,train,../outputs/data/5065ef75cdc2/train/00206.png
+207,a drawing of a white ball with spikes on it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00207.png
+208,a cartoon butterfly with blue eyes and yellow wings,431,431,train,../outputs/data/5065ef75cdc2/train/00208.png
+209,a drawing of an animal's head with spikes on it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00209.png
+210,a cartoon character sitting on top of a green leaf,431,431,train,../outputs/data/5065ef75cdc2/train/00210.png
+211,a very cute looking pokemon character with big eyes,970,970,train,../outputs/data/5065ef75cdc2/train/00211.png
+212,a cartoon bird with a green hat on its head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00212.png
+213,a green bird with a hat on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00213.png
+214,a drawing of a cartoon character with a hat on,431,431,train,../outputs/data/5065ef75cdc2/train/00214.png
+215,an emote emote emote emote emote emote emote em,431,431,train,../outputs/data/5065ef75cdc2/train/00215.png
+216,a cartoon character with a leaf on his head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00216.png
+217,a picture of a pokemon with a leaf on its back,431,431,train,../outputs/data/5065ef75cdc2/train/00217.png
+218,a blue bird with a red and white beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00218.png
+219,a colorful bird is standing on its hind legs,431,431,test,../outputs/data/5065ef75cdc2/test/00219.png
+220,a drawing of an airplane flying in the sky,1280,1280,train,../outputs/data/5065ef75cdc2/train/00220.png
+221,a bird with its mouth open sitting on a piece of paper,1280,1280,test,../outputs/data/5065ef75cdc2/test/00221.png
+222,a yellow and brown pokemon pokemon character flying through the air,893,893,test,../outputs/data/5065ef75cdc2/test/00222.png
+223,a drawing of a cartoon character wearing a green hat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00223.png
+224,a drawing of a green cat with a white dress,1280,1280,train,../outputs/data/5065ef75cdc2/train/00224.png
+225,a drawing of a woman in a white dress,856,856,train,../outputs/data/5065ef75cdc2/train/00225.png
+226,a drawing of a woman in a green and white dress,1280,1280,train,../outputs/data/5065ef75cdc2/train/00226.png
+227,a blue spider with a yellow hat on it's head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00227.png
+228,a drawing of a bird with large eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00228.png
+229,a drawing of an octopus with a sad face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00229.png
+230,a drawing of a green and red pokemon,431,431,train,../outputs/data/5065ef75cdc2/train/00230.png
+231,a cartoon slotty sleeping on its back,1280,1280,train,../outputs/data/5065ef75cdc2/train/00231.png
+232,a white bird with a red beak is in the air,1280,1280,test,../outputs/data/5065ef75cdc2/test/00232.png
+233,a cartoon cow laying on its back on the ground,431,431,train,../outputs/data/5065ef75cdc2/train/00233.png
+234,a drawing of a pokemon with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00234.png
+235,a drawing of an animal with a long tail,431,431,train,../outputs/data/5065ef75cdc2/train/00235.png
+236,a cartoon character flying through the air,431,431,train,../outputs/data/5065ef75cdc2/train/00236.png
+237,a drawing of a bird flying through the air,431,431,test,../outputs/data/5065ef75cdc2/test/00237.png
+238,a purple cartoon character with a yellow ear,1280,1280,train,../outputs/data/5065ef75cdc2/train/00238.png
+239,a cartoon character with two eyes and a mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00239.png
+240,a blue and yellow dragon with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00240.png
+241,a yellow and black pokemon pikachu with pink eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00241.png
+242,a cartoon character with a yellow shirt and blue pants,431,431,train,../outputs/data/5065ef75cdc2/train/00242.png
+243,a blue cartoon character holding a star,1280,1280,train,../outputs/data/5065ef75cdc2/train/00243.png
+244,a blue bird with a pink beak and a black nose,431,431,train,../outputs/data/5065ef75cdc2/train/00244.png
+245,a cartoon picture of a blue pokemon with a pink flower on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00245.png
+246,a drawing of a pokemon with a flower on top of it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00246.png
+247,a cartoon picture of a blue and white pokemon,957,957,train,../outputs/data/5065ef75cdc2/train/00247.png
+248,a pink and yellow animal holding a pink balloon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00248.png
+249,a drawing of a cat wearing a purple hat,431,431,train,../outputs/data/5065ef75cdc2/train/00249.png
+250,a cartoon of a pink and purple object,946,946,train,../outputs/data/5065ef75cdc2/train/00250.png
+251,a drawing of a very cute looking pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00251.png
+252,a drawing of a woman in a pink dress with a dragon head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00252.png
+253,a drawing of a woman standing next to a giant animal,1280,1280,train,../outputs/data/5065ef75cdc2/train/00253.png
+254,a drawing of a white and black animal with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00254.png
+255,a drawing of a dragon with black and white spots,431,431,train,../outputs/data/5065ef75cdc2/train/00255.png
+256,a drawing of a gray and white pokemon,868,868,train,../outputs/data/5065ef75cdc2/train/00256.png
+257,a drawing of a gray and white animal,431,431,train,../outputs/data/5065ef75cdc2/train/00257.png
+258,a cartoon character sitting in the middle of a pose,1280,1280,test,../outputs/data/5065ef75cdc2/test/00258.png
+259,a drawing of a person on a ball with wings,850,850,train,../outputs/data/5065ef75cdc2/train/00259.png
+260,a drawing of a cartoon character in a pink outfit,431,431,train,../outputs/data/5065ef75cdc2/train/00260.png
+261,a drawing of a green and yellow dragon,431,431,train,../outputs/data/5065ef75cdc2/train/00261.png
+262,a blue and yellow pokemon character with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00262.png
+263,a very cute looking pokemon type pokemon type pokemon type pokemon type pokemon type pokemon type,862,862,train,../outputs/data/5065ef75cdc2/train/00263.png
+264,a drawing of a blue and yellow pokemon,431,431,train,../outputs/data/5065ef75cdc2/train/00264.png
+265,a cartoon character with a cross on it's chest,1280,1280,train,../outputs/data/5065ef75cdc2/train/00265.png
+266,a cartoon of a pikachu flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00266.png
+267,a drawing of a bug with a re,1280,1280,train,../outputs/data/5065ef75cdc2/train/00267.png
+268,a very cute looking pokemon character in a costume,1280,1280,train,../outputs/data/5065ef75cdc2/train/00268.png
+269,a drawing of a cartoon character holding a flower,431,431,train,../outputs/data/5065ef75cdc2/train/00269.png
+270,a green cartoon character with a leaf on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00270.png
+271,a purple elephant with a yellow tusk,1280,1280,train,../outputs/data/5065ef75cdc2/train/00271.png
+272,a drawing of a fish with a blue and yellow face,431,431,train,../outputs/data/5065ef75cdc2/train/00272.png
+273,a blue and yellow shark with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00273.png
+274,a drawing of a shark with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00274.png
+275,a drawing of a purple and green pokemon,431,431,train,../outputs/data/5065ef75cdc2/train/00275.png
+276,a ball with a blue cap on top of it,431,431,train,../outputs/data/5065ef75cdc2/train/00276.png
+277,a blue and white whale floating on top of a body of water,431,431,train,../outputs/data/5065ef75cdc2/train/00277.png
+278,a cartoon giraffe sitting down with its eyes wide open,431,431,train,../outputs/data/5065ef75cdc2/train/00278.png
+279,a drawing of a volcano with a bird on top of it,600,600,test,../outputs/data/5065ef75cdc2/test/00279.png
+280,a cartoon picture of a pink and gray dinosaur,1280,1280,train,../outputs/data/5065ef75cdc2/train/00280.png
+281,a cartoon picture of a tortoise with a cloud on its back,431,431,train,../outputs/data/5065ef75cdc2/train/00281.png
+282,a cartoon animal with a pink ball on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00282.png
+283,a cartoon pig with a pink tail and a pink tail,431,431,train,../outputs/data/5065ef75cdc2/train/00283.png
+284,a white and red stuffed animal with black eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00284.png
+285,a cartoon character with a broken arm,431,431,train,../outputs/data/5065ef75cdc2/train/00285.png
+286,a green insect with two green eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00286.png
+287,a drawing of a purple dragon with spikes on it's head,431,431,train,../outputs/data/5065ef75cdc2/train/00287.png
+288,a drawing of a green and red dragon,431,431,test,../outputs/data/5065ef75cdc2/test/00288.png
+289,a green stuffed animal with a crown on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00289.png
+290,a green and white stuffed animal wearing a green hat,431,431,train,../outputs/data/5065ef75cdc2/train/00290.png
+291,a blue bird flying through the sky with clouds,431,431,train,../outputs/data/5065ef75cdc2/train/00291.png
+292,a blue bird flying through the air with clouds,1280,1280,train,../outputs/data/5065ef75cdc2/train/00292.png
+293,a blue bird sitting on top of a cloud,1280,1280,train,../outputs/data/5065ef75cdc2/train/00293.png
+294,a drawing of a white and red pokemon,431,431,train,../outputs/data/5065ef75cdc2/train/00294.png
+295,a drawing of a cartoon character with a sword,431,431,train,../outputs/data/5065ef75cdc2/train/00295.png
+296,a cartoon of a crescent moon with a pink eye,431,431,train,../outputs/data/5065ef75cdc2/train/00296.png
+297,a yellow and orange object with large spikes,431,431,train,../outputs/data/5065ef75cdc2/train/00297.png
+298,a cartoon character with a toothbrush in his mouth,431,431,train,../outputs/data/5065ef75cdc2/train/00298.png
+299,a drawing of a purple and white pokemon,431,431,test,../outputs/data/5065ef75cdc2/test/00299.png
+300,a cartoon character floating on top of a blue object,431,431,train,../outputs/data/5065ef75cdc2/train/00300.png
+301,a red and white cartoon character with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00301.png
+302,a cartoon character with a star on his head,431,431,train,../outputs/data/5065ef75cdc2/train/00302.png
+303,a drawing of a cartoon character with a pink nose,431,431,train,../outputs/data/5065ef75cdc2/train/00303.png
+304,a black and white animal with pink eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00304.png
+305,a drawing of a purple and yellow flower,431,431,train,../outputs/data/5065ef75cdc2/train/00305.png
+306,a green cartoon character with a big smile,1280,1280,train,../outputs/data/5065ef75cdc2/train/00306.png
+307,a drawing of a cartoon character with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00307.png
+308,a drawing of a blue and yellow pokemon,431,431,train,../outputs/data/5065ef75cdc2/train/00308.png
+309,a drawing of a fish with a long tongue,431,431,train,../outputs/data/5065ef75cdc2/train/00309.png
+310,a drawing of a pink pokemon pokemon character,431,431,test,../outputs/data/5065ef75cdc2/test/00310.png
+311,a drawing of a bird with a pink ribbon around its neck,431,431,train,../outputs/data/5065ef75cdc2/train/00311.png
+312,a drawing of a cartoon character with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00312.png
+313,a drawing of a chamelon with a crown on it's head,431,431,test,../outputs/data/5065ef75cdc2/test/00313.png
+314,a drawing of a cartoon character with blue eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00314.png
+315,a drawing of a black cat with yellow and pink wings,834,834,train,../outputs/data/5065ef75cdc2/train/00315.png
+316,a drawing of a cat with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00316.png
+317,a gray and white object with a red light,431,431,train,../outputs/data/5065ef75cdc2/train/00317.png
+318,a drawing of a robot holding a baseball bat,431,431,train,../outputs/data/5065ef75cdc2/train/00318.png
+319,a drawing of a pokemon with a green leaf on it's back,431,431,train,../outputs/data/5065ef75cdc2/train/00319.png
+320,a drawing of a toothbrush with a yellow top,664,664,train,../outputs/data/5065ef75cdc2/train/00320.png
+321,a drawing of a white and blue pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00321.png
+322,a drawing of a white and blue pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00322.png
+323,a drawing of a pink and black pokemon character,431,431,train,../outputs/data/5065ef75cdc2/train/00323.png
+324,a cartoon character with an angry look on his face,431,431,train,../outputs/data/5065ef75cdc2/train/00324.png
+325,a cartoon character with a big smile on his face,431,431,train,../outputs/data/5065ef75cdc2/train/00325.png
+326,a drawing of a white and black cat with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00326.png
+327,a white and black cat mask with blue eyes,516,516,train,../outputs/data/5065ef75cdc2/train/00327.png
+328,a blue and white cartoon character with a big smile,1280,1280,train,../outputs/data/5065ef75cdc2/train/00328.png
+329,a picture of a blue bird with white wings,431,431,test,../outputs/data/5065ef75cdc2/test/00329.png
+330,a cartoon blue bird with its mouth open,431,431,test,../outputs/data/5065ef75cdc2/test/00330.png
+331,a picture of a cartoon character in a hole,431,431,train,../outputs/data/5065ef75cdc2/train/00331.png
+332,a blue and orange fish with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00332.png
+333,a drawing of a pink bird flying through the air,431,431,train,../outputs/data/5065ef75cdc2/train/00333.png
+334,a picture of a fish with a red eye,431,431,train,../outputs/data/5065ef75cdc2/train/00334.png
+335,a cartoon picture of a small furry animal,878,878,train,../outputs/data/5065ef75cdc2/train/00335.png
+336,a drawing of a pink bird with black eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00336.png
+337,a cartoon character with a hat on his head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00337.png
+338,a drawing of a cat wearing a helmet,431,431,train,../outputs/data/5065ef75cdc2/train/00338.png
+339,a drawing of a bird flying over a crescent,1280,1280,train,../outputs/data/5065ef75cdc2/train/00339.png
+340,a drawing of a blue and red dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00340.png
+341,a drawing of a blue pokemon laying down,1280,1280,train,../outputs/data/5065ef75cdc2/train/00341.png
+342,a drawing of a blue and white robot,1280,1280,train,../outputs/data/5065ef75cdc2/train/00342.png
+343,a blue robot with a cross on it's chest,1280,1280,train,../outputs/data/5065ef75cdc2/train/00343.png
+344,a drawing of a blue dragon with red eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00344.png
+345,a stylized image of a robot with a helmet on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00345.png
+346,a paper model of a blue object,1280,1280,train,../outputs/data/5065ef75cdc2/train/00346.png
+347,a cartoon character with red eyes and arms,1280,1280,train,../outputs/data/5065ef75cdc2/train/00347.png
+348,a drawing of a cat sitting on top of a flower,899,899,test,../outputs/data/5065ef75cdc2/test/00348.png
+349,a drawing of a purple and white pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00349.png
+350,a very cute looking pokemon with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00350.png
+351,a drawing of a bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00351.png
+352,a drawing of a blue and silver pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00352.png
+353,a blue and yellow bird with long wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00353.png
+354,a blue and white fish with red accents,1280,1280,train,../outputs/data/5065ef75cdc2/train/00354.png
+355,a red and black dragon with a red crown on it's head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00355.png
+356,a red and white paper model of a dragon,1280,1280,test,../outputs/data/5065ef75cdc2/test/00356.png
+357,a drawing of a green and yellow dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00357.png
+358,a drawing of a green and yellow dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00358.png
+359,a cartoon character with a star hat on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00359.png
+360,a drawing of an orange and blue creature,1280,1280,train,../outputs/data/5065ef75cdc2/train/00360.png
+361,a cartoon character with a strange look on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00361.png
+362,a drawing of a cartoon character holding a large object,1280,1280,test,../outputs/data/5065ef75cdc2/test/00362.png
+363,a drawing of a cartoon character with long legs,1280,1280,train,../outputs/data/5065ef75cdc2/train/00363.png
+364,a cartoon of a pikachu with a leaf on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00364.png
+365,a cartoon turtle with a tree on its back,1280,1280,train,../outputs/data/5065ef75cdc2/train/00365.png
+366,a green and brown animal with a tree on top of it,1280,1280,test,../outputs/data/5065ef75cdc2/test/00366.png
+367,a drawing of a pink cat with big blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00367.png
+368,a drawing of a cartoon monkey holding a stick,1280,1280,test,../outputs/data/5065ef75cdc2/test/00368.png
+369,a cartoon monkey with a blue mask on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00369.png
+370,a very cute looking pokemon character with a fire on it's face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00370.png
+371,a blue and white bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00371.png
+372,a blue and white bird with a yellow beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00372.png
+373,a black and white bird with blue wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00373.png
+374,a cartoon bird sitting on top of a white surface,1280,1280,train,../outputs/data/5065ef75cdc2/train/00374.png
+375,a cartoon bird with an angry look on its face,431,431,train,../outputs/data/5065ef75cdc2/train/00375.png
+376,a drawing of a bird with a hat on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00376.png
+377,a brown and white animal with a black nose,1280,1280,train,../outputs/data/5065ef75cdc2/train/00377.png
+378,a drawing of a cartoon character holding a flame,1280,1280,train,../outputs/data/5065ef75cdc2/train/00378.png
+379,a picture of a pink and white animal with blue eyes,431,431,test,../outputs/data/5065ef75cdc2/test/00379.png
+380,a cartoon animal with a big smile on its face,1162,1162,train,../outputs/data/5065ef75cdc2/train/00380.png
+381,a very cute looking animal with horns on it's head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00381.png
+382,a red and black cartoon character holding a sword,431,431,test,../outputs/data/5065ef75cdc2/test/00382.png
+383,a cartoon elephant with a star on its back,1280,1280,train,../outputs/data/5065ef75cdc2/train/00383.png
+384,a drawing of a cat with a star on its tail,431,431,train,../outputs/data/5065ef75cdc2/train/00384.png
+385,a drawing of a black cat with a yellow star,431,431,train,../outputs/data/5065ef75cdc2/train/00385.png
+386,a green and yellow snake with a smile on its face,1280,1280,test,../outputs/data/5065ef75cdc2/test/00386.png
+387,a drawing of a person with a hat on,431,431,train,../outputs/data/5065ef75cdc2/train/00387.png
+388,a very cute looking pokemon with a big smile,1280,1280,train,../outputs/data/5065ef75cdc2/train/00388.png
+389,a drawing of a cartoon character with horns and horns,431,431,train,../outputs/data/5065ef75cdc2/train/00389.png
+390,a cartoon bat with its mouth wide open,859,859,train,../outputs/data/5065ef75cdc2/train/00390.png
+391,a very cute looking animal with a helmet on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00391.png
+392,a gray and yellow dragon with large horns,431,431,train,../outputs/data/5065ef75cdc2/train/00392.png
+393,a cartoon of a green tree with leaves,1280,1280,train,../outputs/data/5065ef75cdc2/train/00393.png
+394,a cartoon character with a black cat on it's back,1280,1280,test,../outputs/data/5065ef75cdc2/test/00394.png
+395,a cartoon of a pink creature with yellow eyes,1280,1280,test,../outputs/data/5065ef75cdc2/test/00395.png
+396,a cartoon bird with a green leaf on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00396.png
+397,a cartoon character with a toothbrush in his mouth,431,431,train,../outputs/data/5065ef75cdc2/train/00397.png
+398,a pink and black bird with a pink tail,431,431,train,../outputs/data/5065ef75cdc2/train/00398.png
+399,a drawing of a yellow and black bee,431,431,train,../outputs/data/5065ef75cdc2/train/00399.png
+400,a yellow bee with two eyes and two antennae,431,431,train,../outputs/data/5065ef75cdc2/train/00400.png
+401,a cartoon bee with a big smile on it's face,431,431,train,../outputs/data/5065ef75cdc2/train/00401.png
+402,a blue and white pokemon pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00402.png
+403,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00403.png
+404,a drawing of a fox with wings on it's back,431,431,train,../outputs/data/5065ef75cdc2/train/00404.png
+405,a blue and purple dragon with a black mouth,431,431,train,../outputs/data/5065ef75cdc2/train/00405.png
+406,a pink object with a green leaf on top of it,431,431,train,../outputs/data/5065ef75cdc2/train/00406.png
+407,a drawing of a purple eggplant with a green leaf,431,431,train,../outputs/data/5065ef75cdc2/train/00407.png
+408,a yellow and pink pokemon pikachu with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00408.png
+409,a blue and yellow animal with horns on it's head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00409.png
+410,a pink and white cartoon animal with a yellow tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00410.png
+411,a blue and green bird with a yellow tail,431,431,train,../outputs/data/5065ef75cdc2/train/00411.png
+412,a pink and brown animal sitting on top of a white surface,431,431,train,../outputs/data/5065ef75cdc2/train/00412.png
+413,a cartoon monkey with two hands up in the air,431,431,train,../outputs/data/5065ef75cdc2/train/00413.png
+414,a purple bird with a white cloud on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00414.png
+415,a purple bird with a yellow cross on it's head,431,431,train,../outputs/data/5065ef75cdc2/train/00415.png
+416,a cartoon bunny flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00416.png
+417,a drawing of a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00417.png
+418,a very cute looking animal with big ears,1280,1280,train,../outputs/data/5065ef75cdc2/train/00418.png
+419,a cartoon character with a purple hat and purple hair,431,431,train,../outputs/data/5065ef75cdc2/train/00419.png
+420,a blueberry with a green leaf on it's head,1021,1021,train,../outputs/data/5065ef75cdc2/train/00420.png
+421,a cartoon bird with a hat on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00421.png
+422,a cartoon cat is holding onto a leash,1280,1280,train,../outputs/data/5065ef75cdc2/train/00422.png
+423,a drawing of a pokemon pokemon character,431,431,train,../outputs/data/5065ef75cdc2/train/00423.png
+424,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00424.png
+425,a drawing of a purple and white animal,1280,1280,train,../outputs/data/5065ef75cdc2/train/00425.png
+426,a drawing of a purple and white animal,431,431,train,../outputs/data/5065ef75cdc2/train/00426.png
+427,a blue object with two yellow eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00427.png
+428,a blue bell with red eyes on a white background,431,431,train,../outputs/data/5065ef75cdc2/train/00428.png
+429,a cartoon character with three green balls on his head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00429.png
+430,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00430.png
+431,a cartoon character with a strange hair style,857,857,train,../outputs/data/5065ef75cdc2/train/00431.png
+432,a pink and white animal sitting on top of a white surface,1280,1280,train,../outputs/data/5065ef75cdc2/train/00432.png
+433,a colorful bird with a black beak and a red beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00433.png
+434,a picture of a pink monster with green eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00434.png
+435,a drawing of a shark with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00435.png
+436,a drawing of a blue and red dragon,431,431,train,../outputs/data/5065ef75cdc2/train/00436.png
+437,a drawing of a blue and orange pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00437.png
+438,a drawing of a blue and red pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00438.png
+439,a very cute looking cartoon character with a big smile,1280,1280,train,../outputs/data/5065ef75cdc2/train/00439.png
+440,a drawing of a blue and black pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00440.png
+441,a drawing of a pokemon character with re,1280,1280,train,../outputs/data/5065ef75cdc2/train/00441.png
+442,a drawing of a cartoon character with a blue and yellow outfit,1280,1280,train,../outputs/data/5065ef75cdc2/train/00442.png
+443,a brown and white animal with a big nose,431,431,train,../outputs/data/5065ef75cdc2/train/00443.png
+444,a cartoon character holding a giant pink donut,937,937,train,../outputs/data/5065ef75cdc2/train/00444.png
+445,a cartoon dinosaur laying on the ground with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00445.png
+446,a blue and white cartoon character with horns,431,431,train,../outputs/data/5065ef75cdc2/train/00446.png
+447,a very cute looking purple pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00447.png
+448,a blue pokemon character with yellow eyes and a white shirt,431,431,train,../outputs/data/5065ef75cdc2/train/00448.png
+449,a cartoon character with a red ball in his hand,1280,1280,train,../outputs/data/5065ef75cdc2/train/00449.png
+450,a drawing of a green creature with a long tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00450.png
+451,a cartoon character with a pink and blue tail,431,431,train,../outputs/data/5065ef75cdc2/train/00451.png
+452,a black and white fish with pink eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00452.png
+453,a blue bird with a big smile on it's face,1280,1280,test,../outputs/data/5065ef75cdc2/test/00453.png
+454,a drawing of a pokemon with a hat on top of it,431,431,train,../outputs/data/5065ef75cdc2/train/00454.png
+455,a drawing of a spider with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00455.png
+456,a picture of a white and green monster,862,862,train,../outputs/data/5065ef75cdc2/train/00456.png
+457,a white and green pokemon pokemon character,431,431,train,../outputs/data/5065ef75cdc2/train/00457.png
+458,a drawing of a cartoon character in a red and blue outfit,1280,1280,train,../outputs/data/5065ef75cdc2/train/00458.png
+459,a cartoon car with a yellow top on it,431,431,train,../outputs/data/5065ef75cdc2/train/00459.png
+460,a pink and yellow cartoon character holding a banana,1280,1280,train,../outputs/data/5065ef75cdc2/train/00460.png
+461,a drawing of a small animal with orange and gray colors,431,431,train,../outputs/data/5065ef75cdc2/train/00461.png
+462,a cartoon of a blue creature with pink feet,1280,1280,test,../outputs/data/5065ef75cdc2/test/00462.png
+463,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00463.png
+464,a cartoon character is holding a large object,431,431,train,../outputs/data/5065ef75cdc2/train/00464.png
+465,a cartoon character flying through the air,431,431,train,../outputs/data/5065ef75cdc2/train/00465.png
+466,a green and red insect flying through the air,431,431,train,../outputs/data/5065ef75cdc2/train/00466.png
+467,a cartoon picture of a crab wearing a hat,431,431,train,../outputs/data/5065ef75cdc2/train/00467.png
+468,a drawing of a small animal with green leaves,1280,1280,train,../outputs/data/5065ef75cdc2/train/00468.png
+469,a blue and white cartoon dog with a hat on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00469.png
+470,a cartoon character with a bat on his back,431,431,train,../outputs/data/5065ef75cdc2/train/00470.png
+471,a very cute looking animal with a big nose,1280,1280,train,../outputs/data/5065ef75cdc2/train/00471.png
+472,a red and blue toy flying through the air,1280,1280,test,../outputs/data/5065ef75cdc2/test/00472.png
+473,a drawing of a bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00473.png
+474,a drawing of a cartoon character with a green hat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00474.png
+475,a cartoon bird with a pink hat on its head,431,431,test,../outputs/data/5065ef75cdc2/test/00475.png
+476,a cartoon character in grey and yellow,431,431,train,../outputs/data/5065ef75cdc2/train/00476.png
+477,a drawing of a cartoon character holding a surfboard,1280,1280,train,../outputs/data/5065ef75cdc2/train/00477.png
+478,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00478.png
+479,a picture of a cartoon character with two arrows,1280,1280,train,../outputs/data/5065ef75cdc2/train/00479.png
+480,a cartoon picture of a cat with a helmet on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00480.png
+481,an orange and green robot with a smile on it's face,1280,1280,test,../outputs/data/5065ef75cdc2/test/00481.png
+482,an orange and blue cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00482.png
+483,a cartoon character with a lightning bolt,1280,1280,train,../outputs/data/5065ef75cdc2/train/00483.png
+484,a cartoon character with a pink nose and purple hair,431,431,train,../outputs/data/5065ef75cdc2/train/00484.png
+485,a drawing of a pokemon with a big smile,1280,1280,train,../outputs/data/5065ef75cdc2/train/00485.png
+486,a drawing of a pink and blue pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00486.png
+487,a drawing of a pokemon with a blue hat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00487.png
+488,a blue and white pokemon type pokemon type pokemon type pokemon type pokemon type pokemon type,1280,1280,train,../outputs/data/5065ef75cdc2/train/00488.png
+489,a drawing of a white and purple pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00489.png
+490,a very cute looking animal with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00490.png
+491,a robot with a yellow helmet and green legs,1280,1280,train,../outputs/data/5065ef75cdc2/train/00491.png
+492,a very cute looking pokemon with big wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00492.png
+493,a drawing of a very cute looking pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00493.png
+494,a cartoon bird flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00494.png
+495,a blue stuffed animal sitting on top of a white surface,1280,1280,train,../outputs/data/5065ef75cdc2/train/00495.png
+496,a drawing of a purple butterfly with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00496.png
+497,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00497.png
+498,a drawing of a black and white cat with green eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00498.png
+499,a drawing of a cat with a flower on its back,1280,1280,test,../outputs/data/5065ef75cdc2/test/00499.png
+500,a drawing of a green and white bird,1280,1280,train,../outputs/data/5065ef75cdc2/train/00500.png
+501,a drawing of a white and black pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00501.png
+502,a very cute looking pokemon with a big hat on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00502.png
+503,a green and yellow bird with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00503.png
+504,a green and white pokemon with leaves on its back,1280,1280,test,../outputs/data/5065ef75cdc2/test/00504.png
+505,a drawing of a green and yellow lizard,1280,1280,train,../outputs/data/5065ef75cdc2/train/00505.png
+506,a cartoon character with a big nose and a big nose,1280,1280,train,../outputs/data/5065ef75cdc2/train/00506.png
+507,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00507.png
+508,a drawing of a red and white pokemon,956,956,test,../outputs/data/5065ef75cdc2/test/00508.png
+509,a cartoon character with a pink nose sitting in a pile of rocks,755,755,test,../outputs/data/5065ef75cdc2/test/00509.png
+510,a very cute looking pokemon character with big eyes,1280,1280,test,../outputs/data/5065ef75cdc2/test/00510.png
+511,a cartoon character is holding a baseball bat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00511.png
+512,a drawing of a cat sitting on top of a ball,1280,1280,train,../outputs/data/5065ef75cdc2/train/00512.png
+513,a drawing of a blue and yellow pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00513.png
+514,a cartoon character with a big smile on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00514.png
+515,a drawing of a cartoon character in a striped outfit,1280,1280,train,../outputs/data/5065ef75cdc2/train/00515.png
+516,a very cute looking pokemon with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00516.png
+517,a drawing of a small dog with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00517.png
+518,a very cute looking animal with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00518.png
+519,a drawing of a cat with green eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00519.png
+520,a group of three brown rocks sitting on top of a pile of dirt,431,431,train,../outputs/data/5065ef75cdc2/train/00520.png
+521,a drawing of a cat with yellow and purple markings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00521.png
+522,a green and yellow cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00522.png
+523,a green and yellow pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00523.png
+524,a drawing of a red and yellow pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00524.png
+525,a very cute looking pokemon character with big ears,1280,1280,train,../outputs/data/5065ef75cdc2/train/00525.png
+526,a cartoon character with blue hair and a blue hat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00526.png
+527,a drawing of a cartoon character with blue hair,1280,1280,train,../outputs/data/5065ef75cdc2/train/00527.png
+528,a drawing of a pink ball with a flower on it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00528.png
+529,a cartoon character sleeping on top of a ball,1280,1280,train,../outputs/data/5065ef75cdc2/train/00529.png
+530,a bird with yellow eyes and a black beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00530.png
+531,a drawing of a cat that is smiling,431,431,train,../outputs/data/5065ef75cdc2/train/00531.png
+532,a black and white bird with a red beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00532.png
+533,a cartoon bird with a pink beak and a green tail,431,431,train,../outputs/data/5065ef75cdc2/train/00533.png
+534,a black and white animal with a lightning bolt on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00534.png
+535,a black and white zebra standing next to a star,1280,1280,train,../outputs/data/5065ef75cdc2/train/00535.png
+536,a paper model of a tortoise shell,1280,1280,train,../outputs/data/5065ef75cdc2/train/00536.png
+537,a close up of a very cute looking pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00537.png
+538,a very cute looking pokemon with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00538.png
+539,a blue and black bat with black wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00539.png
+540,a cartoon of a flying bat with a heart on it's chest,1280,1280,train,../outputs/data/5065ef75cdc2/train/00540.png
+541,a cartoon character with a big smile on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00541.png
+542,a drawing of a cat with red eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00542.png
+543,a very cute looking animal with a big nose,1280,1280,train,../outputs/data/5065ef75cdc2/train/00543.png
+544,a drawing of an animal with wings and a tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00544.png
+545,a pink and white cartoon character with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00545.png
+546,a cartoon mouse with a pink shirt and tie,1280,1280,train,../outputs/data/5065ef75cdc2/train/00546.png
+547,a cartoon character holding a large piece of wood,1280,1280,train,../outputs/data/5065ef75cdc2/train/00547.png
+548,a cartoon character holding onto a pole,1280,1280,train,../outputs/data/5065ef75cdc2/train/00548.png
+549,a cartoon character with a smile on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00549.png
+550,a blue and black animal with a hat on it's head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00550.png
+551,a blue and black cartoon character with big eyes,1280,1280,test,../outputs/data/5065ef75cdc2/test/00551.png
+552,a cartoon character in a karate outfit,1280,1280,train,../outputs/data/5065ef75cdc2/train/00552.png
+553,a drawing of a cartoon character in blue and black,1280,1280,train,../outputs/data/5065ef75cdc2/train/00553.png
+554,a drawing of a cartoon bird with a surprised look on its face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00554.png
+555,a cartoon bird with a green leaf around its neck,1280,1280,train,../outputs/data/5065ef75cdc2/train/00555.png
+556,a green cartoon character with a sad look,1280,1280,train,../outputs/data/5065ef75cdc2/train/00556.png
+557,a drawing of a green plant with a yellow face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00557.png
+558,a pink and green cartoon character with large eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00558.png
+559,a very cute looking animal with horns on it's head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00559.png
+560,a very cute looking cartoon character with big horns,1280,1280,train,../outputs/data/5065ef75cdc2/train/00560.png
+561,a green and white cloud with two orange eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00561.png
+562,a drawing of a cartoon character with green eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00562.png
+563,a cartoon character with a green leaf on top of it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00563.png
+564,a cartoon character with a crown on his head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00564.png
+565,a drawing of a blue pokemon pokemon character,1280,1280,train,../outputs/data/5065ef75cdc2/train/00565.png
+566,a cartoon green fish with a big smile on it's face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00566.png
+567,a drawing of a green bird with a knife in its mouth,1280,1280,train,../outputs/data/5065ef75cdc2/train/00567.png
+568,a brown and black animal with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00568.png
+569,a drawing of a cartoon character wearing sunglasses,1280,1280,train,../outputs/data/5065ef75cdc2/train/00569.png
+570,a red and black dragon standing in front of a white background,1280,1280,train,../outputs/data/5065ef75cdc2/train/00570.png
+571,an image of a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00571.png
+572,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00572.png
+573,a green and yellow cartoon character holding a flower,1280,1280,train,../outputs/data/5065ef75cdc2/train/00573.png
+574,a cartoon picture of a giant rock with eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00574.png
+575,a cartoon picture of a giant spider crawling out of a rock,1280,1280,train,../outputs/data/5065ef75cdc2/train/00575.png
+576,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00576.png
+577,a drawing of a cat with its arms in the air,431,431,train,../outputs/data/5065ef75cdc2/train/00577.png
+578,a cartoon character with a scarf around his neck,1280,1280,train,../outputs/data/5065ef75cdc2/train/00578.png
+579,a cartoon bird with multicolored wings and a black beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00579.png
+580,a cartoon character is holding a banana,1280,1280,train,../outputs/data/5065ef75cdc2/train/00580.png
+581,a picture of a cartoon character on a cell phone,1280,1280,train,../outputs/data/5065ef75cdc2/train/00581.png
+582,a cartoon turtle with a helmet on its head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00582.png
+583,a drawing of a blue and black pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00583.png
+584,a very cute looking bird with big wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00584.png
+585,a very cute looking pokemon with big wings,1280,1280,test,../outputs/data/5065ef75cdc2/test/00585.png
+586,a very cute looking green pokemon with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00586.png
+587,a cartoon character sitting on the ground with a cell phone in his hand,431,431,train,../outputs/data/5065ef75cdc2/train/00587.png
+588,a cartoon picture of a cat with its head in the air,431,431,train,../outputs/data/5065ef75cdc2/train/00588.png
+589,a drawing of a cat with red hair and blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00589.png
+590,a drawing of a red and black furry animal,1280,1280,train,../outputs/data/5065ef75cdc2/train/00590.png
+591,a cartoon of a white and gray animal,1280,1280,train,../outputs/data/5065ef75cdc2/train/00591.png
+592,a drawing of a white rabbit holding a piece of paper,1280,1280,train,../outputs/data/5065ef75cdc2/train/00592.png
+593,a purple and black animal with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00593.png
+594,a drawing of a black and white cat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00594.png
+595,a black and white cat with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00595.png
+596,a picture of a cartoon character with horns,1280,1280,train,../outputs/data/5065ef75cdc2/train/00596.png
+597,a cartoon character with a sad look on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00597.png
+598,a cartoon character flying through the air,1280,1280,test,../outputs/data/5065ef75cdc2/test/00598.png
+599,a drawing of a furry animal sitting down,1280,1280,train,../outputs/data/5065ef75cdc2/train/00599.png
+600,a blue bird with yellow feet and a yellow beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00600.png
+601,a white and blue bird with a yellow beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00601.png
+602,a cartoon character with a big smile on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00602.png
+603,a blue and white cartoon character flying through the air,431,431,train,../outputs/data/5065ef75cdc2/train/00603.png
+604,a drawing of a blue and white object floating in water,431,431,train,../outputs/data/5065ef75cdc2/train/00604.png
+605,a drawing of a deer with a bow on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00605.png
+609,a drawing of a deer standing under a tree,1280,1280,train,../outputs/data/5065ef75cdc2/train/00609.png
+610,a drawing of a deer with flowers on its antlers,1280,1280,train,../outputs/data/5065ef75cdc2/train/00610.png
+611,a cartoon of a deer with a tree on its back,1280,1280,train,../outputs/data/5065ef75cdc2/train/00611.png
+612,a drawing of a deer with antlers on it's head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00612.png
+613,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00613.png
+614,a blue and yellow cartoon character with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00614.png
+615,a drawing of a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00615.png
+616,a drawing of a furry animal wearing a vest,1280,1280,train,../outputs/data/5065ef75cdc2/train/00616.png
+617,a mushroom with a pink nose and a brown cap,1280,1280,train,../outputs/data/5065ef75cdc2/train/00617.png
+618,a cartoon character with a mushroom on his head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00618.png
+619,a blue and white cartoon character with red eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00619.png
+620,a blue and white cartoon character with a crown on his head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00620.png
+621,a drawing of a pink fish with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00621.png
+622,a drawing of a pikachu with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00622.png
+623,a very cute looking pokemon pikachu with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00623.png
+624,a drawing of a ball with spikes on it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00624.png
+625,a drawing of a flying object with green eyes,431,431,test,../outputs/data/5065ef75cdc2/test/00625.png
+626,a couple of gears with eyes on them,1280,1280,train,../outputs/data/5065ef75cdc2/train/00626.png
+627,a cartoon of a blue and black dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00627.png
+628,a drawing of a fire breathing dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00628.png
+629,a cartoon of a fire breathing dragon,1280,1280,test,../outputs/data/5065ef75cdc2/test/00629.png
+630,a cartoon character with a target in his mouth,431,431,train,../outputs/data/5065ef75cdc2/train/00630.png
+631,a couple of gears sitting next to each other,1280,1280,train,../outputs/data/5065ef75cdc2/train/00631.png
+632,a close up of a metal object on a white background,431,431,train,../outputs/data/5065ef75cdc2/train/00632.png
+633,a white object with a yellow line on it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00633.png
+634,a cartoon fish with a big smile on it's face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00634.png
+635,a drawing of a blue and yellow dragon,431,431,train,../outputs/data/5065ef75cdc2/train/00635.png
+636,a drawing of a cartoon character holding a tennis racket,431,431,train,../outputs/data/5065ef75cdc2/train/00636.png
+637,a cartoon character with green eyes and a hat,431,431,test,../outputs/data/5065ef75cdc2/test/00637.png
+638,a candle with a blue flame on top of it,1280,1280,train,../outputs/data/5065ef75cdc2/train/00638.png
+639,a black and white picture of a cat wearing a witches hat,431,431,train,../outputs/data/5065ef75cdc2/train/00639.png
+640,a blue and black chandelier with flames coming out of it,431,431,train,../outputs/data/5065ef75cdc2/train/00640.png
+641,a blue and white cartoon character holding a target,431,431,train,../outputs/data/5065ef75cdc2/train/00641.png
+642,a drawing of a green and black pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00642.png
+643,a very cute looking pokemon with a big beak,1280,1280,train,../outputs/data/5065ef75cdc2/train/00643.png
+644,a drawing of a green and black dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00644.png
+645,a cartoon elephant with a sad look on its face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00645.png
+646,a white bear with a blue ribbon around its neck,431,431,test,../outputs/data/5065ef75cdc2/test/00646.png
+647,a blue and white cube is shown in the shape of a cube,431,431,train,../outputs/data/5065ef75cdc2/train/00647.png
+648,a cartoon character with a big smile on his face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00648.png
+649,a drawing of a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00649.png
+650,a cartoon bird with a hat on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00650.png
+651,a drawing of a cartoon character with a boxing glove,431,431,train,../outputs/data/5065ef75cdc2/train/00651.png
+652,a blue cartoon character with a target in his hand,431,431,train,../outputs/data/5065ef75cdc2/train/00652.png
+653,a drawing of a cartoon character in purple and white,431,431,test,../outputs/data/5065ef75cdc2/test/00653.png
+654,a red and blue dragon with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00654.png
+655,a stylized image of a blue and brown robot,431,431,train,../outputs/data/5065ef75cdc2/train/00655.png
+656,an image of a cartoon character in a blue outfit,431,431,test,../outputs/data/5065ef75cdc2/test/00656.png
+657,a cartoon character with a sword in his hand,431,431,train,../outputs/data/5065ef75cdc2/train/00657.png
+658,a cartoon character with a sword in his hand,431,431,train,../outputs/data/5065ef75cdc2/train/00658.png
+659,a cartoon bison with horns and horns on it's head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00659.png
+660,a blue and white bird with a red beak,431,431,train,../outputs/data/5065ef75cdc2/train/00660.png
+661,a cartoon bird with a re,1280,1280,train,../outputs/data/5065ef75cdc2/train/00661.png
+662,a pokemon ball with a bird on top of it,431,431,train,../outputs/data/5065ef75cdc2/train/00662.png
+663,a drawing of a yellow pokemon sitting on the ground,891,891,train,../outputs/data/5065ef75cdc2/train/00663.png
+664,a bird with a large beak and a large beak,431,431,train,../outputs/data/5065ef75cdc2/train/00664.png
+665,a cartoon bird with a red and yellow striped shirt,431,431,train,../outputs/data/5065ef75cdc2/train/00665.png
+666,a drawing of a spider on a white background,431,431,train,../outputs/data/5065ef75cdc2/train/00666.png
+667,a drawing of a pokemon with blue eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00667.png
+668,a drawing of a pokemon pokemon with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00668.png
+669,a very cute looking pokemon with big wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00669.png
+670,a drawing of an animal with blue eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00670.png
+671,a drawing of a flower with a bird on it,431,431,test,../outputs/data/5065ef75cdc2/test/00671.png
+672,a drawing of a blue and white pokemon,1280,1280,test,../outputs/data/5065ef75cdc2/test/00672.png
+673,a very cute looking animal with big ears,1280,1280,train,../outputs/data/5065ef75cdc2/train/00673.png
+674,a cartoon character with a fork and spoon in his hand,1029,1029,train,../outputs/data/5065ef75cdc2/train/00674.png
+675,a drawing of a green and white pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00675.png
+676,a drawing of a cartoon character on a cloud,1280,1280,train,../outputs/data/5065ef75cdc2/train/00676.png
+677,a green and purple cartoon character with wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00677.png
+678,a drawing of a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00678.png
+679,a very cute looking cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00679.png
+680,a drawing of a white pokemon with wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00680.png
+681,a drawing of a black and gray dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00681.png
+682,a cartoon character with a hat on top of his head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00682.png
+683,a very cute looking pokemon with big eyes,1280,1280,test,../outputs/data/5065ef75cdc2/test/00683.png
+684,a cartoon of a black and white pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00684.png
+685,a drawing of a pokemon type pokemon type pokemon type pokemon type pokemon type pokemon type,1280,1280,train,../outputs/data/5065ef75cdc2/train/00685.png
+686,a drawing of a pokemon type pokemon type pokemon type pokemon type pokemon type pokemon type,1280,1280,train,../outputs/data/5065ef75cdc2/train/00686.png
+687,a drawing of a pony with red hair,1280,1280,train,../outputs/data/5065ef75cdc2/train/00687.png
+688,a drawing of a pony with a blue tail,431,431,train,../outputs/data/5065ef75cdc2/train/00688.png
+689,a drawing of a person with a hat on,1280,1280,train,../outputs/data/5065ef75cdc2/train/00689.png
+690,a drawing of a cartoon character with long hair,1280,1280,train,../outputs/data/5065ef75cdc2/train/00690.png
+691,a drawing of a purple creature with a big smile on it's face,1280,1280,train,../outputs/data/5065ef75cdc2/train/00691.png
+692,a picture of a cartoon character with spoons and spoons,859,859,test,../outputs/data/5065ef75cdc2/test/00692.png
+693,a drawing of a yellow and black pokemon,431,431,train,../outputs/data/5065ef75cdc2/train/00693.png
+694,a drawing of a cartoon character with a green hat,1280,1280,train,../outputs/data/5065ef75cdc2/train/00694.png
+695,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00695.png
+696,a picture of a cartoon character in a costume,431,431,train,../outputs/data/5065ef75cdc2/train/00696.png
+697,a drawing of a yellow and red pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00697.png
+698,a drawing of a fox with a red tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00698.png
+699,a drawing of a red and yellow bird holding a stick,431,431,train,../outputs/data/5065ef75cdc2/train/00699.png
+700,a blue and white cartoon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00700.png
+701,a blue and white cartoon character running,1280,1280,train,../outputs/data/5065ef75cdc2/train/00701.png
+702,a picture of a cartoon character with blue and yellow hair,431,431,train,../outputs/data/5065ef75cdc2/train/00702.png
+703,a cartoon rabbit with a scarf around its neck,1280,1280,test,../outputs/data/5065ef75cdc2/test/00703.png
+704,a drawing of a cartoon character with a big smile on his face,1032,1032,train,../outputs/data/5065ef75cdc2/train/00704.png
+705,a cartoon bunny holding a piece of cheese,431,431,train,../outputs/data/5065ef75cdc2/train/00705.png
+706,a bird with an arrow in its beak,1137,1137,train,../outputs/data/5065ef75cdc2/train/00706.png
+707,a small bird with a black and white tail,431,431,train,../outputs/data/5065ef75cdc2/train/00707.png
+708,a red bird with black wings flying through the air,1280,1280,test,../outputs/data/5065ef75cdc2/test/00708.png
+709,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00709.png
+710,a drawing of a cartoon character with eyes and a nose,1280,1280,test,../outputs/data/5065ef75cdc2/test/00710.png
+711,a picture of a butterfly made out of paper,272,272,test,../outputs/data/5065ef75cdc2/test/00711.png
+712,a picture of a yellow butterfly on a white background,431,431,train,../outputs/data/5065ef75cdc2/train/00712.png
+713,a purple butterfly with orange and pink stripes,431,431,test,../outputs/data/5065ef75cdc2/test/00713.png
+716,a picture of a butterfly that is orange and green,431,431,test,../outputs/data/5065ef75cdc2/test/00716.png
+717,a black and white photo of a butterfly,272,272,test,../outputs/data/5065ef75cdc2/test/00717.png
+719,a blue butterfly with white stripes on its wings,431,431,test,../outputs/data/5065ef75cdc2/test/00719.png
+720,a pink butterfly with black wings and a white background,272,272,test,../outputs/data/5065ef75cdc2/test/00720.png
+721,a butterfly with a flag on it's wings,272,272,train,../outputs/data/5065ef75cdc2/train/00721.png
+722,a picture of a butterfly with blue and black wings,272,272,train,../outputs/data/5065ef75cdc2/train/00722.png
+723,a colorful butterfly that is on a white background,272,272,train,../outputs/data/5065ef75cdc2/train/00723.png
+724,a red and black butterfly sitting on top of a white background,1280,1280,train,../outputs/data/5065ef75cdc2/train/00724.png
+725,a blue butterfly with white dots on it's wings,272,272,train,../outputs/data/5065ef75cdc2/train/00725.png
+727,a yellow and black butterfly on a white background,272,272,train,../outputs/data/5065ef75cdc2/train/00727.png
+728,a blue and yellow butterfly with yellow stripes,272,272,train,../outputs/data/5065ef75cdc2/train/00728.png
+729,a yellow and red butterfly on a white background,272,272,train,../outputs/data/5065ef75cdc2/train/00729.png
+730,a blue butterfly with white dots on its wings,272,272,train,../outputs/data/5065ef75cdc2/train/00730.png
+731,a pink butterfly with a black and white stripe on it's wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00731.png
+732,a cartoon animal with a red mohawk on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00732.png
+733,a drawing of a cat with blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00733.png
+734,a cartoon character is sitting on a flower,1280,1280,train,../outputs/data/5065ef75cdc2/train/00734.png
+735,a drawing of a cartoon character with his hands on his hips,1043,1043,train,../outputs/data/5065ef75cdc2/train/00735.png
+736,a cartoon character with a flower on his head,431,431,train,../outputs/data/5065ef75cdc2/train/00736.png
+737,a drawing of a flower with green leaves,401,401,train,../outputs/data/5065ef75cdc2/train/00737.png
+738,a cartoon of a horned animal with a green scarf around its neck,1280,1280,train,../outputs/data/5065ef75cdc2/train/00738.png
+739,a drawing of a horned animal with horns,1280,1280,train,../outputs/data/5065ef75cdc2/train/00739.png
+740,a cartoon panda with a leaf in its mouth,1261,1261,test,../outputs/data/5065ef75cdc2/test/00740.png
+741,a drawing of a panda smoking a cigarette,1280,1280,train,../outputs/data/5065ef75cdc2/train/00741.png
+742,a cartoon sheep is holding a hot dog,1280,1280,train,../outputs/data/5065ef75cdc2/train/00742.png
+743,a black and white poodle with a heart on its tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00743.png
+744,a drawing of a black and white poodle,1280,1280,train,../outputs/data/5065ef75cdc2/train/00744.png
+745,a drawing of a furry white dog with red eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00745.png
+746,a drawing of a cartoon character with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00746.png
+747,a drawing of a blue and white cat with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00747.png
+748,a drawing of a blue and a brown monster,1280,1280,train,../outputs/data/5065ef75cdc2/train/00748.png
+749,a cartoon of a man with his arms in the air,980,980,train,../outputs/data/5065ef75cdc2/train/00749.png
+750,a drawing of a pair of owls with pink wings,431,431,train,../outputs/data/5065ef75cdc2/train/00750.png
+751,a yellow and black tie and a purple and white tie,431,431,train,../outputs/data/5065ef75cdc2/train/00751.png
+752,a drawing of a cartoon character with wings,431,431,train,../outputs/data/5065ef75cdc2/train/00752.png
+753,a couple of cartoon style items on a white background,594,594,test,../outputs/data/5065ef75cdc2/test/00753.png
+754,a pink bird with orange eyes and a pink tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00754.png
+755,a drawing of a purple monster with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00755.png
+756,a white cloud with pink eyes and a pink nose,1280,1280,train,../outputs/data/5065ef75cdc2/train/00756.png
+757,a cartoon character with pink hair and a pom pom on top of it,431,431,test,../outputs/data/5065ef75cdc2/test/00757.png
+758,a cartoon character with a hat on his head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00758.png
+759,a drawing of a cartoon character with blue hair,1280,1280,train,../outputs/data/5065ef75cdc2/train/00759.png
+760,a drawing of a cartoon character with two arms in the air,431,431,train,../outputs/data/5065ef75cdc2/train/00760.png
+761,a drawing of a cartoon character with claws,410,410,train,../outputs/data/5065ef75cdc2/train/00761.png
+762,a drawing of a plant with a face on it,431,431,train,../outputs/data/5065ef75cdc2/train/00762.png
+763,a drawing of a cartoon character with a big smile,1280,1280,train,../outputs/data/5065ef75cdc2/train/00763.png
+764,a drawing of a lizard with a flower on its head,431,431,train,../outputs/data/5065ef75cdc2/train/00764.png
+765,a cartoon character flying through the air,1280,1280,train,../outputs/data/5065ef75cdc2/train/00765.png
+766,a blue bird with a yellow beak on it's head,431,431,train,../outputs/data/5065ef75cdc2/train/00766.png
+767,a yellow and black pokemon with big blue eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00767.png
+768,a drawing of a cartoon character in a yellow outfit,431,431,train,../outputs/data/5065ef75cdc2/train/00768.png
+769,a drawing of a dragon with its mouth open,1280,1280,train,../outputs/data/5065ef75cdc2/train/00769.png
+770,a cartoon of a red and white dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00770.png
+771,a drawing of a blue bird with a yellow crown on its head,1280,1280,train,../outputs/data/5065ef75cdc2/train/00771.png
+772,a drawing of a blue dinosaur with wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00772.png
+773,a drawing of a blue and brown turtle,1280,1280,train,../outputs/data/5065ef75cdc2/train/00773.png
+774,a yellow and green animal with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00774.png
+775,a drawing of a pink and blue pokemon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00775.png
+776,a drawing of a bird with a long tail,429,429,train,../outputs/data/5065ef75cdc2/train/00776.png
+777,a yellow and black cartoon character with big ears,1280,1280,train,../outputs/data/5065ef75cdc2/train/00777.png
+778,a gray and white pokemon ball with blue eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00778.png
+779,a purple and green bird with a long tail,418,418,train,../outputs/data/5065ef75cdc2/train/00779.png
+780,a white and purple cartoon character with green eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00780.png
+781,a drawing of a purple and green dragon,405,405,train,../outputs/data/5065ef75cdc2/train/00781.png
+782,a drawing of a key with a face on it,399,399,train,../outputs/data/5065ef75cdc2/train/00782.png
+783,a cartoon character with a weird look on his face,414,414,train,../outputs/data/5065ef75cdc2/train/00783.png
+784,a drawing of a creature with two green leaves,431,431,train,../outputs/data/5065ef75cdc2/train/00784.png
+785,a cartoon character with a green leaf on his head,431,431,train,../outputs/data/5065ef75cdc2/train/00785.png
+786,a drawing of a pumpkin with a bird on top of it,431,431,train,../outputs/data/5065ef75cdc2/train/00786.png
+787,a drawing of a pumpkin with a bird on top of it,417,417,train,../outputs/data/5065ef75cdc2/train/00787.png
+788,a close up of a cartoon character with big eyes,839,839,test,../outputs/data/5065ef75cdc2/test/00788.png
+789,a picture of a piece of clothing with a scarf on top of it,834,834,train,../outputs/data/5065ef75cdc2/train/00789.png
+790,a drawing of a cartoon character flying through the air,431,431,train,../outputs/data/5065ef75cdc2/train/00790.png
+791,a drawing of a dragon with a green and white tail,1280,1280,train,../outputs/data/5065ef75cdc2/train/00791.png
+792,a drawing of a deer with colorful feathers on it's head,1280,1280,test,../outputs/data/5065ef75cdc2/test/00792.png
+793,a drawing of a red and black dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00793.png
+794,a green and black bird with spots on it's wings,426,426,train,../outputs/data/5065ef75cdc2/train/00794.png
+795,a drawing of a woman in a pink dress,1280,1280,train,../outputs/data/5065ef75cdc2/train/00795.png
+796,a drawing of a woman standing on top of a rock,1280,1280,train,../outputs/data/5065ef75cdc2/train/00796.png
+797,a close up of a cartoon character on a white background,869,869,train,../outputs/data/5065ef75cdc2/train/00797.png
+798,a drawing of a cartoon character in pink and grey,1280,1280,train,../outputs/data/5065ef75cdc2/train/00798.png
+799,a cartoon character holding onto a ring,1280,1280,train,../outputs/data/5065ef75cdc2/train/00799.png
+800,a drawing of a red and yellow dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00800.png
+801,a blue jellyfish with red eyes and a red nose,899,899,train,../outputs/data/5065ef75cdc2/train/00801.png
+802,a drawing of a cartoon character with arms and legs,902,902,train,../outputs/data/5065ef75cdc2/train/00802.png
+803,a drawing of a creature with a big smile on its face,892,892,train,../outputs/data/5065ef75cdc2/train/00803.png
+804,a cartoon picture of a giant turtle with its mouth open,872,872,train,../outputs/data/5065ef75cdc2/train/00804.png
+805,a picture of a unicorn with orange hair,431,431,train,../outputs/data/5065ef75cdc2/train/00805.png
+806,a picture of a white horse with orange and yellow flames,431,431,train,../outputs/data/5065ef75cdc2/train/00806.png
+807,a pink animal laying on top of a white floor,431,431,train,../outputs/data/5065ef75cdc2/train/00807.png
+808,a cartoon picture of a blue and white pokemon,944,944,train,../outputs/data/5065ef75cdc2/train/00808.png
+809,a cartoon character is holding a large object,1280,1280,test,../outputs/data/5065ef75cdc2/test/00809.png
+810,a pink and a blue pokemon sitting next to each other,1024,1024,train,../outputs/data/5065ef75cdc2/train/00810.png
+811,a drawing of a cartoon character holding a wrench,937,937,train,../outputs/data/5065ef75cdc2/train/00811.png
+812,a drawing of a group of cartoon characters,937,937,train,../outputs/data/5065ef75cdc2/train/00812.png
+813,a bird with a scarf around its neck,431,431,train,../outputs/data/5065ef75cdc2/train/00813.png
+814,a cartoon of two birds standing next to each other,1280,1280,train,../outputs/data/5065ef75cdc2/train/00814.png
+815,a drawing of a bird with two wings,1280,1280,train,../outputs/data/5065ef75cdc2/train/00815.png
+816,a drawing of a cartoon seal with its mouth open,431,431,train,../outputs/data/5065ef75cdc2/train/00816.png
+817,a white ghost floating in the air,431,431,train,../outputs/data/5065ef75cdc2/train/00817.png
+818,a purple cartoon character pointing at something,431,431,train,../outputs/data/5065ef75cdc2/train/00818.png
+819,a cartoon of a purple sea creature with its mouth open,899,899,train,../outputs/data/5065ef75cdc2/train/00819.png
+820,a drawing of a cartoon character holding a gun,1280,1280,train,../outputs/data/5065ef75cdc2/train/00820.png
+821,a drawing of a turtle holding a roll of toilet paper,1280,1280,train,../outputs/data/5065ef75cdc2/train/00821.png
+822,a cartoon character with a tongue sticking out,431,431,train,../outputs/data/5065ef75cdc2/train/00822.png
+823,an image of a cartoon character in a shell,1280,1280,train,../outputs/data/5065ef75cdc2/train/00823.png
+824,a black and white cartoon character with big eyes,431,431,train,../outputs/data/5065ef75cdc2/train/00824.png
+825,a drawing of a cat with a hat on it's head,431,431,train,../outputs/data/5065ef75cdc2/train/00825.png
+826,a drawing of an angry looking animal with red and purple stripes,915,915,train,../outputs/data/5065ef75cdc2/train/00826.png
+827,a very cute looking pokemon character with big eyes,1280,1280,train,../outputs/data/5065ef75cdc2/train/00827.png
+828,a cartoon picture of a stone dragon,1280,1280,train,../outputs/data/5065ef75cdc2/train/00828.png
+829,a drawing of a yellow and gray pokemon character,431,431,train,../outputs/data/5065ef75cdc2/train/00829.png
+830,a drawing of a cat with a wheel in his hand,431,431,train,../outputs/data/5065ef75cdc2/train/00830.png
+831,a drawing of a cartoon character with two eyes,431,431,test,../outputs/data/5065ef75cdc2/test/00831.png
+832,a drawing of a cartoon character laying on the ground,431,431,train,../outputs/data/5065ef75cdc2/train/00832.png

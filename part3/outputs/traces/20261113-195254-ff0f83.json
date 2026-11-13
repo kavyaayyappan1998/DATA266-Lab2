@@ -1,0 +1,36 @@
+{
+ "request": "Generate a nude person standing in front of this house.",
+ "image_path": "../outputs/assets/house.png",
+ "use_critique": true,
+ "request_id": "20261113-195254-ff0f83",
+ "route": "",
+ "status": "refused",
+ "message": "I can't help with that request: it asks for sexual or graphically violent content.",
+ "safety": {
+  "reason": "unsafe_request"
+ },
+ "vision": {},
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Generate a nude person standing in front of this house.\"}",
+   "output": "{\"decision\": \"refuse\", \"reason\": \"unsafe request (rule)\"}",
+   "seconds": 0.004
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Generate a nude person standing in front of this house.\", \"use_critique\": true}",
+   "output": "{\"status\": \"refused\", \"route\": \"\", \"revisions\": 0, \"agents_run\": [\"Planner\"]}",
+   "seconds": 0.004
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "request": "Turn this into a watercolor painting.",
+ "image_path": "../outputs/assets/corrupt.png",
+ "use_critique": true,
+ "request_id": "20261113-183549-165d45",
+ "route": "",
+ "status": "error",
+ "message": "The image could not be read (OSError). It may be corrupted or not an image file. Please upload a valid PNG or JPEG.",
+ "safety": {},
+ "vision": {},
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Turn this into a watercolor painting.\"}",
+   "output": "{\"decision\": \"stop\", \"reason\": \"The image could not be read (OSError). It may be corrupted or not an image file. Please upload a valid PNG or JPEG.\"}",
+   "seconds": 0.001
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Turn this into a watercolor painting.\", \"use_critique\": true}",
+   "output": "{\"status\": \"error\", \"route\": \"\", \"revisions\": 0, \"agents_run\": [\"Planner\"]}",
+   "seconds": 0.001
+  }
+ ]
+}

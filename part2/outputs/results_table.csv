@@ -1,0 +1,4 @@
+model,KID in-domain (lower better),KID std,KID n,KID larger set (n=76),KID larger set std,CLIP score (all 40),CLIP in_domain,CLIP out_of_domain,CLIP compositional,LPIPS diversity,Held-out loss,GPU-hours (train),Peak GPU GB (train),KID larger set (n=70),KID larger set (n=64)
+base,0.0877,0.0098,20,0.0647,0.0049,33.19,33.36,33.08,32.96,0.753,0.0587,0.0,0.0,,
+run1_lora_r4,0.0323,0.0061,18,,0.0035,31.55,30.74,32.27,32.44,0.747,0.0562,0.122,3.82,0.0235,
+run2_lora_r16,0.0353,0.0081,17,,0.0026,31.44,30.54,32.71,31.98,0.784,0.0561,0.122,3.87,,0.023

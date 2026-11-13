@@ -1,0 +1,11 @@
+diffusers==0.43.0
+transformers==5.23.0
+accelerate==1.15.0
+peft==0.21.3
+datasets==5.2.0
+torchmetrics==1.9.0
+torch-fidelity==0.4.0
+lpips==0.1.4
+huggingface_hub==2.4.0
+torch==2.12.0+cu132
+torchvision==0.27.0+cu132

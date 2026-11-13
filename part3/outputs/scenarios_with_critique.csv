@@ -1,0 +1,29 @@
+id,category,request,route,status,auto_pass,failed_checks,attempts,critic_decision,clip_prompt_match,clip_subject_kept,seconds,output,message,request_id
+C1,caption_question,Describe this image.,caption_question,done,True,,0,,,,181.893,,"The image depicts a simple house with a brown roof and red walls, situated next to a green tree under a bright yellow sun in a clear blue sky.
+
+Caption: A simple house with a brown roof and red walls, next to a green tree and a yellow sun in a blue sky.
+Main objects: {'name': 'house', 'bbox_2d': [13",20261113-191906-f6fb27
+C2,caption_question,What does the sign say?,caption_question,done,True,,0,,,,125.332,,"The sign says 'CAFE OPEN 9-5'.
+
+Caption: A simple illustration of a cafe entrance with a sign indicating its opening hours.
+Main objects: {'bbox_2d': [39, 168, 470, 425], 'label': 'cafe entrance'}
+
+Text visible in the image: ""CAFE OPEN 9-5""",20261113-192207-6321fc
+C3,caption_question,How many apples are on the table?,caption_question,done,True,,0,,,,143.145,,"There are three apples on the table.
+
+Caption: Three red apples with green stems are placed side by side on a brown surface.
+Main objects: {'bbox_2d': [116, 214, 209, 328], 'label': 'apple'}, {'bbox_2d': [225, 217, 318, 327], 'label': 'apple'}, {'bbox_2d': [334, 214, 427, 325], 'label': 'apple'}
+
+Te",20261113-192413-d80b4f
+S1,style_change,Turn this into a watercolor painting.,style_change,error,False,status error != done; no output image,0,,,,182.602,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-192636-fe068f
+S2,style_change,Make it look like a pencil sketch.,style_change,error,False,status error != done; no output image,0,,,,97.454,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-192939-be832a
+S3,style_change,Render this scene in a cyberpunk neon style.,style_change,refused,False,status refused != done; no output image,0,block,,,156.99,,"The generated image was blocked by the output safety check, so it is not shown. Please try a different request.",20261113-193116-a3cdfc
+E1,edit_enhance,Change the sky to a sunset orange.,edit,error,False,status error != done; no output image,0,,,,180.417,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-193353-718dc9
+E2,edit_enhance,Replace the apples with oranges.,edit,error,False,status error != done; no output image,0,,,,95.288,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-193653-44ba26
+E3,edit_enhance,Enhance this image: sharpen it and improve the contrast.,enhancement,error,False,status error != done; no output image,0,,,,90.485,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-193829-a4f6fd
+D1,domain_style,Redraw this in Pokemon style.,domain_style,error,False,status error != done; no output image,0,,,,186.327,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-193959-c6ff4a
+D2,domain_style,Turn the apples into a Pokemon-style creature.,domain_style,error,False,status error != done; no output image,0,,,,107.69,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-194306-b9f1b0
+D3,domain_style,Make a Pokemon style version of this scene.,domain_style,error,False,status error != done; no output image,0,,,,149.097,,Critique failed: AttributeError: 'BaseModelOutputWithPooling' object has no attribute 'norm'. Nothing was changed; please try again or use a different image.,20261113-194453-4dacf4
+A1,ambiguous_broken,Make it better.,,needs_clarification,True,,0,,,,19.33,,"I'm not sure what you'd like me to do with this image. Could you say which of these you want: a description or an answer to a question, a style change (for example 'as a watercolor'), an edit ('make the sky orange'), an enhancement ('sharpen it'), or a Pokemon-style version?",20261113-194722-741319
+A2,ambiguous_broken,Turn this into a watercolor painting.,,error,True,,0,,,,0.001,,The image could not be read (OSError). It may be corrupted or not an image file. Please upload a valid PNG or JPEG.,20261113-194742-297de7
+A3,ambiguous_broken,Describe this image.,,error,True,,0,,,,0.004,,"The image looks blank (a single flat colour), so there is nothing to describe or edit. Please upload a different image.",20261113-194742-57aaba
