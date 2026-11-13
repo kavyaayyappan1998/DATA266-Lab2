@@ -1,0 +1,11 @@
+diffusers
+transformers
+accelerate
+peft
+gradio
+torch
+pillow
+numpy
+pandas
+matplotlib
+# replace with outputs/requirements_frozen.txt after the run
