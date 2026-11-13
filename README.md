@@ -179,17 +179,3 @@ tail -f run.log
 | 1 | Lab files in `part1/data` (or the Kaggle competition data attached) | The graded run must be a Kaggle notebook; it writes `submission.csv` |
 | 2 | `export HF_USER=...` and `export HF_TOKEN=...` in the terminal | Try `QUICK_TEST = True` first; uploads models and images to Hugging Face |
 | 3 | Set `LORA_REPO` in Step 0 to the Part 2 model | For the demo set `LAUNCH_APP = True` and `RUN_EVAL = False` |
-
-Never write a token into a notebook: notebooks are pushed to GitHub.
-
----
-
-## Submission checklist
-
-- [ ] Team number filled in (replace `##` in notebooks and READMEs)
-- [ ] All three notebooks executed with outputs saved
-- [ ] Part 1: golden set verified, Kaggle submission selected, human ratings done
-- [ ] Part 2: both models and the image dataset on Hugging Face, model card, 3-rater evaluation
-- [ ] Part 3: human evaluation and red-team review by both members
-- [ ] `CONTRIBUTIONS.md`, `AI_USAGE.md`, `links.txt`, IEEE report
-- [ ] Git tags `p1-v1.0`, `p2-v1.0`, `p3-v1.0` pushed before the deadline
