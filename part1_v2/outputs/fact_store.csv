@@ -1,180 +1,363 @@
-source,page_tag,doc_id,trust,entity,indicator,qualifier,year,period,value,kind
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,,2000-2007 (average),3.2,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2008.0,,1.5,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2009.0,,-2.3,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2010.0,,4.0,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2011.0,,3.0,forecast
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2012.0,,3.2,forecast
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,,2000-2007 (average),2.6,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2008.0,,0.1,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2009.0,,-3.7,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2010.0,,3.0,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2011.0,,1.6,forecast
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2012.0,,1.9,forecast
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,,2000-2007 (average),6.5,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2008.0,,6.0,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2009.0,,2.8,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2010.0,,7.3,outturn
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2011.0,,6.4,forecast
-DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2012.0,,6.0,forecast
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,,1980-1999 (average),3.0,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,,2000-2007 (average),2.6,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2008.0,,0.0,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2009.0,,-3.5,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2010.0,,3.0,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2011.0,,1.5,forecast
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2012.0,,1.8,forecast
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,,1980-1999 (average),6.5,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,,2000-2007 (average),5.0,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2008.0,,5.8,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2009.0,,9.3,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2010.0,,9.6,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2011.0,,9.1,forecast
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2012.0,,9.0,forecast
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,,1980-1999 (average),4.2,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,,2000-2007 (average),2.8,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2008.0,,3.8,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2009.0,,-0.3,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2010.0,,1.7,outturn
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2011.0,,2.9,forecast
-DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2012.0,,1.2,forecast
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,,1980-1999 (average),2.2,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,,2000-2007 (average),2.2,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2008.0,,0.4,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2009.0,,-4.2,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2010.0,,1.8,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2011.0,,1.6,forecast
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2012.0,,1.1,forecast
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,,1980-1999 (average),9.6,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,,2000-2007 (average),8.5,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2008.0,,7.6,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2009.0,,9.5,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2010.0,,10.1,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2011.0,,9.9,forecast
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2012.0,,9.9,forecast
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,,1980-1999 (average),5.2,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,,2000-2007 (average),2.3,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2008.0,,3.2,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2009.0,,0.3,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2010.0,,1.6,outturn
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2011.0,,2.5,forecast
-DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2012.0,,1.5,forecast
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,,1980-1999 (average),9.8,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,,2000-2007 (average),10.5,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2008.0,,9.6,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2009.0,,9.2,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2010.0,,10.3,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2011.0,,9.5,forecast
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2012.0,,9.0,forecast
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,,1980-1999 (average),2.7,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,,2000-2007 (average),3.9,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2008.0,,4.2,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2009.0,,4.3,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2010.0,,4.1,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2011.0,,4.0,forecast
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2012.0,,4.0,forecast
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,,1980-1999 (average),8.1,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,,2000-2007 (average),1.6,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2008.0,,5.9,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2009.0,,-0.6,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2010.0,,3.3,outturn
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2011.0,,5.5,forecast
-DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2012.0,,3.3,forecast
-DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2011.0,,3.0,forecast
-DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2011.0,,2.8,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2012.0,,3.2,forecast
-DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2012.0,,2.4,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2013.0,,2.4,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2011.0,,1.6,forecast
-DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2011.0,,1.5,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2012.0,,1.9,forecast
-DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2012.0,,1.2,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2013.0,,1.1,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2011.0,,6.4,forecast
-DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2011.0,,6.2,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2012.0,,6.0,forecast
-DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2012.0,,4.9,outturn
-DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2013.0,,4.6,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2011.0,,1.6,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2011.0,,1.5,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2012.0,,2.3,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2012.0,,1.8,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2013.0,,2.2,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2011.0,,8.9,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2011.0,,9.1,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2012.0,,8.1,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2012.0,,9.0,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2013.0,,7.4,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2011.0,,2.1,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2011.0,,2.9,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2012.0,,1.8,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2012.0,,1.2,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2013.0,,1.5,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2011.0,,1.6,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2011.0,,1.6,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2012.0,,-0.7,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2012.0,,1.1,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2013.0,,-0.4,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2011.0,,10.2,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2011.0,,9.9,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2012.0,,11.4,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2012.0,,9.9,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2013.0,,12.0,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2011.0,,1.3,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2011.0,,2.5,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2012.0,,1.3,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2012.0,,1.5,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2013.0,,1.4,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2011.0,,9.3,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2011.0,,9.5,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2012.0,,7.7,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2012.0,,9.0,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2013.0,,7.7,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2011.0,,4.1,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2011.0,,4.0,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2012.0,,4.1,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2012.0,,4.0,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2013.0,,4.1,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2011.0,,7.8,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2011.0,,5.5,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2012.0,,2.0,outturn
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2012.0,,3.3,forecast
-DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2013.0,,1.8,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2007.0,,18.9,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2007.0,,20.6,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2007.0,,-1.7,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2008.0,,17.6,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2008.0,,20.8,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2008.0,,-3.2,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2009.0,,15.1,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2009.0,,25.2,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2009.0,,-10.1,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2010.0,,16.2,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2010.0,,25.3,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2010.0,,-9.1,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2011.0,,15.8,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2011.0,,24.5,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2011.0,,-8.7,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2012.0,,16.4,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2012.0,,23.2,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2012.0,,-6.8,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2013.0,,17.5,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2013.0,,21.6,outturn
-DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2013.0,,-4.1,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,slope,united states 1961-2010,,,-0.42,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,intercept,united states 1961-2010,,,1.3,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,growth needed to keep unemployment constant,united states 1961-2010,,,3.1,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,slope,united states 1961-2013,,,-0.41,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,intercept,united states 1961-2013,,,1.19,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,growth needed to keep unemployment constant,united states 1961-2013,,,2.9,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,euro area,slope,euro area 1992-2013,,,-0.31,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,euro area,intercept,euro area 1992-2013,,,0.5,outturn
-DOC3:Table B-1,DOC3:p2,DOC3,medium,euro area,growth needed to keep unemployment constant,euro area 1992-2013,,,1.6,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2007.0,,4.6,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2007.0,,66.0,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2008.0,,5.8,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2008.0,,66.0,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2009.0,,9.3,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2009.0,,65.4,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2010.0,,9.8,outturn
-DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2010.0,,64.7,outturn
+source,page_tag,doc_id,trust,entity,indicator,qualifier,year,period,value,kind,origin
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,,2000-2007 (average),3.2,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2008.0,,1.5,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2009.0,,-2.3,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2010.0,,4.0,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2011.0,,3.0,forecast,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,world,,2012.0,,3.2,forecast,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,,2000-2007 (average),2.6,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2008.0,,0.1,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2009.0,,-3.7,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2010.0,,3.0,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2011.0,,1.6,forecast,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,advanced economies,,2012.0,,1.9,forecast,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,,2000-2007 (average),6.5,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2008.0,,6.0,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2009.0,,2.8,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2010.0,,7.3,outturn,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2011.0,,6.4,forecast,table
+DOC1:Table 1-1,DOC1:p1,DOC1,high,,emerging and developing economies,,2012.0,,6.0,forecast,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,,1980-1999 (average),3.0,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,,2000-2007 (average),2.6,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2008.0,,0.0,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2009.0,,-3.5,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2010.0,,3.0,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2011.0,,1.5,forecast,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,output growth,,2012.0,,1.8,forecast,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,,1980-1999 (average),6.5,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,,2000-2007 (average),5.0,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2008.0,,5.8,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2009.0,,9.3,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2010.0,,9.6,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2011.0,,9.1,forecast,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,unemployment,,2012.0,,9.0,forecast,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,,1980-1999 (average),4.2,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,,2000-2007 (average),2.8,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2008.0,,3.8,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2009.0,,-0.3,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2010.0,,1.7,outturn,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2011.0,,2.9,forecast,table
+DOC1:Table 1-2,DOC1:p5,DOC1,high,united states,inflation,,2012.0,,1.2,forecast,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,,1980-1999 (average),2.2,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,,2000-2007 (average),2.2,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2008.0,,0.4,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2009.0,,-4.2,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2010.0,,1.8,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2011.0,,1.6,forecast,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,output growth,,2012.0,,1.1,forecast,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,,1980-1999 (average),9.6,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,,2000-2007 (average),8.5,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2008.0,,7.6,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2009.0,,9.5,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2010.0,,10.1,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2011.0,,9.9,forecast,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,unemployment,,2012.0,,9.9,forecast,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,,1980-1999 (average),5.2,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,,2000-2007 (average),2.3,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2008.0,,3.2,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2009.0,,0.3,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2010.0,,1.6,outturn,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2011.0,,2.5,forecast,table
+DOC1:Table 1-3,DOC1:p7,DOC1,high,euro area,inflation,,2012.0,,1.5,forecast,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,,1980-1999 (average),9.8,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,,2000-2007 (average),10.5,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2008.0,,9.6,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2009.0,,9.2,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2010.0,,10.3,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2011.0,,9.5,forecast,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,output growth,,2012.0,,9.0,forecast,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,,1980-1999 (average),2.7,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,,2000-2007 (average),3.9,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2008.0,,4.2,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2009.0,,4.3,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2010.0,,4.1,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2011.0,,4.0,forecast,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,unemployment,,2012.0,,4.0,forecast,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,,1980-1999 (average),8.1,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,,2000-2007 (average),1.6,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2008.0,,5.9,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2009.0,,-0.6,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2010.0,,3.3,outturn,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2011.0,,5.5,forecast,table
+DOC1:Table 1-4,DOC1:p11,DOC1,high,china,inflation,,2012.0,,3.3,forecast,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2011.0,,3.0,forecast,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2011.0,,2.8,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2012.0,,3.2,forecast,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2012.0,,2.4,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,world,,2013.0,,2.4,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2011.0,,1.6,forecast,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2011.0,,1.5,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2012.0,,1.9,forecast,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2012.0,,1.2,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,advanced economies,,2013.0,,1.1,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2011.0,,6.4,forecast,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2011.0,,6.2,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2012.0,,6.0,forecast,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2012.0,,4.9,outturn,table
+DOC2:Table A-1,DOC2:p2,DOC2,high,,emerging and developing economies,,2013.0,,4.6,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2011.0,,1.6,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2011.0,,1.5,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2012.0,,2.3,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2012.0,,1.8,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,output growth,,2013.0,,2.2,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2011.0,,8.9,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2011.0,,9.1,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2012.0,,8.1,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2012.0,,9.0,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,unemployment,,2013.0,,7.4,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2011.0,,2.1,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2011.0,,2.9,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2012.0,,1.8,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2012.0,,1.2,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,united states,inflation,,2013.0,,1.5,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2011.0,,1.6,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2011.0,,1.6,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2012.0,,-0.7,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2012.0,,1.1,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,output growth,,2013.0,,-0.4,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2011.0,,10.2,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2011.0,,9.9,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2012.0,,11.4,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2012.0,,9.9,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,unemployment,,2013.0,,12.0,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2011.0,,1.3,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2011.0,,2.5,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2012.0,,1.3,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2012.0,,1.5,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,euro area,inflation,,2013.0,,1.4,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2011.0,,9.3,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2011.0,,9.5,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2012.0,,7.7,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2012.0,,9.0,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,output growth,,2013.0,,7.7,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2011.0,,4.1,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2011.0,,4.0,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2012.0,,4.1,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2012.0,,4.0,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,unemployment,,2013.0,,4.1,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2011.0,,7.8,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2011.0,,5.5,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2012.0,,2.0,outturn,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2012.0,,3.3,forecast,table
+DOC2:Table A-2,DOC2:p3,DOC2,high,china,inflation,,2013.0,,1.8,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2007.0,,18.9,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2007.0,,20.6,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2007.0,,-1.7,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2008.0,,17.6,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2008.0,,20.8,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2008.0,,-3.2,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2009.0,,15.1,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2009.0,,25.2,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2009.0,,-10.1,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2010.0,,16.2,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2010.0,,25.3,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2010.0,,-9.1,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2011.0,,15.8,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2011.0,,24.5,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2011.0,,-8.7,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2012.0,,16.4,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2012.0,,23.2,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2012.0,,-6.8,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,revenues,,2013.0,,17.5,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,spending,,2013.0,,21.6,outturn,table
+DOC2:Table A-3,DOC2:p7,DOC2,high,united states,budget balance,,2013.0,,-4.1,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,slope,united states 1961-2010,,,-0.42,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,intercept,united states 1961-2010,,,1.3,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,growth needed to keep unemployment constant,united states 1961-2010,,,3.1,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,slope,united states 1961-2013,,,-0.41,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,intercept,united states 1961-2013,,,1.19,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,united states,growth needed to keep unemployment constant,united states 1961-2013,,,2.9,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,euro area,slope,euro area 1992-2013,,,-0.31,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,euro area,intercept,euro area 1992-2013,,,0.5,outturn,table
+DOC3:Table B-1,DOC3:p2,DOC3,medium,euro area,growth needed to keep unemployment constant,euro area 1992-2013,,,1.6,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2007.0,,4.6,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2007.0,,66.0,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2008.0,,5.8,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2008.0,,66.0,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2009.0,,9.3,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2009.0,,65.4,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,unemployment,,2010.0,,9.8,outturn,table
+DOC3:Table B-2,DOC3:p5,DOC3,medium,united states,labour force participation,,2010.0,,64.7,outturn,table
+DOC1:Figure 1-2,DOC1:p3,DOC1,high,euro area,unemployment,,2006.0,,10.0,outturn,figure
+DOC1:Figure 1-2,DOC1:p3,DOC1,high,united states,unemployment,,2008.0,,9.5,outturn,figure
+DOC1:Figure 1-6,DOC1:p10,DOC1,high,china,world output share,,2010.0,,9.3,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1960.0,,6.5,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1965.0,,3.8,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1970.0,,6.0,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1975.0,,8.5,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1980.0,,9.0,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1985.0,,7.0,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1990.0,,7.5,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,1995.0,,5.5,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,2000.0,,4.0,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,2005.0,,4.5,outturn,figure
+DOC1:Figure 2-3,DOC1:p24,DOC1,high,united states,unemployment states united,,2010.0,,10.0,outturn,figure
+DOC1:Figure 2-4,DOC1:p27,DOC1,high,,inflation cpi,,1980.0,,13.5,outturn,figure
+DOC1:Figure 2-4,DOC1:p27,DOC1,high,,inflation deflator gdp,,1980.0,,9.7,outturn,figure
+DOC1:Figure 2-5,DOC1:p29,DOC1,high,united states,output growth,4,,,7.0,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1960.0,,1.5,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1965.0,,1.8,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1970.0,,1.3,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1975.0,,1.4,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1980.0,,1.2,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1985.0,,1.1,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1990.0,,1.2,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,1995.0,,1.1,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,2000.0,,1.2,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,2005.0,,1.1,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,2010.0,,1.2,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,2015.0,,1.1,outturn,figure
+DOC1:Figure 2-6,DOC1:p30,DOC1,high,,inflation change,,2020.0,,1.1,outturn,figure
+DOC1:Figure 2-7,DOC1:p32,DOC1,high,introduction,world,a tour of the world,,,1.0,outturn,figure
+DOC2:Figure A-1,DOC2:p2,DOC2,high,world,output growth,,2012.0,,3.2,outturn,figure
+DOC2:Figure A-1,DOC2:p2,DOC2,high,advanced,output growth,,2012.0,,1.9,outturn,figure
+DOC2:Figure A-1,DOC2:p2,DOC2,high,emerging and developing,output growth,,2012.0,,6.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2000.0,,4.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2001.0,,5.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2002.0,,6.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2003.0,,6.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2004.0,,5.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2005.0,,5.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2006.0,,4.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2007.0,,4.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2008.0,,5.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2009.0,,9.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2010.0,,9.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2011.0,,9.1,forecast,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,united states,unemployment,,2012.0,,9.0,forecast,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2000.0,,8.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2001.0,,8.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2002.0,,9.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2003.0,,9.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2004.0,,9.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2005.0,,9.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2006.0,,8.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2007.0,,7.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2008.0,,7.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2009.0,,9.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2010.0,,10.0,outturn,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2011.0,,9.9,forecast,figure
+DOC2:Figure A-2,DOC2:p4,DOC2,high,euro area,unemployment,,2012.0,,9.9,forecast,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2000.0,,4.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2001.0,,5.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2002.0,,6.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2003.0,,6.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2004.0,,5.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2005.0,,5.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2006.0,,4.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2007.0,,4.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2008.0,,5.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2009.0,,9.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2010.0,,9.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2011.0,,8.1,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,united states,unemployment,,2012.0,,7.4,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2000.0,,8.5,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2001.0,,8.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2002.0,,9.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2003.0,,8.8,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2004.0,,9.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2005.0,,8.9,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2006.0,,8.2,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2007.0,,7.5,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2008.0,,7.6,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2009.0,,9.5,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2010.0,,10.0,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2011.0,,10.1,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2012.0,,11.4,outturn,figure
+DOC2:Figure A-3,DOC2:p4,DOC2,high,euro area,unemployment,,2013.0,,12.0,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,20.1,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,12.7,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,12.0,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,13.9,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,8.4,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,9.3,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,7.1,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,4.5,outturn,figure
+DOC2:Figure A-6,DOC2:p6,DOC2,high,euro area,unemployment area countries euro selected,,2010.0,,4.4,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,spain,unemployment,,2012.0,,25.0,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,greece,unemployment,,2012.0,,24.5,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,portugal,unemployment,,2012.0,,15.9,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,ireland,unemployment,,2012.0,,14.7,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,italy,unemployment,,2012.0,,10.7,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,france,unemployment,,2012.0,,9.9,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,germany,unemployment,,2012.0,,5.5,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,netherlands,unemployment,,2012.0,,5.3,outturn,figure
+DOC2:Figure A-7,DOC2:p6,DOC2,high,austria,unemployment,,2012.0,,4.4,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2000.0,,3.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2001.0,,2.8,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2002.0,,1.6,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2003.0,,2.4,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2004.0,,2.7,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2005.0,,3.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2006.0,,3.3,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2007.0,,2.9,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2008.0,,3.8,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2009.0,,-0.4,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2010.0,,1.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2011.0,,3.2,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2012.0,,2.1,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation cpi,,2013.0,,1.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2000.0,,2.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2001.0,,2.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2002.0,,1.9,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2003.0,,2.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2004.0,,3.1,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2005.0,,3.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2006.0,,3.3,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2007.0,,3.6,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2008.0,,3.9,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2009.0,,-0.3,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2010.0,,1.5,outturn,figure
+DOC3:Figure B-3,DOC3:p4,DOC3,medium,united states,inflation deflator gdp,,2011.0,,2.1,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2000.0,,3.5,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2001.0,,2.8,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2002.0,,1.6,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2003.0,,2.3,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2004.0,,2.7,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2005.0,,3.5,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2006.0,,3.2,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2007.0,,2.9,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2008.0,,3.9,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2009.0,,-0.4,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2010.0,,1.5,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2011.0,,3.3,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2012.0,,2.1,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation cpi,,2013.0,,1.5,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2000.0,,2.4,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2001.0,,2.5,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2002.0,,1.9,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2003.0,,1.5,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2004.0,,2.0,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2005.0,,2.4,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2006.0,,2.5,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2007.0,,2.2,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2008.0,,2.3,outturn,figure
+DOC3:Figure B-4,DOC3:p4,DOC3,medium,united states,inflation core cpi,,2009.0,,1.7,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2000.0,,3.1,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2001.0,,3.6,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2002.0,,3.9,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2003.0,,4.3,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2004.0,,4.2,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2005.0,,4.2,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2006.0,,4.1,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2007.0,,3.9,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2008.0,,4.2,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2009.0,,4.3,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2010.0,,4.1,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2011.0,,4.1,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2012.0,,4.5,outturn,figure
+DOC3:Figure B-5,DOC3:p5,DOC3,medium,china,unemployment china registered urban,,2013.0,,4.1,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2000.0,,3.1,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2001.0,,3.6,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2002.0,,4.0,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2003.0,,4.3,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2004.0,,4.2,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2005.0,,4.2,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2006.0,,4.0,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2007.0,,3.9,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2008.0,,4.2,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2009.0,,4.3,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2010.0,,4.1,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2011.0,,4.1,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2012.0,,4.1,outturn,figure
+DOC3:Figure B-5 (corrected),DOC3:p6,DOC3,medium,china,unemployment china registered urban,,2013.0,,4.1,outturn,figure
