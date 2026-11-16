@@ -38,4 +38,4 @@ id,conversation_id,question_id,answer,figure_references,citations,status
 37,C033,Q037,"I can't make that change: the knowledge base is read-only and the documents stay as they are. The documents report Euro Area, output growth, 2009: -4.2 (DOC1:Table 1-3). Your value remains an assumption for this conversation only.",Table 1-3,"DOC1:Table 1-3,DOC1:p7",session_override
 38,C034,Q038,-4.2%,Table 1-3,"DOC1:Table 1-3,DOC1:p7",answered
 39,C035,Q039,"China's output growth in 2013 was 7.7%, according to the latest data provided in the table. The 2014 growth rate of 7.3% is slightly lower. Compared with China, output growth, 2013 (7.7 (DOC2:Table A-2)): 7.3 - (7.7) = -0.4. The documents contain no 2014 value for this series; the knowledge base is unchanged.",Table A-2,"DOC2:Table A-2,DOC2:p3",session_override
-40,C035,Q040,"The 2014 figure of 7.3% is not present in the documents. The latest available information is from 2013, which shows a growth rate of 7.7%. The documents do not provide a 2014 value.",NONE,DOC2:p3,session_override
+40,C035,Q040,The 2014 figure of 7.3% is not present in the documents.,Table A-2,"DOC2:Table A-2,DOC2:p3",session_override
