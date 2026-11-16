@@ -1,0 +1,169 @@
+{
+ "request": "Enhance this image: sharpen it and improve the contrast.",
+ "image_path": "../outputs/photos/dino_Brachiosaurus_dull.png",
+ "use_critique": true,
+ "request_id": "20261116-091616-edc37c",
+ "route": "enhancement",
+ "status": "done",
+ "message": "Done (enhancement). The critic accepted the result after 1 attempt(s). Prompt used: \"enhance: autocontrast, sharpen, mild denoise\".",
+ "safety": {
+  "visible_text": "",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "enhancement",
+  "operation": "enhance",
+  "target": "",
+  "new_value": "",
+  "scope": "whole image"
+ },
+ "vision": {
+  "caption": "A dinosaur with a long neck reaching towards the sky.",
+  "objects": [
+   "dinosaur"
+  ],
+  "boxes": [
+   {
+    "label": "dinosaur",
+    "box": [
+     0.0,
+     163.0,
+     357.0,
+     498.0
+    ]
+   }
+  ],
+  "visible_text": "",
+  "answers": {
+   "Where is this and what are the dominant colours?": "The setting appears to be outdoors with a clear blue sky and green trees in the background.",
+   "How many main subjects are there, and what are they?": "There is one main subject: the dinosaur."
+  }
+ },
+ "prompt": "enhance: autocontrast, sharpen, mild denoise",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "A dinosaur with a long neck reaching towards the sky. (sharper, better contrast)",
+ "params": {
+  "mode": "enhancement",
+  "sharpness": 1.8,
+  "contrast": 1.25
+ },
+ "generation": {
+  "mode": "enhancement",
+  "model": "deterministic enhancement (PIL: autocontrast, median filter, contrast, sharpness)",
+  "prompt": "enhance: autocontrast, sharpen, mild denoise",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "safety_retries": 0,
+  "note": "",
+  "size": [
+   512,
+   512
+  ],
+  "local_edit": null,
+  "steps": 0,
+  "params": {
+   "sharpness": 1.8,
+   "contrast": 1.25
+  },
+  "output": "../outputs/images/20261116-091616-edc37c_v0.png"
+ },
+ "output_path": "../outputs/images/20261116-091616-edc37c_v0.png",
+ "critique": {
+  "safe": true,
+  "safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "clip_prompt_match": 0.3337,
+  "clip_subject_kept": 0.9441,
+  "clip_change_gain": 1.337,
+  "local_edit": false,
+  "score": 0.5697,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {},
+  "sharpness_gain": 1.34,
+  "selected_attempt": {
+   "revision": 0,
+   "score": 0.5697,
+   "decision": "accept",
+   "clip_prompt_match": 0.3337,
+   "clip_subject_kept": 0.9441,
+   "clip_change_gain": 1.337
+  },
+  "discarded_revisions": []
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261116-091616-edc37c_v0.png",
+   "score": 0.5697,
+   "decision": "accept",
+   "prompt": "enhance: autocontrast, sharpen, mild denoise",
+   "params": {
+    "mode": "enhancement",
+    "sharpness": 1.8,
+    "contrast": 1.25
+   },
+   "clip_prompt_match": 0.3337,
+   "clip_subject_kept": 0.9441,
+   "clip_change_gain": 1.337,
+   "instruction": ""
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"enhancement\", \"plan\": {\"route\": \"enhancement\", \"operation\": \"enhance\", \"target\": \"\", \"new_value\": \"\", \"scope\": \"whole image\"}, \"reason\": \"matched the enhancement rule.\", \"safety\": {\"visible_text\": \"\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\"...",
+   "seconds": 0.934
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"caption\": \"A dinosaur with a long neck reaching towards the sky.\", \"objects\": [\"dinosaur\"], \"boxes\": [{\"label\": \"dinosaur\", \"box\": [0.0, 163.0, 357.0, 498.0]}], \"visible_text\": \"\", \"answers\": {\"Where is this and what are the dominant colours?\": \"The setting appears to be outdoors with a clear blue sky and green trees in the background.\", \"How many main subjects are there, and what are they?\": \"T...",
+   "seconds": 3.692
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"target\": \"A dinosaur with a long neck reaching towards the sky. (sharper, better contrast)\", \"params\": {\"mode\": \"enhancement\", \"sharpness\": 1.8, \"contrast\": 1.25}}",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"mode\": \"enhancement\", \"model\": \"deterministic enhancement (PIL: autocontrast, median filter, contrast, sharpness)\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"safety_retries\": 0, \"note\": \"\", \"size\": [512, 512], \"local_edit\": null, \"steps\": 0, \"params\": {\"sharpn...",
+   "seconds": 0.087
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"enhancement\", \"status\": \"running\", \"prompt\": \"enhance: autocontrast, sharpen, mild denoise\", \"revisions\": 0, \"request\": \"Enhance this image: sharpen it and improve the contrast.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.3337, \"clip_subject_kept\": 0.9441, \"clip_change_gain\": 1.337, \"local_edit\": false, \"score\": 0.5697, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"accept\", \"revision\": {}, \"sharpness_gain\": 1.34}",
+   "seconds": 1.332
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Enhance this image: sharpen it and improve the contrast.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"enhancement\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 6.046
+  }
+ ]
+}

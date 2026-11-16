@@ -1,0 +1,194 @@
+{
+ "request": "Change the sky to a sunset orange.",
+ "image_path": "../outputs/photos/dino_Stegosaurus.png",
+ "use_critique": false,
+ "request_id": "20261116-091729-0111b9",
+ "route": "edit",
+ "status": "done",
+ "message": "Done (edit). The critic accepted the result after 1 attempt(s). Prompt used: \"change the sky to a sunset orange\".",
+ "safety": {
+  "visible_text": "blue dinosaur standing on mossy ground in a forest setting",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "edit",
+  "operation": "modify",
+  "target": "sky",
+  "new_value": "sunset orange",
+  "scope": "only: sky"
+ },
+ "vision": {
+  "caption": "A toy dinosaur standing on a mossy rock in a forest setting.",
+  "objects": [
+   "toy dinosaur"
+  ],
+  "boxes": [
+   {
+    "label": "toy dinosaur",
+    "box": [
+     217.0,
+     89.0,
+     504.0,
+     336.0
+    ]
+   },
+   {
+    "label": "sky",
+    "box": [
+     0.0,
+     0.0,
+     504.0,
+     326.0
+    ],
+    "source": "located on request"
+   }
+  ],
+  "visible_text": "blue dinosaur standing on mossy ground in a forest setting",
+  "answers": {
+   "Where is this and what are the dominant colours?": "In a forest with tall trees and green moss, the dominant colors are green and blue.",
+   "How many main subjects are there, and what are they?": "There is one main subject: the toy dinosaur."
+  },
+  "located_sky": true
+ },
+ "prompt": "change the sky to a sunset orange",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "a toy dinosaur standing on a mossy rock in a forest setting with a sunset orange sky",
+ "params": {
+  "mode": "edit",
+  "guidance": 7.5,
+  "image_guidance": 1.5,
+  "mask_pad": 0.1
+ },
+ "generation": {
+  "mode": "edit",
+  "model": "timbrooks/instruct-pix2pix + mask-based compositing (pixels outside the target region are the original)",
+  "prompt": "change the sky to a sunset orange",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "safety_retries": 0,
+  "note": "",
+  "size": [
+   512,
+   512
+  ],
+  "local_edit": {
+   "target": "sky",
+   "boxes": [
+    "sky"
+   ],
+   "mask_area": 0.633,
+   "pad": 0.1,
+   "protected": [
+    "toy dinosaur"
+   ],
+   "edge": "follows the target's colour",
+   "mask_path": "../outputs/images/20261116-091729-0111b9_mask_v0.png"
+  },
+  "steps": 30,
+  "params": {
+   "guidance": 7.5,
+   "image_guidance": 1.5,
+   "mask_pad": 0.1
+  },
+  "output": "../outputs/images/20261116-091729-0111b9_v0.png"
+ },
+ "output_path": "../outputs/images/20261116-091729-0111b9_v0.png",
+ "critique": {
+  "safe": true,
+  "safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "clip_prompt_match": 0.3546,
+  "clip_subject_kept": 0.9392,
+  "clip_change_gain": 0.0292,
+  "local_edit": true,
+  "score": 0.5894,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {},
+  "selected_attempt": {
+   "revision": 0,
+   "score": 0.5894,
+   "decision": "accept",
+   "clip_prompt_match": 0.3546,
+   "clip_subject_kept": 0.9392,
+   "clip_change_gain": 0.0292
+  },
+  "discarded_revisions": []
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261116-091729-0111b9_v0.png",
+   "score": 0.5894,
+   "decision": "accept",
+   "prompt": "change the sky to a sunset orange",
+   "params": {
+    "mode": "edit",
+    "guidance": 7.5,
+    "image_guidance": 1.5,
+    "mask_pad": 0.1
+   },
+   "clip_prompt_match": 0.3546,
+   "clip_subject_kept": 0.9392,
+   "clip_change_gain": 0.0292,
+   "instruction": ""
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"edit\", \"plan\": {\"route\": \"edit\", \"operation\": \"modify\", \"target\": \"sky\", \"new_value\": \"sunset orange\", \"scope\": \"only: sky\"}, \"reason\": \"matched the edit rule.\", \"safety\": {\"visible_text\": \"blue dinosaur standing on mossy ground in a forest setting\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"checker_f...",
+   "seconds": 1.291
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"caption\": \"A toy dinosaur standing on a mossy rock in a forest setting.\", \"objects\": [\"toy dinosaur\"], \"boxes\": [{\"label\": \"toy dinosaur\", \"box\": [217.0, 89.0, 504.0, 336.0]}], \"visible_text\": \"blue dinosaur standing on mossy ground in a forest setting\", \"answers\": {\"Where is this and what are the dominant colours?\": \"In a forest with tall trees and green moss, the dominant colors are green and ...",
+   "seconds": 3.803
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"prompt\": \"change the sky to a sunset orange\", \"target\": \"a toy dinosaur standing on a mossy rock in a forest setting with a sunset orange sky\", \"params\": {\"mode\": \"edit\", \"guidance\": 7.5, \"image_guidance\": 1.5, \"mask_pad\": 0.1}}",
+   "seconds": 1.308
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the sky to a sunset orange\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"mode\": \"edit\", \"model\": \"timbrooks/instruct-pix2pix + mask-based compositing (pixels outside the target region are the original)\", \"prompt\": \"change the sky to a sunset orange\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"safety_retries\": 0, \"note\": \"\", \"size\": [512, 512], \"local_edit\": {\"target\": \"sky\", \"boxes\": [\"sky...",
+   "seconds": 2.108
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the sky to a sunset orange\", \"revisions\": 0, \"request\": \"Change the sky to a sunset orange.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.3546, \"clip_subject_kept\": 0.9392, \"clip_change_gain\": 0.0292, \"local_edit\": true, \"score\": 0.5894, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"accept\", \"revision\": {}}",
+   "seconds": 1.307
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Change the sky to a sunset orange.\", \"use_critique\": false}",
+   "output": "{\"status\": \"done\", \"route\": \"edit\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 9.817
+  }
+ ]
+}

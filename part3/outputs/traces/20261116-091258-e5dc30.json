@@ -1,0 +1,82 @@
+{
+ "request": "Describe this image.",
+ "image_path": "../outputs/photos/dino_Stegosaurus.png",
+ "use_critique": true,
+ "request_id": "20261116-091258-e5dc30",
+ "route": "caption_question",
+ "status": "done",
+ "message": "The image features a toy dinosaur standing on a mossy rock in a forest setting. The dominant colors are green and blue.\n\nCaption: A toy dinosaur standing on a mossy rock in a forest setting.\nMain objects: toy dinosaur\n\nText visible in the image: \"blue dinosaur standing on mossy ground in a forest setting\"",
+ "safety": {
+  "visible_text": "blue dinosaur standing on mossy ground in a forest setting",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "caption_question",
+  "operation": "describe",
+  "target": "",
+  "new_value": "",
+  "scope": "no image is generated"
+ },
+ "vision": {
+  "caption": "A toy dinosaur standing on a mossy rock in a forest setting.",
+  "objects": [
+   "toy dinosaur"
+  ],
+  "boxes": [
+   {
+    "label": "toy dinosaur",
+    "box": [
+     217.0,
+     89.0,
+     504.0,
+     336.0
+    ]
+   }
+  ],
+  "visible_text": "blue dinosaur standing on mossy ground in a forest setting",
+  "answers": {
+   "Where is this and what are the dominant colours?": "In a forest with tall trees and green moss, the dominant colors are green and blue.",
+   "How many main subjects are there, and what are they?": "There is one main subject, which is the toy dinosaur.",
+   "Describe this image.": "The image features a toy dinosaur standing on a mossy rock in a forest setting. The dominant colors are green and blue."
+  }
+ },
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"caption_question\", \"plan\": {\"route\": \"caption_question\", \"operation\": \"describe\", \"target\": \"\", \"new_value\": \"\", \"scope\": \"no image is generated\"}, \"reason\": \"matched the caption_question rule.\", \"safety\": {\"visible_text\": \"blue dinosaur standing on mossy ground in a forest setting\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, ...",
+   "seconds": 1.302
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"caption_question\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"caption\": \"A toy dinosaur standing on a mossy rock in a forest setting.\", \"objects\": [\"toy dinosaur\"], \"boxes\": [{\"label\": \"toy dinosaur\", \"box\": [217.0, 89.0, 504.0, 336.0]}], \"visible_text\": \"blue dinosaur standing on mossy ground in a forest setting\", \"answers\": {\"Where is this and what are the dominant colours?\": \"In a forest with tall trees and green moss, the dominant colors are green and ...",
+   "seconds": 4.84
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Describe this image.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"caption_question\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\"]}",
+   "seconds": 6.142
+  }
+ ]
+}

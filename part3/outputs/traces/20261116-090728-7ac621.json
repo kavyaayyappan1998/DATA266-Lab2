@@ -1,0 +1,109 @@
+{
+ "request": "How many dinosaurs are in this picture?",
+ "image_path": "../outputs/assets/dino_grid.png",
+ "use_critique": true,
+ "request_id": "20261116-090728-7ac621",
+ "route": "caption_question",
+ "status": "done",
+ "message": "There are four dinosaurs in this picture.\n\nCaption: A collage of four images featuring various dinosaurs in a forest setting.\nMain objects: Dinosaur\n\nText visible in the image: \"dinosaur\"",
+ "safety": {
+  "visible_text": "dinosaur",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "caption_question",
+  "operation": "answer",
+  "target": "",
+  "new_value": "",
+  "scope": "no image is generated"
+ },
+ "vision": {
+  "caption": "A collage of four images featuring various dinosaurs in a forest setting.",
+  "objects": [
+   "Dinosaur"
+  ],
+  "boxes": [
+   {
+    "label": "Dinosaur",
+    "box": [
+     65.0,
+     143.0,
+     148.0,
+     179.0
+    ]
+   },
+   {
+    "label": "Dinosaur",
+    "box": [
+     250.0,
+     49.0,
+     284.0,
+     127.0
+    ]
+   },
+   {
+    "label": "Dinosaur",
+    "box": [
+     107.0,
+     295.0,
+     253.0,
+     416.0
+    ]
+   },
+   {
+    "label": "Dinosaur",
+    "box": [
+     252.0,
+     342.0,
+     438.0,
+     504.0
+    ]
+   }
+  ],
+  "visible_text": "dinosaur",
+  "answers": {
+   "Where is this and what are the dominant colours?": "A forest with green trees and grass, with dominant colors being green and brown.",
+   "How many main subjects are there, and what are they?": "There are four main subjects in the picture.",
+   "How many dinosaurs are in this picture?": "There are four dinosaurs in this picture."
+  }
+ },
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"How many dinosaurs are in this picture?\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"caption_question\", \"plan\": {\"route\": \"caption_question\", \"operation\": \"answer\", \"target\": \"\", \"new_value\": \"\", \"scope\": \"no image is generated\"}, \"reason\": \"matched the caption_question rule.\", \"safety\": {\"visible_text\": \"dinosaur\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"checker_flag\": false, \"clip...",
+   "seconds": 1.027
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"caption_question\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"How many dinosaurs are in this picture?\"}",
+   "output": "{\"caption\": \"A collage of four images featuring various dinosaurs in a forest setting.\", \"objects\": [\"Dinosaur\"], \"boxes\": [{\"label\": \"Dinosaur\", \"box\": [65.0, 143.0, 148.0, 179.0]}, {\"label\": \"Dinosaur\", \"box\": [250.0, 49.0, 284.0, 127.0]}, {\"label\": \"Dinosaur\", \"box\": [107.0, 295.0, 253.0, 416.0]}, {\"label\": \"Dinosaur\", \"box\": [252.0, 342.0, 438.0, 504.0]}], \"visible_text\": \"dinosaur\", \"answers\"...",
+   "seconds": 7.652
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"How many dinosaurs are in this picture?\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"caption_question\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\"]}",
+   "seconds": 8.679
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "request": "Redraw this in Pokemon style.",
+ "image_path": "../outputs/photos/dino_Velociraptor.png",
+ "use_critique": true,
+ "request_id": "20261116-091448-d66a02",
+ "route": "domain_style",
+ "status": "done",
+ "message": "Done (domain style). The critic accepted the result after 1 attempt(s). Prompt used: \"Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style\".",
+ "safety": {
+  "visible_text": "",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "domain_style",
+  "operation": "restyle",
+  "target": "",
+  "new_value": "pokemon style",
+  "scope": "whole image"
+ },
+ "vision": {
+  "caption": "A close-up of a lizard with its mouth open, surrounded by green foliage.",
+  "objects": [
+   "lizard"
+  ],
+  "boxes": [
+   {
+    "label": "lizard",
+    "box": [
+     0.0,
+     183.0,
+     275.0,
+     504.0
+    ]
+   }
+  ],
+  "visible_text": "",
+  "answers": {
+   "Where is this and what are the dominant colours?": "In a lush, green forest with vibrant green leaves and a blurred background.",
+   "How many main subjects are there, and what are they?": "1"
+  }
+ },
+ "prompt": "Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style",
+ "params": {
+  "mode": "domain_style",
+  "strength": 0.75,
+  "guidance": 7.5
+ },
+ "generation": {
+  "mode": "domain_style",
+  "model": "stable-diffusion-v1-5/stable-diffusion-v1-5 + Part 2 LoRA kavyaayyappan1990/data266-lab2-team48-run2-lora-r16",
+  "prompt": "Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "safety_retries": 0,
+  "note": "",
+  "size": [
+   512,
+   512
+  ],
+  "local_edit": null,
+  "steps": 30,
+  "params": {
+   "strength": 0.75,
+   "guidance": 7.5
+  },
+  "output": "../outputs/images/20261116-091448-d66a02_v0.png"
+ },
+ "output_path": "../outputs/images/20261116-091448-d66a02_v0.png",
+ "critique": {
+  "safe": true,
+  "safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "clip_prompt_match": 0.2861,
+  "clip_subject_kept": 0.8518,
+  "clip_change_gain": 0.0399,
+  "local_edit": false,
+  "score": 0.499,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "The lizard's mouth is open and surrounded by green foliage, which is preserved in the Pokémon style.",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {},
+  "selected_attempt": {
+   "revision": 0,
+   "score": 0.499,
+   "decision": "accept",
+   "clip_prompt_match": 0.2861,
+   "clip_subject_kept": 0.8518,
+   "clip_change_gain": 0.0399
+  },
+  "discarded_revisions": []
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261116-091448-d66a02_v0.png",
+   "score": 0.499,
+   "decision": "accept",
+   "prompt": "Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style",
+   "params": {
+    "mode": "domain_style",
+    "strength": 0.75,
+    "guidance": 7.5
+   },
+   "clip_prompt_match": 0.2861,
+   "clip_subject_kept": 0.8518,
+   "clip_change_gain": 0.0399,
+   "instruction": ""
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Redraw this in Pokemon style.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"domain_style\", \"plan\": {\"route\": \"domain_style\", \"operation\": \"restyle\", \"target\": \"\", \"new_value\": \"pokemon style\", \"scope\": \"whole image\"}, \"reason\": \"matched the domain_style rule.\", \"safety\": {\"visible_text\": \"\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\":...",
+   "seconds": 0.94
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Redraw this in Pokemon style.\"}",
+   "output": "{\"caption\": \"A close-up of a lizard with its mouth open, surrounded by green foliage.\", \"objects\": [\"lizard\"], \"boxes\": [{\"label\": \"lizard\", \"box\": [0.0, 183.0, 275.0, 504.0]}], \"visible_text\": \"\", \"answers\": {\"Where is this and what are the dominant colours?\": \"In a lush, green forest with vibrant green leaves and a blurred background.\", \"How many main subjects are there, and what are they?\": \"1\"...",
+   "seconds": 3.582
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Redraw this in Pokemon style.\"}",
+   "output": "{\"prompt\": \"Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style\", \"target\": \"A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style\", \"params\": {\"mode\": \"domain_style\", \"strength\": 0.75, \"guidance\": 7.5}}",
+   "seconds": 1.759
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style\", \"revisions\": 0, \"request\": \"Redraw this in Pokemon style.\"}",
+   "output": "{\"mode\": \"domain_style\", \"model\": \"stable-diffusion-v1-5/stable-diffusion-v1-5 + Part 2 LoRA kavyaayyappan1990/data266-lab2-team48-run2-lora-r16\", \"prompt\": \"Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"safety_retr...",
+   "seconds": 2.681
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"Pokemon style, A close-up of a lizard with its mouth open, surrounded by green foliage, in a Pokémon style\", \"revisions\": 0, \"request\": \"Redraw this in Pokemon style.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.2861, \"clip_subject_kept\": 0.8518, \"clip_change_gain\": 0.0399, \"local_edit\": false, \"score\": 0.499, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"The lizard's mouth is open and surrounded by green foliage, which is preserved in the Pokémo...",
+   "seconds": 1.841
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Redraw this in Pokemon style.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"domain_style\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 10.803
+  }
+ ]
+}

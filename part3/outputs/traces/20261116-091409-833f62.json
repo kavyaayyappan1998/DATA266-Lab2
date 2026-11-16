@@ -1,0 +1,82 @@
+{
+ "request": "Describe this image.",
+ "image_path": "../outputs/photos/dino_Velociraptor.png",
+ "use_critique": true,
+ "request_id": "20261116-091409-833f62",
+ "route": "caption_question",
+ "status": "done",
+ "message": "The image shows a close-up of a lizard with its mouth open, surrounded by green foliage in a lush, forested environment.\n\nCaption: A close-up of a lizard with its mouth open, surrounded by green foliage.\nMain objects: lizard",
+ "safety": {
+  "visible_text": "",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "caption_question",
+  "operation": "describe",
+  "target": "",
+  "new_value": "",
+  "scope": "no image is generated"
+ },
+ "vision": {
+  "caption": "A close-up of a lizard with its mouth open, surrounded by green foliage.",
+  "objects": [
+   "lizard"
+  ],
+  "boxes": [
+   {
+    "label": "lizard",
+    "box": [
+     0.0,
+     183.0,
+     275.0,
+     504.0
+    ]
+   }
+  ],
+  "visible_text": "",
+  "answers": {
+   "Where is this and what are the dominant colours?": "The image is set in a lush, green forest with vibrant green foliage in the background.",
+   "How many main subjects are there, and what are they?": "There is one main subject in the image, which is the lizard.",
+   "Describe this image.": "The image shows a close-up of a lizard with its mouth open, surrounded by green foliage in a lush, forested environment."
+  }
+ },
+ "prompt": "",
+ "negative_prompt": "",
+ "target": "",
+ "params": {},
+ "generation": {},
+ "output_path": null,
+ "critique": {},
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"caption_question\", \"plan\": {\"route\": \"caption_question\", \"operation\": \"describe\", \"target\": \"\", \"new_value\": \"\", \"scope\": \"no image is generated\"}, \"reason\": \"matched the caption_question rule.\", \"safety\": {\"visible_text\": \"\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"checker_flag\": false, \"clip_harml...",
+   "seconds": 0.929
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"caption_question\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Describe this image.\"}",
+   "output": "{\"caption\": \"A close-up of a lizard with its mouth open, surrounded by green foliage.\", \"objects\": [\"lizard\"], \"boxes\": [{\"label\": \"lizard\", \"box\": [0.0, 183.0, 275.0, 504.0]}], \"visible_text\": \"\", \"answers\": {\"Where is this and what are the dominant colours?\": \"The image is set in a lush, green forest with vibrant green foliage in the background.\", \"How many main subjects are there, and what are ...",
+   "seconds": 4.958
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Describe this image.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"caption_question\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\"]}",
+   "seconds": 5.888
+  }
+ ]
+}
