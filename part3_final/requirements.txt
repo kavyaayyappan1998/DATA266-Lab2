@@ -1,0 +1,13 @@
+diffusers
+transformers
+accelerate
+peft
+gradio
+torch
+pillow
+numpy
+pandas
+matplotlib
+datasets
+scikit-image
+# replace with outputs/requirements_frozen.txt after the run
