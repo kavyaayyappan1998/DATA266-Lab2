@@ -1,0 +1,13 @@
+pymupdf
+sentence-transformers
+rank-bm25
+chromadb
+transformers>=4.49
+accelerate
+torch
+pandas
+numpy
+matplotlib
+Pillow
+scikit-learn
+# replace with outputs/requirements_frozen.txt after the final Kaggle run
