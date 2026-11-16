@@ -1,7 +1,0 @@
-# lab files are provided by the Kaggle competition; the handout says not to commit data
-data/*
-!data/README.md
-outputs/figures/
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
