@@ -1,0 +1,265 @@
+{
+ "request": "Change the dinosaur to bright blue.",
+ "image_path": "../outputs/assets/dino_b.png",
+ "use_critique": true,
+ "request_id": "20261116-082742-1377b0",
+ "route": "edit",
+ "status": "done",
+ "message": "Done (edit). The critic accepted the result after 3 attempt(s). Prompt used: \"change the dinosaur to bright blue\".",
+ "safety": {
+  "visible_text": "",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "edit",
+  "operation": "modify",
+  "target": "dinosaur",
+  "new_value": "bright blue",
+  "scope": "only: dinosaur"
+ },
+ "vision": {
+  "caption": "A statue of a rhinoceros stands on a grassy hillside, overlooking a lush, green landscape under a clear blue sky.",
+  "objects": [
+   "rhinoceros statue"
+  ],
+  "boxes": [
+   {
+    "label": "rhinoceros statue",
+    "box": [
+     0.0,
+     98.0,
+     63.0,
+     257.0
+    ]
+   },
+   {
+    "label": "dinosaur",
+    "box": [
+     0.0,
+     98.0,
+     63.0,
+     257.0
+    ],
+    "source": "located on request"
+   }
+  ],
+  "visible_text": "",
+  "answers": {
+   "Where is this and what are the dominant colours?": "The image is set in a natural, outdoor environment with lush greenery and a clear blue sky, dominated by shades of green and blue.",
+   "How many main subjects are there, and what are they?": "There is one main subject: the rhinoceros statue."
+  },
+  "located_dinosaur": true
+ },
+ "prompt": "change the dinosaur to bright blue",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "A statue of a rhinoceros stands on a grassy hillside, overlooking a lush, green landscape under a clear blue sky with a bright blue dinosaur in the foreground",
+ "params": {
+  "mode": "edit",
+  "guidance": 11.5,
+  "image_guidance": 1.5,
+  "mask_pad": 0.26
+ },
+ "generation": {
+  "mode": "edit",
+  "model": "timbrooks/instruct-pix2pix + mask-based compositing (pixels outside the target region are the original)",
+  "prompt": "change the dinosaur to bright blue",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 2,
+  "safety_retries": 0,
+  "note": "",
+  "size": [
+   512,
+   512
+  ],
+  "local_edit": {
+   "target": "dinosaur",
+   "boxes": [
+    "dinosaur"
+   ],
+   "mask_area": 0.074,
+   "pad": 0.26,
+   "protected": [],
+   "edge": "box",
+   "mask_path": "../outputs/images/20261116-082742-1377b0_mask_v2.png"
+  },
+  "steps": 30,
+  "params": {
+   "guidance": 11.5,
+   "image_guidance": 1.5,
+   "mask_pad": 0.26
+  },
+  "output": "../outputs/images/20261116-082742-1377b0_v2.png"
+ },
+ "output_path": "../outputs/images/20261116-082742-1377b0_v2.png",
+ "critique": {
+  "safe": true,
+  "safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "clip_prompt_match": 0.3446,
+  "clip_subject_kept": 0.8786,
+  "clip_change_gain": 0.0173,
+  "local_edit": true,
+  "score": 0.5643,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {},
+  "selected_attempt": {
+   "revision": 2,
+   "score": 0.5643,
+   "decision": "accept",
+   "clip_prompt_match": 0.3446,
+   "clip_subject_kept": 0.8786,
+   "clip_change_gain": 0.0173
+  },
+  "discarded_revisions": [
+   0,
+   1
+  ]
+ },
+ "revisions": 2,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261116-082742-1377b0_v0.png",
+   "score": 0.5295,
+   "decision": "revise",
+   "prompt": "change the dinosaur to bright blue",
+   "params": {
+    "mode": "edit",
+    "guidance": 7.5,
+    "image_guidance": 1.5,
+    "mask_pad": 0.1
+   },
+   "clip_prompt_match": 0.3172,
+   "clip_subject_kept": 0.8493,
+   "clip_change_gain": -0.0102,
+   "instruction": "The change inside the 'dinosaur' region is not visible enough (prompt match 0.32, gain over the original -0.010; judge: None): raise text guidance by 2.0 and widen the edit region by 8%."
+  },
+  {
+   "revision": 1,
+   "output": "../outputs/images/20261116-082742-1377b0_v1.png",
+   "score": 0.5104,
+   "decision": "revise",
+   "prompt": "change the dinosaur to bright blue",
+   "params": {
+    "mode": "edit",
+    "guidance": 9.5,
+    "image_guidance": 1.5,
+    "mask_pad": 0.18
+   },
+   "clip_prompt_match": 0.3011,
+   "clip_subject_kept": 0.8371,
+   "clip_change_gain": -0.0262,
+   "instruction": "The change inside the 'dinosaur' region is not visible enough (prompt match 0.30, gain over the original -0.026; judge: None): raise text guidance by 2.0 and widen the edit region by 8%."
+  },
+  {
+   "revision": 2,
+   "output": "../outputs/images/20261116-082742-1377b0_v2.png",
+   "score": 0.5643,
+   "decision": "accept",
+   "prompt": "change the dinosaur to bright blue",
+   "params": {
+    "mode": "edit",
+    "guidance": 11.5,
+    "image_guidance": 1.5,
+    "mask_pad": 0.26
+   },
+   "clip_prompt_match": 0.3446,
+   "clip_subject_kept": 0.8786,
+   "clip_change_gain": 0.0173,
+   "instruction": ""
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"edit\", \"plan\": {\"route\": \"edit\", \"operation\": \"modify\", \"target\": \"dinosaur\", \"new_value\": \"bright blue\", \"scope\": \"only: dinosaur\"}, \"reason\": \"matched the edit rule.\", \"safety\": {\"visible_text\": \"\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\"...",
+   "seconds": 0.945
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"caption\": \"A statue of a rhinoceros stands on a grassy hillside, overlooking a lush, green landscape under a clear blue sky.\", \"objects\": [\"rhinoceros statue\"], \"boxes\": [{\"label\": \"rhinoceros statue\", \"box\": [0.0, 98.0, 63.0, 257.0]}], \"visible_text\": \"\", \"answers\": {\"Where is this and what are the dominant colours?\": \"The image is set in a natural, outdoor environment with lush greenery and a ...",
+   "seconds": 4.654
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"prompt\": \"change the dinosaur to bright blue\", \"target\": \"A statue of a rhinoceros stands on a grassy hillside, overlooking a lush, green landscape under a clear blue sky with a bright blue dinosaur in the foreground\", \"params\": {\"mode\": \"edit\", \"guidance\": 7.5, \"image_guidance\": 1.5, \"mask_pad\": 0.1}}",
+   "seconds": 1.812
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 0, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"mode\": \"edit\", \"model\": \"timbrooks/instruct-pix2pix + mask-based compositing (pixels outside the target region are the original)\", \"prompt\": \"change the dinosaur to bright blue\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 0, \"safety_retries\": 0, \"note\": \"\", \"size\": [512, 512], \"local_edit\": {\"target\": \"dinosaur\", \"boxes\":...",
+   "seconds": 2.098
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 0, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.3172, \"clip_subject_kept\": 0.8493, \"clip_change_gain\": -0.0102, \"local_edit\": true, \"score\": 0.5295, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"revise\", \"revision\": {\"instruction\": \"The change in...",
+   "seconds": 1.372
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 1, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"applied\": \"The change inside the 'dinosaur' region is not visible enough (prompt match 0.32, gain over the original -0.010; judge: None): raise text guidance by 2.0 and widen the edit region by 8%.\", \"prompt\": \"change the dinosaur to bright blue\", \"params\": {\"mode\": \"edit\", \"guidance\": 9.5, \"image_guidance\": 1.5, \"mask_pad\": 0.18}}",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 1, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"mode\": \"edit\", \"model\": \"timbrooks/instruct-pix2pix + mask-based compositing (pixels outside the target region are the original)\", \"prompt\": \"change the dinosaur to bright blue\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 1, \"safety_retries\": 0, \"note\": \"\", \"size\": [512, 512], \"local_edit\": {\"target\": \"dinosaur\", \"boxes\":...",
+   "seconds": 1.114
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 1, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.3011, \"clip_subject_kept\": 0.8371, \"clip_change_gain\": -0.0262, \"local_edit\": true, \"score\": 0.5104, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"revise\", \"revision\": {\"instruction\": \"The change in...",
+   "seconds": 1.307
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 2, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"applied\": \"The change inside the 'dinosaur' region is not visible enough (prompt match 0.30, gain over the original -0.026; judge: None): raise text guidance by 2.0 and widen the edit region by 8%.\", \"prompt\": \"change the dinosaur to bright blue\", \"params\": {\"mode\": \"edit\", \"guidance\": 11.5, \"image_guidance\": 1.5, \"mask_pad\": 0.26}}",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 2, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"mode\": \"edit\", \"model\": \"timbrooks/instruct-pix2pix + mask-based compositing (pixels outside the target region are the original)\", \"prompt\": \"change the dinosaur to bright blue\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw\", \"seed\": 2, \"safety_retries\": 0, \"note\": \"\", \"size\": [512, 512], \"local_edit\": {\"target\": \"dinosaur\", \"boxes\":...",
+   "seconds": 1.088
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"edit\", \"status\": \"running\", \"prompt\": \"change the dinosaur to bright blue\", \"revisions\": 2, \"request\": \"Change the dinosaur to bright blue.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.3446, \"clip_subject_kept\": 0.8786, \"clip_change_gain\": 0.0173, \"local_edit\": true, \"score\": 0.5643, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"accept\", \"revision\": {}}",
+   "seconds": 1.308
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Change the dinosaur to bright blue.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"edit\", \"revisions\": 2, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\", \"Prompt Engineering\", \"Image Generation\", \"Critique\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 15.697
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+id,mask_based_editing,mask_used,status,attempts,clip_prompt_match,clip_subject_kept,clip_change_gain,seconds,input,output,request_id
+E1,off,False,done,1,0.3612,0.9154,0.0562,9.107,../outputs/assets/dino_scene.png,../outputs/images/20261116-082842-f77abf_v0.png,20261116-082842-f77abf
+E2,off,False,done,1,0.3413,0.8054,0.0139,9.889,../outputs/assets/dino_b.png,../outputs/images/20261116-082851-e36222_v0.png,20261116-082851-e36222
+E1,on,True,done,1,0.3583,0.9304,0.0533,9.491,../outputs/assets/dino_scene.png,../outputs/images/20261116-082901-dac257_v0.png,20261116-082901-dac257
+E2,on,True,done,3,0.3446,0.8786,0.0173,15.707,../outputs/assets/dino_b.png,../outputs/images/20261116-082911-52bd29_v2.png,20261116-082911-52bd29

@@ -1,0 +1,8 @@
+,Without critique loop,With critique loop
+Auto first-pass success,15/15,15/15
+Mean CLIP prompt match (generation scenarios),0.3195,0.3266
+Mean CLIP subject kept (generation scenarios),0.7903,0.8084
+Mean CLIP gain over the original (generation scenarios),0.2181,0.2252
+Critic accepted (generation scenarios),7/9,8/9
+Mean attempts per generation,1.0,1.44
+Median seconds per request,9.51,9.61

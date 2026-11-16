@@ -1,0 +1,168 @@
+{
+ "request": "Make it look like a pencil sketch.",
+ "image_path": "../outputs/photos/dino_Velociraptor.png",
+ "use_critique": true,
+ "request_id": "20261116-083552-6cf16d",
+ "route": "style_change",
+ "status": "done",
+ "message": "Done (style change). The critic accepted the result after 1 attempt(s). Prompt used: \"monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage\".",
+ "safety": {
+  "visible_text": "",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "style_change",
+  "operation": "restyle",
+  "target": "",
+  "new_value": "pencil sketch",
+  "scope": "whole image"
+ },
+ "vision": {
+  "caption": "A close-up of a lizard with its mouth open, surrounded by green foliage.",
+  "objects": [
+   "lizard"
+  ],
+  "boxes": [
+   {
+    "label": "lizard",
+    "box": [
+     0.0,
+     183.0,
+     275.0,
+     504.0
+    ]
+   }
+  ],
+  "visible_text": "",
+  "answers": {
+   "Where is this and what are the dominant colours?": "In a lush, green forest with vibrant green leaves and a blurred background.",
+   "How many main subjects are there, and what are they?": "1"
+  }
+ },
+ "prompt": "monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw, color, colorful, photo, painting",
+ "target": "A pencil-sketch-style image of a lizard with its mouth open, surrounded by green foliage",
+ "params": {
+  "mode": "style_change",
+  "strength": 0.65,
+  "guidance": 7.5
+ },
+ "generation": {
+  "mode": "style_change",
+  "model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+  "prompt": "monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw, color, colorful, photo, painting",
+  "seed": 0,
+  "safety_retries": 0,
+  "note": "",
+  "size": [
+   512,
+   512
+  ],
+  "local_edit": null,
+  "steps": 30,
+  "params": {
+   "strength": 0.65,
+   "guidance": 7.5
+  },
+  "output": "../outputs/images/20261116-083552-6cf16d_v0.png"
+ },
+ "output_path": "../outputs/images/20261116-083552-6cf16d_v0.png",
+ "critique": {
+  "safe": true,
+  "safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "clip_prompt_match": 0.3036,
+  "clip_subject_kept": 0.8498,
+  "clip_change_gain": 0.0604,
+  "local_edit": false,
+  "score": 0.516,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {},
+  "selected_attempt": {
+   "revision": 0,
+   "score": 0.516,
+   "decision": "accept",
+   "clip_prompt_match": 0.3036,
+   "clip_subject_kept": 0.8498,
+   "clip_change_gain": 0.0604
+  },
+  "discarded_revisions": []
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261116-083552-6cf16d_v0.png",
+   "score": 0.516,
+   "decision": "accept",
+   "prompt": "monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage",
+   "params": {
+    "mode": "style_change",
+    "strength": 0.65,
+    "guidance": 7.5
+   },
+   "clip_prompt_match": 0.3036,
+   "clip_subject_kept": 0.8498,
+   "clip_change_gain": 0.0604,
+   "instruction": ""
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Make it look like a pencil sketch.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"style_change\", \"plan\": {\"route\": \"style_change\", \"operation\": \"restyle\", \"target\": \"\", \"new_value\": \"pencil sketch\", \"scope\": \"whole image\"}, \"reason\": \"matched the style_change rule.\", \"safety\": {\"visible_text\": \"\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\":...",
+   "seconds": 0.953
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Make it look like a pencil sketch.\"}",
+   "output": "{\"caption\": \"A close-up of a lizard with its mouth open, surrounded by green foliage.\", \"objects\": [\"lizard\"], \"boxes\": [{\"label\": \"lizard\", \"box\": [0.0, 183.0, 275.0, 504.0]}], \"visible_text\": \"\", \"answers\": {\"Where is this and what are the dominant colours?\": \"In a lush, green forest with vibrant green leaves and a blurred background.\", \"How many main subjects are there, and what are they?\": \"1\"...",
+   "seconds": 3.572
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Make it look like a pencil sketch.\"}",
+   "output": "{\"prompt\": \"monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage\", \"target\": \"A pencil-sketch-style image of a lizard with its mouth open, surrounded by green foliage\", \"params\": {\"mode\": \"style_change\", \"strength\": 0.65, \"guidance\": 7.5}}",
+   "seconds": 1.535
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage\", \"revisions\": 0, \"request\": \"Make it look like a pencil sketch.\"}",
+   "output": "{\"mode\": \"style_change\", \"model\": \"stable-diffusion-v1-5/stable-diffusion-v1-5\", \"prompt\": \"monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw, color,...",
+   "seconds": 0.805
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"style_change\", \"status\": \"running\", \"prompt\": \"monochrome graphite pencil sketch, hand-drawn lines, cross-hatching, black and white, on white paper, pencil sketch of A close-up of a lizard with its mouth open, surrounded by green foliage\", \"revisions\": 0, \"request\": \"Make it look like a pencil sketch.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.3036, \"clip_subject_kept\": 0.8498, \"clip_change_gain\": 0.0604, \"local_edit\": false, \"score\": 0.516, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"accept\", \"revision\": {}}",
+   "seconds": 1.344
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Make it look like a pencil sketch.\", \"use_critique\": true}",
+   "output": "{\"status\": \"done\", \"route\": \"style_change\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 8.209
+  }
+ ]
+}

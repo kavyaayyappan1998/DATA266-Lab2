@@ -1,0 +1,168 @@
+{
+ "request": "Make a Pokemon style version of this scene.",
+ "image_path": "../outputs/assets/dino_sign.png",
+ "use_critique": false,
+ "request_id": "20261116-082630-a8c69c",
+ "route": "domain_style",
+ "status": "done",
+ "message": "Done (domain style). The critic accepted the result after 1 attempt(s). Prompt used: \"Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character\".",
+ "safety": {
+  "visible_text": "DINO PARK OPEN 9-5",
+  "image_injection": false,
+  "real_person_photo": false,
+  "unsafe_input_image": false,
+  "input_safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "input_pixel_check": false,
+  "input_model_flag": false
+ },
+ "plan": {
+  "route": "domain_style",
+  "operation": "restyle",
+  "target": "",
+  "new_value": "pokemon style version of this scene",
+  "scope": "whole image"
+ },
+ "vision": {
+  "caption": "A dinosaur toy standing on a mossy hill in a forest setting.",
+  "objects": [
+   "dinosaur toy"
+  ],
+  "boxes": [
+   {
+    "label": "dinosaur toy",
+    "box": [
+     218.0,
+     97.0,
+     504.0,
+     336.0
+    ]
+   }
+  ],
+  "visible_text": "DINO PARK OPEN 9-5",
+  "answers": {
+   "Where is this and what are the dominant colours?": "In a forest with tall trees and green moss, the dominant colors are green and blue.",
+   "How many main subjects are there, and what are they?": "There is one main subject: the dinosaur toy."
+  }
+ },
+ "prompt": "Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character",
+ "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+ "target": "A dinosaur toy, styled like a Pokémon character, stands on a mossy hill in a forest setting, with vivid colors and intricate details",
+ "params": {
+  "mode": "domain_style",
+  "strength": 0.75,
+  "guidance": 7.5
+ },
+ "generation": {
+  "mode": "domain_style",
+  "model": "stable-diffusion-v1-5/stable-diffusion-v1-5 + Part 2 LoRA kavyaayyappan1990/data266-lab2-team48-run2-lora-r16",
+  "prompt": "Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character",
+  "negative_prompt": "blurry, low quality, distorted, deformed, extra limbs, watermark, text, signature, nsfw",
+  "seed": 0,
+  "safety_retries": 0,
+  "note": "",
+  "size": [
+   512,
+   512
+  ],
+  "local_edit": null,
+  "steps": 30,
+  "params": {
+   "strength": 0.75,
+   "guidance": 7.5
+  },
+  "output": "../outputs/images/20261116-082630-a8c69c_v0.png"
+ },
+ "output_path": "../outputs/images/20261116-082630-a8c69c_v0.png",
+ "critique": {
+  "safe": true,
+  "safety_detail": {
+   "checker_flag": false,
+   "clip_harmless_prob": null,
+   "blocked": false
+  },
+  "clip_prompt_match": 0.2819,
+  "clip_subject_kept": 0.5873,
+  "clip_change_gain": 0.0143,
+  "local_edit": false,
+  "score": 0.4287,
+  "vlm_judgement": {
+   "request_fulfilled": true,
+   "subject_preserved": true,
+   "issue": "None",
+   "available": true
+  },
+  "decision": "accept",
+  "revision": {},
+  "selected_attempt": {
+   "revision": 0,
+   "score": 0.4287,
+   "decision": "accept",
+   "clip_prompt_match": 0.2819,
+   "clip_subject_kept": 0.5873,
+   "clip_change_gain": 0.0143
+  },
+  "discarded_revisions": []
+ },
+ "revisions": 0,
+ "safety_retries": 0,
+ "attempts": [
+  {
+   "revision": 0,
+   "output": "../outputs/images/20261116-082630-a8c69c_v0.png",
+   "score": 0.4287,
+   "decision": "accept",
+   "prompt": "Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character",
+   "params": {
+    "mode": "domain_style",
+    "strength": 0.75,
+    "guidance": 7.5
+   },
+   "clip_prompt_match": 0.2819,
+   "clip_subject_kept": 0.5873,
+   "clip_change_gain": 0.0143,
+   "instruction": ""
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Planner",
+   "input": "{\"route\": \"\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Make a Pokemon style version of this scene.\"}",
+   "output": "{\"decision\": \"route\", \"route\": \"domain_style\", \"plan\": {\"route\": \"domain_style\", \"operation\": \"restyle\", \"target\": \"\", \"new_value\": \"pokemon style version of this scene\", \"scope\": \"whole image\"}, \"reason\": \"matched the domain_style rule.\", \"safety\": {\"visible_text\": \"DINO PARK OPEN 9-5\", \"image_injection\": false, \"real_person_photo\": false, \"unsafe_input_image\": false, \"input_safety_detail\": {\"che...",
+   "seconds": 1.229
+  },
+  {
+   "agent": "Vision Understanding",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Make a Pokemon style version of this scene.\"}",
+   "output": "{\"caption\": \"A dinosaur toy standing on a mossy hill in a forest setting.\", \"objects\": [\"dinosaur toy\"], \"boxes\": [{\"label\": \"dinosaur toy\", \"box\": [218.0, 97.0, 504.0, 336.0]}], \"visible_text\": \"DINO PARK OPEN 9-5\", \"answers\": {\"Where is this and what are the dominant colours?\": \"In a forest with tall trees and green moss, the dominant colors are green and blue.\", \"How many main subjects are ther...",
+   "seconds": 4.136
+  },
+  {
+   "agent": "Prompt Engineering",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"\", \"revisions\": 0, \"request\": \"Make a Pokemon style version of this scene.\"}",
+   "output": "{\"prompt\": \"Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character\", \"target\": \"A dinosaur toy, styled like a Pokémon character, stands on a mossy hill in a forest setting, with vivid colors and intricate details\", \"params\": {\"mode\": \"domain_style\", \"strength\": 0.75, \"guidance\": 7.5}}",
+   "seconds": 2.128
+  },
+  {
+   "agent": "Image Generation",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character\", \"revisions\": 0, \"request\": \"Make a Pokemon style version of this scene.\"}",
+   "output": "{\"mode\": \"domain_style\", \"model\": \"stable-diffusion-v1-5/stable-diffusion-v1-5 + Part 2 LoRA kavyaayyappan1990/data266-lab2-team48-run2-lora-r16\", \"prompt\": \"Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character\", \"negative_prompt\": \"blurry, low quality, distorted, deformed, extra limbs, watermark, tex...",
+   "seconds": 1.215
+  },
+  {
+   "agent": "Critique",
+   "input": "{\"route\": \"domain_style\", \"status\": \"running\", \"prompt\": \"Pokemon style, A dinosaur toy stands on a mossy hill in a forest setting, with vibrant colors and detailed textures reminiscent of a Pokémon character\", \"revisions\": 0, \"request\": \"Make a Pokemon style version of this scene.\"}",
+   "output": "{\"safe\": true, \"safety_detail\": {\"checker_flag\": false, \"clip_harmless_prob\": null, \"blocked\": false}, \"clip_prompt_match\": 0.2819, \"clip_subject_kept\": 0.5873, \"clip_change_gain\": 0.0143, \"local_edit\": false, \"score\": 0.4287, \"vlm_judgement\": {\"request_fulfilled\": true, \"subject_preserved\": true, \"issue\": \"None\", \"available\": true}, \"decision\": \"accept\", \"revision\": {}}",
+   "seconds": 1.297
+  },
+  {
+   "agent": "Orchestrator",
+   "input": "{\"request\": \"Make a Pokemon style version of this scene.\", \"use_critique\": false}",
+   "output": "{\"status\": \"done\", \"route\": \"domain_style\", \"revisions\": 0, \"agents_run\": [\"Planner\", \"Vision Understanding\", \"Prompt Engineering\", \"Image Generation\", \"Critique\"]}",
+   "seconds": 10.005
+  }
+ ]
+}
