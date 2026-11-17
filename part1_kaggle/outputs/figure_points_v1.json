@@ -1,0 +1,1498 @@
+{
+ "DOC1_Figure 1-1": [
+  {
+   "series": "Emerging economies",
+   "x": "2008-06",
+   "value": 1.35
+  },
+  {
+   "series": "United States",
+   "x": "2009-01",
+   "value": 0.6
+  },
+  {
+   "series": "Euro area",
+   "x": "2009-01",
+   "value": 0.55
+  }
+ ],
+ "DOC1_Figure 1-2": [
+  {
+   "series": "Euro area",
+   "x": "2006",
+   "value": 10.0
+  },
+  {
+   "series": "United States",
+   "x": "2008",
+   "value": 9.5
+  }
+ ],
+ "DOC1_Figure 1-3": [
+  {
+   "series": "Share of world output",
+   "x": "2010",
+   "value": 23.0
+  }
+ ],
+ "DOC1_Figure 1-4": [
+  {
+   "series": "United States",
+   "x": "1990",
+   "value": -3.5
+  },
+  {
+   "series": "United States",
+   "x": "1992",
+   "value": -7.0
+  },
+  {
+   "series": "United States",
+   "x": "1994",
+   "value": -2.5
+  },
+  {
+   "series": "United States",
+   "x": "1996",
+   "value": 0.0
+  },
+  {
+   "series": "United States",
+   "x": "1998",
+   "value": 1.0
+  },
+  {
+   "series": "United States",
+   "x": "2000",
+   "value": 2.0
+  },
+  {
+   "series": "United States",
+   "x": "2002",
+   "value": -2.0
+  },
+  {
+   "series": "United States",
+   "x": "2004",
+   "value": -1.0
+  },
+  {
+   "series": "United States",
+   "x": "2006",
+   "value": 0.0
+  },
+  {
+   "series": "United States",
+   "x": "2008",
+   "value": -8.0
+  },
+  {
+   "series": "United States",
+   "x": "2010",
+   "value": -10.0
+  }
+ ],
+ "DOC1_Figure 1-5": [],
+ "DOC1_Figure 1-6": [
+  {
+   "series": "Share of world output",
+   "x": "2010",
+   "value": 9.3
+  }
+ ],
+ "DOC1_Figure 2-1": [
+  {
+   "series": "Real GDP (billions of 2005 dollars)",
+   "x": "1960",
+   "value": 3000.0
+  },
+  {
+   "series": "Real GDP (billions of 2005 dollars)",
+   "x": "1970",
+   "value": 4000.0
+  },
+  {
+   "series": "Real GDP (billions of 2005 dollars)",
+   "x": "1980",
+   "value": 6000.0
+  },
+  {
+   "series": "Real GDP (billions of 2005 dollars)",
+   "x": "1990",
+   "value": 8000.0
+  },
+  {
+   "series": "Real GDP (billions of 2005 dollars)",
+   "x": "2000",
+   "value": 11000.0
+  },
+  {
+   "series": "Real GDP (billions of 2005 dollars)",
+   "x": "2005",
+   "value": 13000.0
+  },
+  {
+   "series": "Real GDP (billions of 2005 dollars)",
+   "x": "2010",
+   "value": 13500.0
+  },
+  {
+   "series": "Nominal GDP",
+   "x": "1960",
+   "value": 500.0
+  },
+  {
+   "series": "Nominal GDP",
+   "x": "1970",
+   "value": 1500.0
+  },
+  {
+   "series": "Nominal GDP",
+   "x": "1980",
+   "value": 3000.0
+  },
+  {
+   "series": "Nominal GDP",
+   "x": "1990",
+   "value": 6000.0
+  },
+  {
+   "series": "Nominal GDP",
+   "x": "2000",
+   "value": 10000.0
+  },
+  {
+   "series": "Nominal GDP",
+   "x": "2005",
+   "value": 14000.0
+  },
+  {
+   "series": "Nominal GDP",
+   "x": "2010",
+   "value": 15000.0
+  }
+ ],
+ "DOC1_Figure 2-2": [
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1960",
+   "value": 2.3
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1965",
+   "value": 6.4
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1970",
+   "value": 5.8
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1975",
+   "value": 5.3
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1980",
+   "value": 2.4
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1985",
+   "value": 7.2
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1990",
+   "value": 4.1
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "1995",
+   "value": 4.1
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "2000",
+   "value": 1.2
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "2005",
+   "value": 3.7
+  },
+  {
+   "series": "Growth rate of U.S. GDP",
+   "x": "2010",
+   "value": -1.8
+  }
+ ],
+ "DOC1_Figure 2-3": [
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1960",
+   "value": 6.5
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1965",
+   "value": 3.8
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1970",
+   "value": 6.0
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1975",
+   "value": 8.5
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1980",
+   "value": 9.0
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1985",
+   "value": 7.0
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1990",
+   "value": 7.5
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "1995",
+   "value": 5.5
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "2000",
+   "value": 4.0
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "2005",
+   "value": 4.5
+  },
+  {
+   "series": "U.S. unemployment rate",
+   "x": "2010",
+   "value": 10.0
+  }
+ ],
+ "DOC1_Figure 2-4": [
+  {
+   "series": "CPI",
+   "x": "1980",
+   "value": 13.5
+  },
+  {
+   "series": "GDP deflator",
+   "x": "1980",
+   "value": 9.7
+  }
+ ],
+ "DOC1_Figure 2-5": [
+  {
+   "series": "Output growth (percent)",
+   "x": "4",
+   "value": 7.0
+  }
+ ],
+ "DOC1_Figure 2-6": [
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1960",
+   "value": 1.5
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1965",
+   "value": 1.8
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1970",
+   "value": 1.3
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1975",
+   "value": 1.4
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1980",
+   "value": 1.2
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1985",
+   "value": 1.1
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1990",
+   "value": 1.2
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "1995",
+   "value": 1.1
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "2000",
+   "value": 1.2
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "2005",
+   "value": 1.1
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "2010",
+   "value": 1.2
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "2015",
+   "value": 1.1
+  },
+  {
+   "series": "Change in inflation rate (percentage points)",
+   "x": "2020",
+   "value": 1.1
+  }
+ ],
+ "DOC1_Figure 2-7": [
+  {
+   "series": "Introduction",
+   "x": "A tour of the world (Chapter 1)",
+   "value": 1.0
+  }
+ ],
+ "DOC2_Figure A-1": [
+  {
+   "series": "World",
+   "x": "2012",
+   "value": 3.2
+  },
+  {
+   "series": "Advanced",
+   "x": "2012",
+   "value": 1.9
+  },
+  {
+   "series": "Emerging and developing",
+   "x": "2012",
+   "value": 6.0
+  }
+ ],
+ "DOC2_Figure A-2": [
+  {
+   "series": "United States",
+   "x": "2000",
+   "value": 4.0
+  },
+  {
+   "series": "United States",
+   "x": "2001",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2002",
+   "value": 6.0
+  },
+  {
+   "series": "United States",
+   "x": "2003",
+   "value": 6.0
+  },
+  {
+   "series": "United States",
+   "x": "2004",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2005",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2006",
+   "value": 4.0
+  },
+  {
+   "series": "United States",
+   "x": "2007",
+   "value": 4.0
+  },
+  {
+   "series": "United States",
+   "x": "2008",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2009",
+   "value": 9.0
+  },
+  {
+   "series": "United States",
+   "x": "2010",
+   "value": 9.0
+  },
+  {
+   "series": "United States",
+   "x": "2011",
+   "value": 9.1
+  },
+  {
+   "series": "United States",
+   "x": "2012",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2000",
+   "value": 8.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2001",
+   "value": 8.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2002",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2003",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2004",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2005",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2006",
+   "value": 8.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2007",
+   "value": 7.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2008",
+   "value": 7.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2009",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2010",
+   "value": 10.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2011",
+   "value": 9.9
+  },
+  {
+   "series": "Euro area",
+   "x": "2012",
+   "value": 9.9
+  }
+ ],
+ "DOC2_Figure A-3": [
+  {
+   "series": "United States",
+   "x": "2000",
+   "value": 4.0
+  },
+  {
+   "series": "United States",
+   "x": "2001",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2002",
+   "value": 6.0
+  },
+  {
+   "series": "United States",
+   "x": "2003",
+   "value": 6.0
+  },
+  {
+   "series": "United States",
+   "x": "2004",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2005",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2006",
+   "value": 4.0
+  },
+  {
+   "series": "United States",
+   "x": "2007",
+   "value": 4.0
+  },
+  {
+   "series": "United States",
+   "x": "2008",
+   "value": 5.0
+  },
+  {
+   "series": "United States",
+   "x": "2009",
+   "value": 9.0
+  },
+  {
+   "series": "United States",
+   "x": "2010",
+   "value": 9.0
+  },
+  {
+   "series": "United States",
+   "x": "2011",
+   "value": 8.1
+  },
+  {
+   "series": "United States",
+   "x": "2012",
+   "value": 7.4
+  },
+  {
+   "series": "Euro area",
+   "x": "2000",
+   "value": 8.5
+  },
+  {
+   "series": "Euro area",
+   "x": "2001",
+   "value": 8.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2002",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2003",
+   "value": 8.8
+  },
+  {
+   "series": "Euro area",
+   "x": "2004",
+   "value": 9.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2005",
+   "value": 8.9
+  },
+  {
+   "series": "Euro area",
+   "x": "2006",
+   "value": 8.2
+  },
+  {
+   "series": "Euro area",
+   "x": "2007",
+   "value": 7.5
+  },
+  {
+   "series": "Euro area",
+   "x": "2008",
+   "value": 7.6
+  },
+  {
+   "series": "Euro area",
+   "x": "2009",
+   "value": 9.5
+  },
+  {
+   "series": "Euro area",
+   "x": "2010",
+   "value": 10.0
+  },
+  {
+   "series": "Euro area",
+   "x": "2011",
+   "value": 10.1
+  },
+  {
+   "series": "Euro area",
+   "x": "2012",
+   "value": 11.4
+  },
+  {
+   "series": "Euro area",
+   "x": "2013",
+   "value": 12.0
+  }
+ ],
+ "DOC2_Figure A-4": [
+  {
+   "series": "Emerging economies",
+   "x": "2009-01",
+   "value": 0.63
+  },
+  {
+   "series": "United States",
+   "x": "2009-01",
+   "value": 0.5
+  },
+  {
+   "series": "Euro area",
+   "x": "2009-01",
+   "value": 0.45
+  }
+ ],
+ "DOC2_Figure A-5": [
+  {
+   "series": "Emerging economies",
+   "x": "2007-01",
+   "value": 1.68
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2007-07",
+   "value": 2.23
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2008-01",
+   "value": 2.04
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2008-07",
+   "value": 1.18
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2009-01",
+   "value": 0.98
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2009-07",
+   "value": 1.82
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2010-01",
+   "value": 1.75
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2010-07",
+   "value": 1.72
+  },
+  {
+   "series": "Emerging economies",
+   "x": "2010-12",
+   "value": 2.06
+  }
+ ],
+ "DOC2_Figure A-6": [
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 20.1
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 12.7
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 12.0
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 13.9
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 8.4
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 9.3
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 7.1
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 4.5
+  },
+  {
+   "series": "Unemployment rates in selected Euro area countries",
+   "x": "2010",
+   "value": 4.4
+  }
+ ],
+ "DOC2_Figure A-7": [
+  {
+   "series": "Spain",
+   "x": "2012",
+   "value": 25.0
+  },
+  {
+   "series": "Greece",
+   "x": "2012",
+   "value": 24.5
+  },
+  {
+   "series": "Portugal",
+   "x": "2012",
+   "value": 15.9
+  },
+  {
+   "series": "Ireland",
+   "x": "2012",
+   "value": 14.7
+  },
+  {
+   "series": "Italy",
+   "x": "2012",
+   "value": 10.7
+  },
+  {
+   "series": "France",
+   "x": "2012",
+   "value": 9.9
+  },
+  {
+   "series": "Germany",
+   "x": "2012",
+   "value": 5.5
+  },
+  {
+   "series": "Netherlands",
+   "x": "2012",
+   "value": 5.3
+  },
+  {
+   "series": "Austria",
+   "x": "2012",
+   "value": 4.4
+  }
+ ],
+ "DOC3_Figure B-1": [
+  {
+   "series": "Fitted line",
+   "x": "1961",
+   "value": 3.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1962",
+   "value": 3.4
+  },
+  {
+   "series": "Fitted line",
+   "x": "1963",
+   "value": 3.2
+  },
+  {
+   "series": "Fitted line",
+   "x": "1964",
+   "value": 2.8
+  },
+  {
+   "series": "Fitted line",
+   "x": "1965",
+   "value": 2.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1966",
+   "value": 2.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1967",
+   "value": 2.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1968",
+   "value": 2.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1969",
+   "value": 1.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1970",
+   "value": 1.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1971",
+   "value": 1.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1972",
+   "value": 1.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1973",
+   "value": 1.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1974",
+   "value": 0.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1975",
+   "value": 0.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1976",
+   "value": 0.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1977",
+   "value": 0.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1978",
+   "value": 0.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1979",
+   "value": -0.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1980",
+   "value": -0.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1981",
+   "value": -0.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1982",
+   "value": -0.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1983",
+   "value": -0.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1984",
+   "value": -1.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1985",
+   "value": -1.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1986",
+   "value": -1.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1987",
+   "value": -1.7
+  }
+ ],
+ "DOC3_Figure B-2": [
+  {
+   "series": "Fitted line",
+   "x": "1961",
+   "value": 3.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1962",
+   "value": 2.8
+  },
+  {
+   "series": "Fitted line",
+   "x": "1963",
+   "value": 1.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1964",
+   "value": 0.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1965",
+   "value": -0.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1966",
+   "value": -0.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1967",
+   "value": -1.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1968",
+   "value": -2.2
+  },
+  {
+   "series": "Fitted line",
+   "x": "1969",
+   "value": -2.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1970",
+   "value": -2.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1971",
+   "value": -2.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1972",
+   "value": -1.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1973",
+   "value": -1.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1974",
+   "value": -1.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1975",
+   "value": -1.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1976",
+   "value": -1.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1977",
+   "value": -0.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1978",
+   "value": -0.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1979",
+   "value": -0.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1980",
+   "value": -0.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1981",
+   "value": -0.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1982",
+   "value": 0.1
+  },
+  {
+   "series": "Fitted line",
+   "x": "1983",
+   "value": 0.3
+  },
+  {
+   "series": "Fitted line",
+   "x": "1984",
+   "value": 0.5
+  },
+  {
+   "series": "Fitted line",
+   "x": "1985",
+   "value": 0.7
+  },
+  {
+   "series": "Fitted line",
+   "x": "1986",
+   "value": 0.9
+  },
+  {
+   "series": "Fitted line",
+   "x": "1987",
+   "value": 1.1
+  }
+ ],
+ "DOC3_Figure B-3": [
+  {
+   "series": "CPI (headline)",
+   "x": "2000",
+   "value": 3.5
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2001",
+   "value": 2.8
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2002",
+   "value": 1.6
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2003",
+   "value": 2.4
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2004",
+   "value": 2.7
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2005",
+   "value": 3.5
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2006",
+   "value": 3.3
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2007",
+   "value": 2.9
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2008",
+   "value": 3.8
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2009",
+   "value": -0.4
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2010",
+   "value": 1.5
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2011",
+   "value": 3.2
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2012",
+   "value": 2.1
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2013",
+   "value": 1.5
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2000",
+   "value": 2.5
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2001",
+   "value": 2.5
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2002",
+   "value": 1.9
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2003",
+   "value": 2.5
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2004",
+   "value": 3.1
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2005",
+   "value": 3.5
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2006",
+   "value": 3.3
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2007",
+   "value": 3.6
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2008",
+   "value": 3.9
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2009",
+   "value": -0.3
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2010",
+   "value": 1.5
+  },
+  {
+   "series": "GDP deflator",
+   "x": "2011",
+   "value": 2.1
+  }
+ ],
+ "DOC3_Figure B-4": [
+  {
+   "series": "CPI (headline)",
+   "x": "2000",
+   "value": 3.5
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2001",
+   "value": 2.8
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2002",
+   "value": 1.6
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2003",
+   "value": 2.3
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2004",
+   "value": 2.7
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2005",
+   "value": 3.5
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2006",
+   "value": 3.2
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2007",
+   "value": 2.9
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2008",
+   "value": 3.9
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2009",
+   "value": -0.4
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2010",
+   "value": 1.5
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2011",
+   "value": 3.3
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2012",
+   "value": 2.1
+  },
+  {
+   "series": "CPI (headline)",
+   "x": "2013",
+   "value": 1.5
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2000",
+   "value": 2.4
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2001",
+   "value": 2.5
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2002",
+   "value": 1.9
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2003",
+   "value": 1.5
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2004",
+   "value": 2.0
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2005",
+   "value": 2.4
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2006",
+   "value": 2.5
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2007",
+   "value": 2.2
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2008",
+   "value": 2.3
+  },
+  {
+   "series": "core CPI (excl. food and energy)",
+   "x": "2009",
+   "value": 1.7
+  }
+ ],
+ "DOC3_Figure B-5": [
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2000",
+   "value": 3.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2001",
+   "value": 3.6
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2002",
+   "value": 3.9
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2003",
+   "value": 4.3
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2004",
+   "value": 4.2
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2005",
+   "value": 4.2
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2006",
+   "value": 4.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2007",
+   "value": 3.9
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2008",
+   "value": 4.2
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2009",
+   "value": 4.3
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2010",
+   "value": 4.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2011",
+   "value": 4.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2012",
+   "value": 4.5
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2013",
+   "value": 4.1
+  }
+ ],
+ "DOC3_Figure B-5 (corrected)": [
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2000",
+   "value": 3.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2001",
+   "value": 3.6
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2002",
+   "value": 4.0
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2003",
+   "value": 4.3
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2004",
+   "value": 4.2
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2005",
+   "value": 4.2
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2006",
+   "value": 4.0
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2007",
+   "value": 3.9
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2008",
+   "value": 4.2
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2009",
+   "value": 4.3
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2010",
+   "value": 4.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2011",
+   "value": 4.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2012",
+   "value": 4.1
+  },
+  {
+   "series": "Registered urban unemployment rate, China, 2000-2013",
+   "x": "2013",
+   "value": 4.1
+  }
+ ]
+}
