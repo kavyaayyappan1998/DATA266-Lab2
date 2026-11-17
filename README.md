@@ -1,4 +1,4 @@
-# DATA 266 Lab 2 - Generative AI (Team ##)
+# DATA 266 Lab 2 - Generative AI (Team 48)
 
 Three parts, one repository:
 
